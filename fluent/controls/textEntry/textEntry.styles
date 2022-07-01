@@ -1,0 +1,145 @@
+"button.styles" {
+    include "fluent/colors.styles"
+
+	styles {
+
+        TextEntry {
+			minimum-height=32
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor=FillColorTextPrimary
+            bgcolor="none"
+            selectedtextcolor=FillColorTextPrimary
+            selectedbgcolor="textEntrySelectionBackground"
+            shadowtextcolor="text"  // this is the cursor color
+
+            inset-left=4
+            inset-top=0
+			padding-left="10"
+			padding-bottom="10"
+			padding-top="10"
+			padding-right="10"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlDefault)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/normal/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/textEntry/normal/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/textEntry/normal/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/textEntry/normal/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/textEntry/normal/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/textEntry/normal/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/normal/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/normal/l.tga)"
+            }
+        }
+
+        TextEntry:empty {
+            textcolor=FillColorTextSecondary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-8, y1-4, FillColorControlDefault)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/normal/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-8,y0+4,fluent/controls/textEntry/normal/t.tga)"
+                3="image(x1-8,y0,x1-4,y0+4,fluent/controls/textEntry/normal/tr.tga)"
+                4="image_tiled(x1-8,y0+4,x1-4,y1-4,fluent/controls/textEntry/normal/r.tga)"
+                5="image(x1-8,y1-4,x1-4,y1,fluent/controls/textEntry/normal/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-8,y1,fluent/controls/textEntry/normal/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/normal/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/normal/l.tga)"
+            }
+        }
+
+        TextEntry:hover {
+            textcolor=FillColorTextPrimary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/textEntry/hover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/textEntry/hover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/textEntry/hover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/textEntry/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/textEntry/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/hover/l.tga)"
+            }
+        }
+
+        TextEntry:empty:hover {
+            inset-top=1
+            textcolor=FillColorTextSecondary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-8, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-8,y0+4,fluent/controls/textEntry/hover/t.tga)"
+                3="image(x1-8,y0,x1-4,y0+4,fluent/controls/textEntry/hover/tr.tga)"
+                4="image_tiled(x1-8,y0+4,x1-4,y1-4,fluent/controls/textEntry/hover/r.tga)"
+                5="image(x1-8,y1-4,x1-4,y1,fluent/controls/textEntry/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-8,y1,fluent/controls/textEntry/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/hover/l.tga)"
+            }
+        }
+
+        TextEntry:focus {
+            textcolor=FillColorTextPrimary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlInputActive)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/active/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/textEntry/active/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/textEntry/active/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/textEntry/active/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/textEntry/active/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/textEntry/active/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/active/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/active/l.tga)"
+            }
+        }
+        TextEntry:disabled {
+            textcolor=FillColorTextDisabled
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlDisabled)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/disabled/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/textEntry/disabled/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/textEntry/disabled/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/textEntry/disabled/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/textEntry/disabled/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/textEntry/disabled/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/disabled/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/disabled/l.tga)"
+            }
+        }
+
+        RichText {
+			minimum-height=32
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor="white"
+            bgcolor="none"
+            selectedtextcolor="white"
+            selectedbgcolor="textEntrySelectionBackground"
+            shadowtextcolor="text"  // this is the cursor color
+
+            inset-left=4
+            inset-top=0
+			padding-left="10"
+			padding-bottom="10"
+			padding-top="10"
+			padding-right="10"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlDefault)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/textEntry/normal/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/textEntry/normal/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/textEntry/normal/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/textEntry/normal/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/textEntry/normal/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/textEntry/normal/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/textEntry/normal/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/textEntry/normal/l.tga)"
+            }
+        }
+
+        RichTextInterior {
+            bgcolor=none
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<images>
+    <folder name="accountButton">
+        <image width="28" height="28" name="background.tga">
+            <src color="Dark_Background_FillColor_SolidBackground_Base">background.png</src>
+            <src color="Dark_StrokeColor_ControlStrongStroke_Default">background_stroke.png</src>
+        </image>
+        <image width="28" height="28" name="backgroundHover.tga">
+            <src color="Dark_Background_FillColor_SolidBackground_Base">background_hover.png</src>
+            <src color="Dark_StrokeColor_ControlStrongStroke_Default">background_hover_stroke.png</src>
+        </image>
+    </folder>
+</images>

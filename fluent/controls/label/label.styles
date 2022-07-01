@@ -1,0 +1,34 @@
+"label.styles" {
+    include "fluent/colors.styles"
+    styles {
+        Label {
+            textcolor=FillColorTextPrimary
+            selectedtextcolor=FillColorTextPrimary
+            bgcolor="none"
+            font-family=basefont
+            font-size=18
+            font-weight=400
+ 		}
+
+        URLLabel {
+            textcolor=FillColorAccentTextPrimary
+            bgcolor="none"
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            font-style=underline
+        }
+
+        URLLabel:Hover {
+            textcolor=FillColorAccentTextTertiary
+            font-size=18
+            font-style=""
+        }
+        
+        URLLabel:active {
+            textcolor=FillColorAccentTextSecondary
+            font-size=18
+            font-style=""
+        }
+    }
+}

@@ -1,0 +1,47 @@
+"resource/layout/settingssubmusic.layout"
+{
+	styles
+	{
+		HeaderText
+		{
+			font-weight=600
+			font-size=24
+		}
+	}
+	
+	layout
+	{
+		region { name=box margin-top=48 margin-bottom=48 margin-left=48 margin-right=48 width=max height=max }
+		
+		place { region=box control=LibraryHeader margin-top=12 width=623 }
+		place { region=box control=LibraryList start=LibraryHeader margin-top=12 width=623 height=80 dir=down }
+		place { region=box control="AddLibraryButton" start=LibraryList margin-top=12 height=32 dir=down spacing=12 }
+		place { region=box control="RemoveLibraryButton,StartCrawlingButton" start=AddLibraryButton margin-left=12 height=32 dir=right spacing=12 }
+		
+		place { region=box control=DatabaseHeader start=AddLibraryButton width=275 margin-top=24 dir=down }
+		place { region=box control="DatabaseCrawlAtStartup,DatabaseCrawlSteamInstallFolders" start=DatabaseHeader width=275 margin-top=12 spacing=6 height=20 dir=down }	
+		place { region=box control=ResetDatabaseButton start=DatabaseCrawlSteamInstallFolders margin-top=12 dir=down height=32 }
+		place { region=box control=DatabaseInfoLabel start=ResetDatabaseButton margin-left=12 dir=right height=32 }
+		
+		place { region=box control=VolumeHeader start=AddLibraryButton x=348 width=275 margin-top=24 dir=down }
+		place { region=box control=VolumeSlider start=VolumeHeader width=275 height=20 margin-top=12 width=100 dir=down }
+		place { region=box control=EnableMediaKeysCheckbox start=VolumeSlider width=275 margin-top=12 dir=down }
+		
+		place { region=box control=PauseMusicHeader start=ResetDatabaseButton margin-top=24 dir=down }
+		place { region=box control=PauseMusicWhenStartingApplicationCheckbox start=PauseMusicHeader height=20 margin-top=12 dir=down }
+		place { region=box control=PauseMusicWhenVoiceChatCheckbox start=PauseMusicWhenStartingApplicationCheckbox height=20 margin-top=6 dir=down }
+
+		place { region=box control=AdditionalFilesHeader start=ResetDatabaseButton x=348 margin-top=24 dir=down }
+		place { region=box control=AdditionalFilesHighQualityCheckbox start=AdditionalFilesHeader height=20 margin-top=12 dir=down }
+
+		place { region=box control=LoggingHeader start=PauseMusicWhenVoiceChatCheckbox margin-top=24 dir=down }
+		place { region=box control=LoggingCrawlingCheckbox start=LoggingHeader height=20 margin-top=12 dir=down }
+
+		place { region=box control=NotificationHeader start=PauseMusicWhenVoiceChatCheckbox x=348 margin-top=24 dir=down }
+		place { region=box control=NotificationPlaylistNowPlayingCheckbox start=NotificationHeader height=20 margin-top=12 dir=down }
+		
+		
+		//Hidden
+		place { control="LibraryDivider,DatabaseDivider,VolumeDivider" dir=down margin-left=-999 }
+	}
+}

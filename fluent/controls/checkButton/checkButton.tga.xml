@@ -1,0 +1,45 @@
+<images>
+    <image width="40" height="20" name="unselected.tga">
+        <src color="Dark_FillColor_ControlAlt_Secondary">base.png</src>
+        <src color="Dark_StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <src offset="3 3" color="Dark_FillColor_Text_Secondary">thumb.png</src>
+    </image>
+    <image width="40" height="20" name="unselectedActive.tga">
+        <src color="Dark_FillColor_ControlAlt_Quarternary">base.png</src>
+        <src color="Dark_StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <src offset="3 3" color="Dark_FillColor_Text_Secondary">thumbActive.png</src>
+    </image>
+    <image width="40" height="20" name="unselectedDisabled.tga">
+        <src color="Dark_StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
+        <src offset="3 3" color="Dark_FillColor_Text_Disabled">thumb.png</src>
+    </image>
+    <image width="40" height="20" name="unselectedHover.tga">
+        <src color="Dark_FillColor_ControlAlt_Tertiary">base.png</src>
+        <src color="Dark_StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <src offset="3 3" color="Dark_FillColor_Text_Secondary">thumbHover.png</src>
+    </image>
+
+    <image width="40" height="20" name="selected.tga">
+        <src color="AccentColor">base.png</src>
+        <src color="AccentColor">stroke.png</src>
+        <src offset="23 3" color="Dark_FillColor_TextOnAccent_Primary">thumb.png</src>
+        <src offset="22 2" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">thumbStroke.png</src>
+    </image>
+    <image width="40" height="20" name="selectedActive.tga">
+        <src color="AccentColor_Tertiary">base.png</src>
+        <src color="AccentColor_Tertiary">stroke.png</src>
+        <src offset="20 3" color="Dark_FillColor_TextOnAccent_Primary">thumbActive.png</src>
+        <src offset="19 2" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">thumbActiveStroke.png</src>
+    </image>
+    <image width="40" height="20" name="selectedDisabled.tga">
+        <src color="Dark_FillColor_Accent_Disabled">base.png</src>
+        <src color="Dark_FillColor_Accent_Disabled">stroke.png</src>
+        <src offset="23 3" color="Dark_FillColor_TextOnAccent_Disabled">thumb.png</src>
+    </image>
+    <image width="40" height="20" name="selectedHover.tga">
+        <src color="AccentColor_Secondary">base.png</src>
+        <src color="AccentColor_Secondary">stroke.png</src>
+        <src offset="23 3" color="Dark_FillColor_TextOnAccent_Primary">thumbHover.png</src>
+        <src offset="22 2" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">thumbHoverStroke.png</src>
+    </image>
+</images>

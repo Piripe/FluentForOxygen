@@ -1,0 +1,84 @@
+<images>
+    <folder name="x32">
+        <image width="32" height="32" name="info.tga">
+            <src color="Dark_FillColor_Text_Primary">x32/info.png</src>
+        </image>
+    </folder>
+    <folder name="x16">
+        <image width="16" height="16" name="arrow_download.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/arrow_download.png</src>
+        </image>
+        <image width="16" height="16" name="cloud.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/cloud.png</src>
+        </image>
+        <image width="16" height="16" name="database.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/database.png</src>
+        </image>
+        <image width="16" height="16" name="document_one_page.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/document_one_page.png</src>
+        </image>
+        <image width="16" height="16" name="e12b.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/e12b.png</src>
+        </image>
+        <image width="16" height="16" name="e14d.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/e14d.png</src>
+        </image>
+        <image width="16" height="16" name="e771.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/e771.png</src>
+        </image>
+        <image width="16" height="16" name="ed0c.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/ed0c.png</src>
+        </image>
+        <image width="16" height="16" name="ed0d.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/ed0d.png</src>
+        </image>
+        <image width="16" height="16" name="f3a6.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/f3a6.png</src>
+        </image>
+        <image width="16" height="16" name="games.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/games.png</src>
+        </image>
+        <image width="16" height="16" name="guardian.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/guardian.png</src>
+        </image>
+        <image width="16" height="16" name="library.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/library.png</src>
+        </image>
+        <image width="16" height="16" name="megaphone.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/megaphone.png</src>
+        </image>
+        <image width="16" height="16" name="megaphone_loud.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/megaphone_loud.png</src>
+        </image>
+        <image width="16" height="16" name="music_note_2.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/music_note_2.png</src>
+        </image>
+        <image width="16" height="16" name="people.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/people.png</src>
+        </image>
+        <image width="16" height="16" name="person.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/person.png</src>
+        </image>
+        <image width="16" height="16" name="picture_in_picture.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/picture_in_picture.png</src>
+        </image>
+        <image width="16" height="16" name="remote.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/remote.png</src>
+        </image>
+        <image width="16" height="16" name="settings.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/settings.png</src>
+        </image>
+        <image width="16" height="16" name="share_screen_person.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/share_screen_person.png</src>
+        </image>
+        <image width="16" height="16" name="sign_out.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/sign_out.png</src>
+        </image>
+        <image width="16" height="16" name="steam.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/steam.png</src>
+        </image>
+        <image width="16" height="16" name="wallet_credit_card.tga">
+            <src color="Dark_FillColor_Text_Primary">x16/wallet_credit_card.png</src>
+        </image>
+    </folder>
+</images>

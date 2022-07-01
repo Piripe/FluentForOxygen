@@ -1,0 +1,32 @@
+"resource/layout/subpaneloptionsingame.layout"
+{
+
+	styles
+	{
+		highlight
+		{
+			font-weight=600
+			font-size=24
+		}	
+	}
+
+	layout
+	{
+		region { name=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 width=max height=max }
+		region { name=top region=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 height=max }
+
+		place { region=top controls=TitleLabel margin-top=12 }
+
+		place { region=top control="LibraryDisplaySizeLabel" start=TitleLabel margin-top=12 dir=down }
+		place { region=top control="LibraryDisplaySizeAutomatic,LibraryDisplaySizeSmall,LibraryDisplaySizeMedium,LibraryDisplaySizeLarge" start=LibraryDisplaySizeLabel height=20 margin-top=12 spacing=6 dir=down }
+		place { region=top control="LibraryDisplaySizeAutomaticLabel" start=LibraryDisplaySizeAutomatic height=20 dir=right }
+
+	    place { region=top control="LibraryLowBandwidthCheckbox,LibraryLowBandwidthLabel" start=LibraryDisplaySizeLarge margin-top=72 spacing=6 dir=down width=275 }
+
+	    place { region=top control="LibraryLowPerfCheckbox,LibraryLowPerfLabel" start=LibraryDisplaySizeLarge x=348 margin-top=72 spacing=6 dir=down width=275 }
+		
+	    place { region=top control="LibraryDisableCommunityContentCheckbox,LibraryDisableCommunityContentLabel" start=LibraryLowBandwidthLabel margin-top=72 spacing=6 dir=down width=275 }
+		
+	    place { region=top control="LibraryDisplayIconInGameListCheckbox" start=LibraryLowBandwidthLabel x=348 margin-top=72 dir=down width=292 }
+	}
+}

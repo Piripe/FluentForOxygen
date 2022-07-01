@@ -1,0 +1,73 @@
+"resource/layout/subpaneloptionsingame.layout"
+{	
+	colors
+	{
+	}	
+	
+	styles
+	{
+		highlight
+		{
+			font-weight=600
+			font-size=24
+		}	
+	}
+	
+	layout
+	{
+		region { name=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 width=max height=max }
+		region { name=top region=box margin-top=24 margin-left=24 margin-right=24 }
+		region { name=topleft region=top y=172 width=192 x=0 }
+		region { name=topcenter region=top y=172 width=191 x=216 }
+		region { name=topright region=top y=172 width=192 x=431 }
+		
+		region { name=bottom region=box y=387 margin-top=24 margin-left=24 margin-right=24 }
+		region { name=bottomleft region=bottom width=160 x=0 }
+		region { name=bottomcenter region=bottom width=159 x=232 }
+		region { name=bottomright region=bottom width=160 x=463 }
+		
+		place { controls=TitleLabel region=top margin-top=12 }
+		place { controls=DescriptionLabel width=max region=top start=TitleLabel dir=down margin-top=12 }
+		place { controls=EnableOverlayCheck region=top start=DescriptionLabel dir=down height=20 margin-top=12 }
+		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 margin-top=6 }
+		place [!$OSX&&!$LINUX] { controls=EnableVRDesktopGameTheaterCheck region=top start=EnableSCTenfootOverlayCheck dir=down height=20 margin-top=6 }
+		place { controls=HotKeySelectorLabel dir=down width=max region=topleft }
+		place { controls=HotKeySelector start=HotKeySelectorLabel dir=down margin-top=6 width=max height=32 region=topleft }
+		
+		place { controls=ShowIngameFPSLabel dir=down spacing=6 width=max region=topcenter }
+		place { controls=ShowIngameFPSCombo start=ShowIngameFPSLabel dir=down margin-top=6 width=max height=32 region=topcenter }
+		place { controls=ShowIngameFPSContrastCheck start=ShowIngameFPSCombo dir=down margin-top=6 width=max region=topcenter }
+			
+		place { controls=ScreenshotLabel region=topright }
+		place { controls=ScreenshotHotKeySelector,SetScreenshotFolderButton 
+			dir=down 
+			start=ScreenshotLabel
+			margin-top=4
+			spacing=5
+			width=max
+			height=32
+			region=topright }
+		place { control=ScreenshotActionLabel region=top dir=down margin-top=266 }
+		place { controls=ScreenshotNotifyCheck,ScreenshotPlaySoundCheck,ScreenshotSaveUncompressedCheck dir=right
+			margin-top=290 spacing=24 height=32 region=top }
+		
+
+		place { controls="TextFilterLabel" region=bottomleft width=max dir=down }
+		place { controls="TextFilterStatus" region=bottomleft start=TextFilterLabel margin-top=12 width=235 dir=down }
+		place { controls="TextFilterUpdateSettingURL" region=bottomleft start=TextFilterStatus margin-top=6 width=235 dir=down }			
+
+		place { controls="PingRateLabel" region=bottomcenter width=max dir=down }
+		place { controls="PingRateInfo" region=bottomcenter start=PingRateLabel margin-top=12 width=235 dir=down }		
+		place { controls="PingRateCombo" region=bottomcenter start=PingRateInfo margin-top=6 width=235 dir=down height=32 }
+
+
+		place { controls="ShareIPNetworkingLabel" region=bottomright width=160 dir=down }
+		place { controls="ShareIPNetworkingInfo" region=bottomright start=ShareIPNetworkingLabel margin-top=12 width=160 dir=down }		
+		place { controls="ShareIPNetworkingURL" region=bottomright start=ShareIPNetworkingInfo margin-top=6 width=160 dir=down }
+		place { controls="ShareIPNetworkingCombo" region=bottomright start=ShareIPNetworkingURL margin-top=6 width=160 dir=down height=32}
+
+		
+		//Hidden
+		place { control="Divider1,Divider2" dir=down margin-left=-999 }
+	}
+}

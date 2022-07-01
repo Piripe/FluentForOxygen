@@ -1,0 +1,17 @@
+"font.styles" {
+    colors {
+        
+        basefont="segoe ui variable text" 
+        semibold="segoe ui variable text bold" 
+        semilight="segoe ui variable" 
+        light="segoe ui variable text"
+        overlaytext="Segoe Ui Variable Display bold"
+        cachetazo="Segoe UI Variable Display Semibold"
+        regularfont="Segoe UI Variable Regular"
+
+        basefont="segoe ui variable text bold" [$OSX] 
+        semibold="Helvetica Neue Medium" [$OSX] semilight="Helvetica Neue Light" [$OSX] 
+
+        light="Helvetica Neue Thin" [$OSX] 
+    }
+}

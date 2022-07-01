@@ -1,0 +1,61 @@
+"frame.styles" {
+    include "fluent/colors.styles"
+    
+    styles {    
+        Frame {
+            bgcolor="BackgroundFillColorSolidBackgroundBase"
+            render {}
+        }
+
+        Frame:FrameFocus {
+            bgcolor="BackgroundFillColorSolidBackgroundBase"
+            render {}
+        }
+
+        FrameTitle {
+            font-family=basefont
+            inset="5 2 0 0"
+            inset="0 4 0 0" [$OSX]
+            padding-left="0"
+            padding-right="64"
+            padding-right="0" [$OSX]
+            padding-top="4"
+            font-size=14
+            font-weight=400
+            textcolor="FillColorTextSecondary"
+            bgcolor="BackgroundFillColorSolidBackgroundBase"
+            render_bg {
+                1="fill( x0, y0, x1, y0 + 32, BackgroundFillColorSolidBackgroundBase)"
+            }
+        }
+
+        FrameTitle:framefocus {
+            textcolor="FillColorTextPrimary"
+        }
+        
+        // ==========================
+        //    Exception per frame
+        // ==========================
+
+        "ZooDialog FrameTitle" {
+            padding-left="28"
+            render {
+                0="image(x0+12,y0+8,x0+28,y0+24,fluent/icons/x16/f3a6.tga)"
+            }
+        }
+
+        "CDialogSettings FrameTitle" {
+            padding-left="28"
+            render {
+                0="image(x0+12,y0+8,x0+28,y0+24,fluent/icons/x16/settings.tga)"
+            }
+        }
+        
+        "CMusicPlayerPanel FrameTitle" {
+            padding-left="28"
+            render {
+                0="image(x0+12,y0+8,x0+28,y0+24,fluent/icons/x16/music_note_2.tga)"
+            }
+        }
+    }
+}

@@ -1,0 +1,300 @@
+"resource/layout/musicplayerpanel.layout"
+{
+	controls
+	{	
+		CurrentAlbumImage { controlname=ImagePanel style="CurrentAlbumImageStyle" scaling=fit}
+
+		CurrentStatusLabel { controlname=Label style="StatusStyleDim" labeltext="NOW PLAYING" }
+		CurrentTrackLabel	{	controlname=Label	style="StatusStyle"	labeltext=""	}
+		CurrentArtistLabel { controlname=Label style="statusStyle" labeltext="" }
+		
+		RepeatButton { controlname=ToggleButton labeltext="" tooltiptext="#music_tooltip_repeat" command="ToggleRepeat" style="RepeatButtonStyle" }
+		ShuffleButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_shuffle" command="ToggleShuffle" style="ShuffleButtonStyle" }
+		PreviousButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_previous" command="PreviousTrack" style="PreviousButtonStyle" }
+		NextButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_next" command="NextTrack" style="NextButtonStyle" }
+		PlayPauseButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_playpause" command="TogglePlayPause" style="PlayButtonStyle" }
+		VolumeButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_volume" command="Volume" style="VolumeButtonStyle" }
+		BrowseButton { controlname=Button labeltext="" tooltiptext="#music_tooltip_browse" command="BrowseMusic" style="BrowseButtonStyle" }
+		
+		TrackList { controlname=ListPanel style="MusicListPanelInterior" }
+		NoTracksLabel { controlname=Label style="NoTracksLabelStyle" labeltext="" zpos="-1" }
+		InfoLabel { controlname=Label style="InfoLabelStyle" labeltext="1 OF 10"  zpos="-1" textalignment=center }
+		
+		SeekBar { ControlName="Slider" style="SeekBarStyle" showticks="0" showbar="1"}
+
+		frame_title
+		{
+			ControlName=Label
+	
+			style="ClientTitle"
+			"textAlignment"   "west"
+			"textAlignment"   "center" [$OSX]
+		}
+	}
+
+	colors
+	{
+	}
+
+	styles
+	{
+		CMusicPlayerPanel	
+		{
+			bgcolor=BackgroundFillColorSolidBackgroundBase
+			
+			minimum-width = 653
+			minimum-height = 295
+
+			render_bg {
+
+                //Page 1
+                1="fill(x0+32,y0+52,x1-32,y1-176,BackgroundFillColorCardBackgroundSecondary)"
+                1="image(x0+24,y0+44,x0+32,y0+52,fluent/frame/borders/1/tl.tga)"
+                1="image_tiled(x0+32,y0+44,x1-32,y0+52,fluent/frame/borders/1/t.tga)"
+                1="image(x1-32,y0+44,x1-24,y0+52,fluent/frame/borders/1/tr.tga)"
+                1="image_tiled(x1-32,y0+52,x1-24,y1-176,fluent/frame/borders/1/r.tga)"
+                1="image(x1-32,y1-176,x1-24,y1-168,fluent/frame/borders/1/br.tga)"
+                1="image_tiled(x0+32,y1-176,x1-32,y1-168,fluent/frame/borders/1/b.tga)"
+                1="image(x0+24,y1-176,x0+32,y1-168,fluent/frame/borders/1/bl.tga)"
+                1="image_tiled(x0+24,y0+52,x0+32,y1-176,fluent/frame/borders/1/l.tga)"
+
+                //Page 2
+                1="fill(x0+32,y1-136,x1-32,y1-32,BackgroundFillColorCardBackgroundSecondary)"
+                1="image(x0+24,y1-144,x0+32,y1-136,fluent/frame/borders/1/tl.tga)"
+                1="image_tiled(x0+32,y1-144,x1-32,y1-136,fluent/frame/borders/1/t.tga)"
+                1="image(x1-32,y1-144,x1-24,y1-136,fluent/frame/borders/1/tr.tga)"
+                1="image_tiled(x1-32,y1-136,x1-24,y1-32,fluent/frame/borders/1/r.tga)"
+                1="image(x1-32,y1-32,x1-24,y1-24,fluent/frame/borders/1/br.tga)"
+                1="image_tiled(x0+32,y1-32,x1-32,y1-24,fluent/frame/borders/1/b.tga)"
+                1="image(x0+24,y1-32,x0+32,y1-24,fluent/frame/borders/1/bl.tga)"
+                1="image_tiled(x0+24,y1-136,x0+32,y1-32,fluent/frame/borders/1/l.tga)"
+			}
+		}		
+		
+		MusicListPanelInterior
+		{     
+			inset="-3 0 0 0"
+			padding-left=12
+			padding-right=12
+			font-size=15
+			textcolor="text2"
+			bgcolor="none" 
+			render {}
+    	} 
+    
+    	ClientTitle
+		{
+				
+		}
+
+		ClientTitle:FrameFocus [$OSX]
+		{
+			font-family=basefont
+   			font-size=15
+   			font-weight=400
+   			textcolor="texthover"
+   			bgcolor="none"
+   			inset="0 6 0 0"
+		}
+
+		CurrentAlbumImageStyle	{
+			render {
+				5="image(x0,y0,x0+4,y0+4,fluent/dialogs/musicPlayer/albumImage/background/tl.tga)"
+				6="image(x1-4,y0,x1,y0+4,fluent/dialogs/musicPlayer/albumImage/background/tr.tga)"
+				7="image(x1-4,y1-4,x1,y1,fluent/dialogs/musicPlayer/albumImage/background/br.tga)"
+				8="image(x0,y1-4,x0+4,y1,fluent/dialogs/musicPlayer/albumImage/background/bl.tga)"
+			}
+		}
+		ToggleButton {
+            render_bg {}
+		}
+		ToggleButton:hover {
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/hover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/hover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/hover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/hover/l.tga)"
+            }
+		}
+		ToggleButton:selected {
+            render_bg {}
+		}
+		ToggleButton:active {
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlTertiary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/active/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/active/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/active/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/active/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/active/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/active/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/active/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/active/l.tga)"
+            }
+		}
+		ToggleButton:selected:hover {
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/hover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/hover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/hover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/hover/l.tga)"
+            }
+		}
+
+
+
+		RepeatButtonStyle	{	 bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/normal	inset="-6 0 0 0" padding="0" }
+		RepeatButtonStyle:hover	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/normal	padding="0" }
+		RepeatButtonStyle:selected	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/selected }
+		RepeatButtonStyle:selected:hover	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accentSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selectedHover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selectedHover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selectedHover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selectedHover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selectedHover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selectedHover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selectedHover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selectedHover/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/selected }
+		RepeatOnceButtonStyle	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/normal	inset="-6 0 0 0" padding="0" }
+		RepeatOnceButtonStyle:hover	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeat/normal	padding="0" }
+		RepeatOnceButtonStyle:selected	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeatOnce/selected }
+		RepeatOnceButtonStyle:selected:hover	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accentSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selectedHover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selectedHover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selectedHover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selectedHover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selectedHover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selectedHover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selectedHover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selectedHover/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/repeatOnce/selected }
+		ShuffleButtonStyle	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/shuffle/normal	inset="-6 0 0 0" }
+		ShuffleButtonStyle:hover	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/shuffle/normal	}
+		ShuffleButtonStyle:selected	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/shuffle/selected }
+		ShuffleButtonStyle:selected:hover	{	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accentSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selectedHover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selectedHover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selectedHover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selectedHover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selectedHover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selectedHover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selectedHover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selectedHover/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/shuffle/selected }
+		PreviousButtonStyle	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/previous/normal	inset="-6 0 0 0" }
+		PreviousButtonStyle:hover	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/previous/hover }
+		PreviousButtonStyle:active	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/previous/normal	}
+		NextButtonStyle	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/next/normal	inset="-6 0 0 0" }
+		NextButtonStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/next/hover	}
+		NextButtonStyle:active	{	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/next/normal	}
+		PlayButtonStyle	{ bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/play/normal inset="-16 0 0 0" }
+		PlayButtonStyle:hover {	bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/play/hover }
+		PlayButtonStyle:active {	bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/play/active }
+		PauseButtonStyle {	bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/pause/normal inset="-16 0 0 0" }
+		PauseButtonStyle:hover {	bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/pause/hover }
+		PauseButtonStyle:active {	bgcolor=none render_bg={} image=fluent/dialogs/musicPlayer/buttons/pause/active }
+		VolumeButtonStyle {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/volume/normal	inset="-6 0 0 0" }
+		VolumeButtonStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/volume/normal }
+		VolumeButtonActiveStyle {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/volume/normal	inset="-6 0 0 0" }
+		VolumeButtonActiveStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/volume/normal }				
+		MuteVolumeButtonStyle {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/mute/normal	inset="-6 0 0 0" }
+		MuteVolumeButtonStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/mute/normal }
+		MuteVolumeButtonActiveStyle {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/mute/normal	inset="-6 0 0 0" }
+		MuteVolumeButtonActiveStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/mute/normal }
+		
+		BrowseButtonStyle {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/browse/normal	inset="-6 0 0 0" }
+		BrowseButtonStyle:hover {	bgcolor=none image=fluent/dialogs/musicPlayer/buttons/browse/normal }
+		BrowseButtonStyle:selected {	render_bg {} bgcolor=none image=fluent/dialogs/musicPlayer/buttons/browse/normal	inset="-6 0 0 0" }
+		BrowseButtonStyle:selected:hover {	render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/hover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/hover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/hover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/hover/l.tga)"
+            } bgcolor=none image=fluent/dialogs/musicPlayer/buttons/browse/normal }
+		
+		//StatusStyle	{ render_bg={} font-family=basefont textcolor="LabelFocus" font-size=14	}
+		StatusStyleDim	{ render_bg={} font-family=basefont textcolor="FillColorTextDisabled" font-size=14	}
+		InfoLabelStyle	{ render_bg={} font-family=basefont font-size=14 textcolor="FillColorTextDisabled" }
+		TrackListStyle { }
+		NoTracksLabelStyle	{	bgcolor=none render_bg={} image=graphics/music_background }
+		SeekBarStyle	{ bgcolor=none font-family=basefont font-size=16	}
+	}
+	
+	
+	layout
+	{
+		region { name=box margin-left=24 margin-top=32 margin-right=22 }
+
+
+		place { region=box control="TrackList" margin-top=24 margin-bottom=169 width=max height=max }
+		place { control="NoTracksLabel" x=10 y=94 margin-right=10 margin-bottom=33 align="top-center" }
+		place { region=box control="InfoLabel" align=bottom x=10 y=94 width=max margin-right=10 margin-bottom=8 }
+		
+		region { name=player align=bottom margin-left=36 margin-top=36 margin-right=36 width=max height=169 }
+
+		place { region=player control=SeekBar height=18 width=max }
+
+		place { region=player control="CurrentAlbumImage" start=SeekBar margin-top=6 width=72 height=72 align="top-left" dir=down }
+		place { region=player control="CurrentTrackLabel" start=CurrentAlbumImage margin-top=12 margin-left=12 width=max dir=right }
+		place { region=player control="CurrentArtistLabel" start=CurrentTrackLabel margin-top=2 width=max dir=down }
+		
+		place { region=player control="PlayPauseButton" start=SeekBar margin-top=17 width=50 height=50 align=top-center dir=down }
+		place { region=player control="ShuffleButton,PreviousButton" start=PlayPauseButton margin-left=-126 margin-top=7 spacing=2 width=36 height=36 dir=left }
+		place { region=player control="NextButton,RepeatButton" start=PlayPauseButton margin-left=2 margin-top=7 spacing=2 width=36 height=36 dir=right }
+		
+		place { region=player control="VolumeButton,BrowseButton" start=SeekBar margin-left=-74 margin-top=42 spacing=2 width=36 height=36 align=top-right dir=left }
+		
+		//Hidden
+		place { control="CurrentStatusLabel" dir=down margin-left=-999 }
+	}
+	
+}

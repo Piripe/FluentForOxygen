@@ -1,0 +1,43 @@
+"radioBUtton.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+        RadioButton {
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor=FillColorTextPrimary
+            image="fluent/controls/radioButton/unselected.tga"
+        }
+
+        RadioButton:selected {
+            image="fluent/controls/radioButton/selected.tga"
+        }
+
+        RadioButton:hover {
+            image="fluent/controls/radioButton/unselectedHover.tga"
+        }
+
+        RadioButton:selected:hover {
+            image="fluent/controls/radioButton/selectedHover.tga"
+        }
+
+        RadioButton:active {
+            image="fluent/controls/radioButton/selectedActive.tga"
+        }
+
+        RadioButton:selected:active {
+            image="fluent/controls/radioButton/unselectedActive.tga"
+        }
+
+        RadioButton:disabled {
+            textcolor=FillColorTextDisabled
+            image="fluent/controls/radioButton/unselectedDisabled.tga"
+        }
+
+        RadioButton:selected:disabled {
+            textcolor=FillColorTextDisabled
+            image="fluent/controls/radioButton/selectedDisabled.tga"
+        }
+    }
+}

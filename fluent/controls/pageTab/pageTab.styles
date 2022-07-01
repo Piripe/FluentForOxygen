@@ -1,0 +1,49 @@
+"pageTab.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+		PageTab {
+            textcolor=FillColorTextSecondary
+            font-family=basefont
+            font-size=13
+            font-weight=400
+            inset="0 -2 0 0"
+            render_bg {}
+        }
+
+        PageTab:hover {
+            textcolor=FillColorTextSecondary
+            render_bg {
+                0="fill(x0+13,y0+1,x1-13,y0+8,FillColorSubtleSecondary)"
+                1="fill(x0+5,y0+8,x1-5,y1,FillColorSubtleSecondary)"
+                2="image(x0+5,y0,x0+13,y0+8,fluent/controls/pageTab/hover/tl.tga)"
+                3="image(x1-13,y0,x1-5,y0+8,fluent/controls/pageTab/hover/tr.tga)"
+            }
+        }
+
+        PageTab:selected {
+            textcolor=FillColorTextPrimary
+            render_bg {
+                0="fill(x0+12,y0+8,x1-12,y1-4,BackgroundFillColorSolidBackgroundTertiary)"
+                1="fill(x0+4,y1-4,x1-4,y1,BackgroundFillColorSolidBackgroundTertiary)"
+                2="image_tiled(x0+4,y0+8,x0+12,y1-4,fluent/controls/pageTab/selected/l.tga)"
+                3="image(x0+4,y0,x0+12,y0+8,fluent/controls/pageTab/selected/tl.tga)"
+                4="image_tiled(x0+12,y0,x1-12,y0+8,fluent/controls/pageTab/selected/t.tga)"
+                5="image(x1-12,y0,x1-4,y0+8,fluent/controls/pageTab/selected/tr.tga)"
+                6="image_tiled(x1-12,y0+8,x1-4,y1-4,fluent/controls/pageTab/selected/r.tga)"
+                7="image(x1-4,y1-4,x1,y1,fluent/controls/pageTab/selected/br.tga)"
+                8="image(x0,y1-4,x0+4,y1,fluent/controls/pageTab/selected/bl.tga)"
+            }
+        }
+        
+		PageTab:active {
+            textcolor=FillColorTextSecondary
+            render_bg {
+                0="fill(x0+13,y0+1,x1-13,y0+8,FillColorSubtleTertiary)"
+                1="fill(x0+5,y0+8,x1-5,y1,FillColorSubtleTertiary)"
+                2="image(x0+5,y0,x0+13,y0+8,fluent/controls/pageTab/active/tl.tga)"
+                3="image(x1-13,y0,x1-5,y0+8,fluent/controls/pageTab/active/tr.tga)"
+            }
+        }
+    }
+}

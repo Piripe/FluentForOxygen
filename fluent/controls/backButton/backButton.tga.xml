@@ -1,0 +1,39 @@
+<images>
+    <folder name="hover">
+        <image width="4" height="4" name="bl.tga">
+            <src offset="0 -5" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="br.tga">
+            <src offset="-5 -5" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tl.tga">
+            <src offset="0 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tr.tga">
+            <src offset="-5 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+    </folder>
+    <folder name="active">
+        <image width="4" height="4" name="bl.tga">
+            <src offset="0 -5" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="br.tga">
+            <src offset="-5 -5" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tl.tga">
+            <src offset="0 0" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tr.tga">
+            <src offset="-5 0" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+    </folder>
+    <image width="12" height="12" name="arrow.tga">
+        <src color="Dark_FillColor_Text_Primary">arrow.png</src>
+    </image>
+    <image width="12" height="12" name="arrowActive.tga">
+        <src color="Dark_FillColor_Text_Secondary">arrow.png</src>
+    </image>
+    <image width="12" height="12" name="arrowDisabled.tga">
+        <src color="Dark_FillColor_Text_Disabled">arrow.png</src>
+    </image>
+</images>

@@ -1,0 +1,18 @@
+"resource/layout/subpaneloptionsbrowser.layout"
+{
+	layout
+	{
+		region { name=box margin-top=48 margin-bottom=48 margin-left=48 margin-right=48 width=max height=max }
+
+		place { region=box controls="DescriptionLabel" margin-top=12 width=max }
+		place { region=box controls="OverlayHomePageLabel" start=DescriptionLabel margin-top=24 width=200 dir=down }
+		place { region=box controls="OverlayHomePage" start=OverlayHomePageLabel margin-top=6 width=240 height=32 dir=down }
+		place { region=box controls="ClientBrowserAuthHomePage" start=OverlayHomePage margin-top=12 width=max dir=down }
+
+		place { region=box controls="ClearAllBrowserDataButton" start=ClientBrowserAuthHomePage margin-top=24 width=240 height=32 dir=down }
+		
+		
+		//Hidden
+		place { control="Divider1" dir=down margin-left=-999 }
+	}
+}

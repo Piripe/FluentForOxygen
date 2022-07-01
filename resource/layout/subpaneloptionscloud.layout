@@ -1,0 +1,10 @@
+"resource/layout/subpaneloptionscloud.layout"
+{
+	layout
+	{
+		region { name=box margin-top=48 margin-bottom=48 margin-left=48 margin-right=48 width=max height=max }
+		
+		place { region=box control=SteamCloudInfo margin-top=12 width=623 }
+		place { region=box control="EnableCloudCheck,EnableScreenshotsCheck" start=SteamCloudInfo margin-top=12 width=623 spacing=-2 dir=down }		
+	}
+}

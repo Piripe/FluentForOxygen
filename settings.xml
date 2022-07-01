@@ -1,0 +1,53 @@
+<settings>
+    <category id="categoryone">
+        <title>1st Category</title>
+        <image src="oxygen/skin_logo.png"></image>
+        <label onclick="labelClick">Title of 1st Category</label>
+        <script>
+            function labelClick(e) {
+                IntVar+=1;
+                document.getElementById("categoryone").title = `Wesh ${e.timeStamp.toString()}`;
+                e.target.innerText = AccentColor//`Title of Wesh ${e.timeStamp.toString()}`
+                // document.getElementById("element1").innerText = `The best var : ${IntVar}`
+                document.children[0].children[5].value = true;
+                document.children[0].children[7].height += 50;
+                document.children[0].children[7].values = ArrayVar;
+                document.children[0].children[7].innerText = `Title of Wesh ${e.timeStamp.toString()}`
+            }
+        </script>
+        <track min="0" max="100" value="5">Si si</track>
+        <track id="trackbar" min="0" max="5" value="0">Si si (2)</track>
+        <color id="accentColor" value="#fff" onchange="updateAccentColor">Accent Color</color>
+        <checkbox>1st Checkbox</checkbox>
+        <checkbox id="checkbox">2nd Checkbox</checkbox>
+        <combo simple="true" editable="true" default-value="VaLUe" onchange="updateComboInnerText">
+            A Combo box
+            <option id="element1">Value 1</option>
+            <option>Value 2</option>
+            <option>Value 3</option>
+            <option>Value 4</option>
+        </combo>
+        <link href="https://google.com/">Google lol</link>
+        <link href="D:\Mes documents\Bureau\DL Music.bat">DL Music lol</link>
+        <link href="D:\Mes documents\Bureau\Oxygen\src\Oxygen\Oxygen\bin\Release\Oxygen.exe">Oxygen Part 1 lol</link>
+        <link href="file:///D:/Mes%20documents/Bureau/Oxygen/src/Oxygen/Oxygen/bin/Release/Oxygen.exe">Oxygen Part 1 but file:/// lol sdnhyghjycrfdyhjugyhjudfjyhugvfjyhdugjyhudvjyhgjyfhudyjhuvgvfjyhjyhuvdgyjhudvgyjhudvjufyhjuyhguyjhdfyujhvgyfujhdvgyjuhdfjyuhgjyuhdfvyjuhg</link>
+        <script>
+            function updateAccentColor(e) {
+                AccentColor = e.target.value;
+            }
+            function updateComboInnerText(e) {
+                ArrayVar = e.target.values;
+            }
+            document.getElementById("accentColor").value = AccentColor;
+        </script>
+    </category>
+    <category>
+        <title>2nd Category</title>
+        <label>Title of 2nd Category</label>
+        <track min="0" max="12" value="0">Menu Lenght</track>
+    </category>
+    <category>
+        <title>3rd Category</title>
+        <label>Title of 3rd Category</label>
+    </category>
+</settings>

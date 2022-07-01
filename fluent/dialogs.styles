@@ -1,0 +1,557 @@
+"dialogs.styles" {
+    include "fluent/colors.styles"
+	styles {
+		ZooDialog
+		{
+			bgcolor=BackgroundFillColorSolidBackgroundBase
+		}
+		ZooPropertyPage
+		{
+			bgcolor=BackgroundFillColorCardBackgroundSecondary
+		}
+		CDialogSettings
+		{
+			bgcolor=BackgroundFillColorSolidBackgroundBase
+		}
+		CAccountPage
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+				
+				// Card 1
+                1="fill(x0+28,y0+153,x1-28,y0+266,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+149,x0+28,y0+153,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+149,x1-28,y0+153,fluent/frame/borders/2/t.tga)"
+                1="image(x1-28,y0+149,x1-24,y0+153,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x1-28,y0+153,x1-24,y0+266,fluent/frame/borders/2/r.tga)"
+                1="image(x1-28,y0+266,x1-24,y0+270,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+266,x1-28,y0+270,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+266,x0+28,y0+270,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+153,x0+28,y0+266,fluent/frame/borders/2/l.tga)"
+				
+				// Card 2
+				1="fill(x0+28,y0+298,x1-28,y0+501,BackgroundFillColorCardBackgroundDefault)"
+				1="image(x0+24,y0+294,x0+28,y0+298,fluent/frame/borders/2/tl.tga)"
+				1="image_tiled(x0+28,y0+294,x1-28,y0+298,fluent/frame/borders/2/t.tga)"
+				1="image(x1-28,y0+294,x1-24,y0+298,fluent/frame/borders/2/tr.tga)"
+				1="image_tiled(x1-28,y0+298,x1-24,y0+501,fluent/frame/borders/2/r.tga)"
+				1="image(x1-28,y0+501,x1-24,y0+505,fluent/frame/borders/2/br.tga)"
+				1="image_tiled(x0+28,y0+501,x1-28,y0+505,fluent/frame/borders/2/b.tga)"
+				1="image(x0+24,y0+501,x0+28,y0+505,fluent/frame/borders/2/bl.tga)"
+				1="image_tiled(x0+24,y0+298,x0+28,y0+501,fluent/frame/borders/2/l.tga)"
+				
+				// Card 3
+				1="fill(x0+28,y0+533,x1-28,y0+633,BackgroundFillColorCardBackgroundDefault)"
+				1="image(x0+24,y0+529,x0+28,y0+533,fluent/frame/borders/2/tl.tga)"
+				1="image_tiled(x0+28,y0+529,x1-28,y0+533,fluent/frame/borders/2/t.tga)"
+				1="image(x1-28,y0+529,x1-24,y0+533,fluent/frame/borders/2/tr.tga)"
+				1="image_tiled(x1-28,y0+533,x1-24,y0+633,fluent/frame/borders/2/r.tga)"
+				1="image(x1-28,y0+633,x1-24,y0+637,fluent/frame/borders/2/br.tga)"
+				1="image_tiled(x0+28,y0+633,x1-28,y0+637,fluent/frame/borders/2/b.tga)"
+				1="image(x0+24,y0+633,x0+28,y0+637,fluent/frame/borders/2/bl.tga)"
+				1="image_tiled(x0+24,y0+533,x0+28,y0+633,fluent/frame/borders/2/l.tga)"
+
+				// Info Icon
+				2="image(x0+48,y0+217,x0+80,y0+246,fluent/icons/x32/info.tga)"
+			}
+		}
+		CSubPanelOptionsFamily
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+				
+				// Card 1
+				1="fill(x0+28,y0+47,x1-28,y0+177,BackgroundFillColorCardBackgroundDefault)"
+				1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+				1="image_tiled(x0+28,y0+43,x1-28,y0+47,fluent/frame/borders/2/t.tga)"
+				1="image(x1-28,y0+43,x1-24,y0+47,fluent/frame/borders/2/tr.tga)"
+				1="image_tiled(x1-28,y0+47,x1-24,y0+177,fluent/frame/borders/2/r.tga)"
+				1="image(x1-28,y0+177,x1-24,y0+181,fluent/frame/borders/2/br.tga)"
+				1="image_tiled(x0+28,y0+177,x1-28,y0+181,fluent/frame/borders/2/b.tga)"
+				1="image(x0+24,y0+177,x0+28,y0+181,fluent/frame/borders/2/bl.tga)"
+				1="image_tiled(x0+24,y0+47,x0+28,y0+177,fluent/frame/borders/2/l.tga)"
+				
+				// Card 1
+				1="fill(x0+28,y0+209,x1-28,y0+405,BackgroundFillColorCardBackgroundDefault)"
+				1="image(x0+24,y0+205,x0+28,y0+209,fluent/frame/borders/2/tl.tga)"
+				1="image_tiled(x0+28,y0+205,x1-28,y0+209,fluent/frame/borders/2/t.tga)"
+				1="image(x1-28,y0+205,x1-24,y0+209,fluent/frame/borders/2/tr.tga)"
+				1="image_tiled(x1-28,y0+209,x1-24,y0+405,fluent/frame/borders/2/r.tga)"
+				1="image(x1-28,y0+405,x1-24,y0+409,fluent/frame/borders/2/br.tga)"
+				1="image_tiled(x0+28,y0+405,x1-28,y0+409,fluent/frame/borders/2/b.tga)"
+				1="image(x0+24,y0+405,x0+28,y0+409,fluent/frame/borders/2/bl.tga)"
+				1="image_tiled(x0+24,y0+209,x0+28,y0+405,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubInGame
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1
+                1="fill(x0+28,y0+47,x1-28,y0+385,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x1-28,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x1-28,y0+43,x1-24,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x1-28,y0+47,x1-24,y0+385,fluent/frame/borders/2/r.tga)"
+                1="image(x1-28,y0+385,x1-24,y0+389,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+385,x1-28,y0+389,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+385,x0+28,y0+389,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+385,fluent/frame/borders/2/l.tga)"
+
+                //Card 2
+                1="fill(x0+28,y0+417,x0+228,y1-72,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+413,x0+28,y0+417,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+413,x0+228,y0+417,fluent/frame/borders/2/t.tga)"
+                1="image(x0+228,y0+413,x0+232,y0+417,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+228,y0+417,x0+232,y1-72,fluent/frame/borders/2/r.tga)"
+                1="image(x0+228,y1-72,x0+232,y1-68,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y1-72,x0+228,y1-68,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y1-72,x0+28,y1-68,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+417,x0+28,y1-72,fluent/frame/borders/2/l.tga)"
+
+				//Card 3
+                1="fill(x0+260,y0+417,x0+459,y1-72,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+256,y0+413,x0+260,y0+417,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+260,y0+413,x0+459,y0+417,fluent/frame/borders/2/t.tga)"
+                1="image(x0+459,y0+413,x0+463,y0+417,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+459,y0+417,x0+463,y1-72,fluent/frame/borders/2/r.tga)"
+                1="image(x0+459,y1-72,x0+463,y1-68,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+260,y1-72,x0+459,y1-68,fluent/frame/borders/2/b.tga)"
+                1="image(x0+256,y1-72,x0+260,y1-68,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+256,y0+417,x0+260,y1-72,fluent/frame/borders/2/l.tga)"
+
+				//Card 4
+                1="fill(x0+491,y0+417,x0+691,y1-72,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+487,y0+413,x0+491,y0+417,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+491,y0+413,x0+691,y0+417,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+413,x0+695,y0+417,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+417,x0+695,y1-72,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y1-72,x0+695,y1-68,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+491,y1-72,x0+691,y1-68,fluent/frame/borders/2/b.tga)"
+                1="image(x0+487,y1-72,x0+491,y1-68,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+487,y0+417,x0+491,y1-72,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSubPanelOptionsInterface
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1
+                1="fill(x0+28,y0+47,x0+343,y0+181,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+343,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+343,y0+43,x0+347,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+343,y0+47,x0+347,y0+181,fluent/frame/borders/2/r.tga)"
+                1="image(x0+343,y0+181,x0+347,y0+185,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+181,x0+343,y0+185,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+181,x0+28,y0+185,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+181,fluent/frame/borders/2/l.tga)"
+
+                //Card 2
+                1="fill(x0+376,y0+47,x0+691,y0+181,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+372,y0+43,x0+376,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+376,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+181,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+181,x0+695,y0+185,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+376,y0+181,x0+691,y0+185,fluent/frame/borders/2/b.tga)"
+                1="image(x0+372,y0+181,x0+376,y0+185,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+372,y0+47,x0+376,y0+181,fluent/frame/borders/2/l.tga)"
+
+                //Card 3
+                1="fill(x0+28,y0+213,x0+343,y0+309,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+209,x0+28,y0+213,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+209,x0+343,y0+213,fluent/frame/borders/2/t.tga)"
+                1="image(x0+343,y0+209,x0+347,y0+213,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+343,y0+213,x0+347,y0+309,fluent/frame/borders/2/r.tga)"
+                1="image(x0+343,y0+309,x0+347,y0+313,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+309,x0+343,y0+313,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+309,x0+28,y0+313,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+213,x0+28,y0+309,fluent/frame/borders/2/l.tga)"
+
+                //Card 4
+                1="fill(x0+376,y0+213,x0+691,y0+309,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+372,y0+209,x0+376,y0+213,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+376,y0+209,x0+691,y0+213,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+209,x0+695,y0+213,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+213,x0+695,y0+309,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+309,x0+695,y0+313,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+376,y0+309,x0+691,y0+313,fluent/frame/borders/2/b.tga)"
+                1="image(x0+372,y0+309,x0+376,y0+313,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+372,y0+213,x0+376,y0+309,fluent/frame/borders/2/l.tga)"
+
+                //Card 5
+                1="fill(x0+28,y0+341,x0+691,y1-76,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+337,x0+28,y0+341,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+337,x0+691,y0+341,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+337,x0+695,y0+341,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+341,x0+695,y1-76,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y1-76,x0+695,y1-72,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y1-76,x0+691,y1-72,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y1-76,x0+28,y1-72,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+341,x0+28,y1-76,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubLibrary
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1
+                1="fill(x0+28,y0+47,x0+691,y0+252,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+252,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+252,x0+695,y0+256,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+252,x0+691,y0+256,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+252,x0+28,y0+256,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+252,fluent/frame/borders/2/l.tga)"
+
+                //Card 2
+                1="fill(x0+28,y0+284,x0+343,y0+415,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+280,x0+28,y0+284,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+280,x0+343,y0+284,fluent/frame/borders/2/t.tga)"
+                1="image(x0+343,y0+280,x0+347,y0+284,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+343,y0+284,x0+347,y0+415,fluent/frame/borders/2/r.tga)"
+                1="image(x0+343,y0+415,x0+347,y0+419,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+415,x0+343,y0+419,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+415,x0+28,y0+419,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+284,x0+28,y0+415,fluent/frame/borders/2/l.tga)"
+
+                //Card 3
+                1="fill(x0+376,y0+284,x0+691,y0+415,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+372,y0+280,x0+376,y0+284,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+376,y0+280,x0+691,y0+284,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+280,x0+695,y0+284,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+284,x0+695,y0+415,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+415,x0+695,y0+419,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+376,y0+415,x0+691,y0+419,fluent/frame/borders/2/b.tga)"
+                1="image(x0+372,y0+415,x0+376,y0+419,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+372,y0+284,x0+376,y0+415,fluent/frame/borders/2/l.tga)"
+
+                //Card 4
+                1="fill(x0+28,y0+447,x0+343,y0+559,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+443,x0+28,y0+447,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+443,x0+343,y0+447,fluent/frame/borders/2/t.tga)"
+                1="image(x0+343,y0+443,x0+347,y0+447,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+343,y0+447,x0+347,y0+559,fluent/frame/borders/2/r.tga)"
+                1="image(x0+343,y0+559,x0+347,y0+563,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+559,x0+343,y0+563,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+559,x0+28,y0+563,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+447,x0+28,y0+559,fluent/frame/borders/2/l.tga)"
+
+                //Card 5
+                1="fill(x0+376,y0+447,x0+691,y0+559,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+372,y0+443,x0+376,y0+447,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+376,y0+443,x0+691,y0+447,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+443,x0+695,y0+447,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+447,x0+695,y0+559,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+559,x0+695,y0+563,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+376,y0+559,x0+691,y0+563,fluent/frame/borders/2/b.tga)"
+                1="image(x0+372,y0+559,x0+376,y0+563,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+372,y0+447,x0+376,y0+559,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSubPanelOptionsDownloads
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1
+                1="fill(x0+28,y0+47,x0+343,y0+218,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+343,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+343,y0+43,x0+347,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+343,y0+47,x0+347,y0+218,fluent/frame/borders/2/r.tga)"
+                1="image(x0+343,y0+218,x0+347,y0+222,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+218,x0+343,y0+222,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+218,x0+28,y0+222,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+218,fluent/frame/borders/2/l.tga)"
+
+                //Card 2
+                1="fill(x0+376,y0+47,x0+691,y0+218,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+372,y0+43,x0+376,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+376,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+218,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+218,x0+695,y0+222,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+376,y0+218,x0+691,y0+222,fluent/frame/borders/2/b.tga)"
+                1="image(x0+372,y0+218,x0+376,y0+222,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+372,y0+47,x0+376,y0+218,fluent/frame/borders/2/l.tga)"
+
+                //Card 3
+                1="fill(x0+28,y0+250,x0+691,y0+476,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+246,x0+28,y0+250,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+246,x0+691,y0+250,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+246,x0+695,y0+250,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+250,x0+695,y0+476,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+476,x0+695,y0+480,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+476,x0+691,y0+480,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+476,x0+28,y0+480,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+250,x0+28,y0+476,fluent/frame/borders/2/l.tga)"
+
+                //Card 4
+                1="fill(x0+28,y0+508,x0+691,y1-76,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+504,x0+28,y0+508,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+504,x0+691,y0+508,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+504,x0+695,y0+508,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+508,x0+695,y1-76,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y1-76,x0+695,y1-72,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y1-76,x0+691,y1-72,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y1-76,x0+28,y1-72,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+508,x0+28,y1-76,fluent/frame/borders/2/l.tga)"
+
+				// Info Icons
+				2="image(x0+396,y0+153,x0+428,y0+185,fluent/icons/x32/info.tga)"
+				2="image(x0+48,y0+582,x0+80,y0+614,fluent/icons/x32/info.tga)"
+			}
+		}
+		CSubPanelOptionsCloud
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (The only card lol)
+                1="fill(x0+28,y0+47,x0+691,y0+165,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+165,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+165,x0+695,y0+169,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+165,x0+691,y0+169,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+165,x0+28,y0+169,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+165,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubMusic
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (Also the only card lol)
+                1="fill(x0+28,y0+47,x0+691,y0+585,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+585,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+585,x0+695,y0+589,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+585,x0+691,y0+589,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+585,x0+28,y0+589,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+585,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubBroadcast
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (HEY! WTF BRO!? Why there is no more than one card?)
+                1="fill(x0+28,y0+111,x0+691,y0+465,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+107,x0+28,y0+111,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+107,x0+691,y0+111,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+107,x0+695,y0+111,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+111,x0+695,y0+465,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+465,x0+695,y0+469,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+465,x0+691,y0+469,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+465,x0+28,y0+469,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+111,x0+28,y0+465,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubStreaming
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (Ok... You know what ? I leave the developement of this skin! OH! WHY THERE IS EVERYTIME ONLY ONE CARD!?)
+                1="fill(x0+28,y0+47,x0+691,y0+630,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+630,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+630,x0+695,y0+634,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+630,x0+691,y0+634,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+630,x0+28,y0+634,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+630,fluent/frame/borders/2/l.tga)"
+
+				// Info Icon
+				2="image(x0+48,y0+112,x0+80,y0+144,fluent/icons/x32/info.tga)"
+			}
+		}
+		CSettingsSubBrowser
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (*Call 911* Hey! I've a problem! THERE IS ONLY ONE FKING CARD!!!)
+                1="fill(x0+28,y0+47,x0+691,y0+320,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+320,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+320,x0+695,y0+324,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+320,x0+691,y0+324,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+320,x0+28,y0+324,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+320,fluent/frame/borders/2/l.tga)"
+			}
+		}
+		CSettingsSubController
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 (* TheRandomDev left the game)
+                1="fill(x0+28,y0+47,x0+691,y0+499,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+499,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+499,x0+695,y0+503,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+499,x0+691,y0+503,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+499,x0+28,y0+503,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+499,fluent/frame/borders/2/l.tga)"
+
+				
+				// Info Icons
+				2="image(x0+48,y0+144,x0+80,y0+176,fluent/icons/x32/info.tga)"
+				2="image(x0+48,y0+364,x0+80,y0+396,fluent/icons/x32/info.tga)"
+			}
+		}
+		CSubPanelShaderCache
+		{
+			render_bg {
+				// Background
+				0="fill(x0+8,y0+27,x1-8,y1-52,BackgroundFillColorCardBackgroundSecondary)"
+				0="image(x0,y0+19,x0+8,y0+27,fluent/frame/borders/1/tl.tga)"
+				0="image_tiled(x0+8,y0+19,x1-8,y0+27,fluent/frame/borders/1/t.tga)"
+				0="image(x1-8,y0+19,x1,y0+27,fluent/frame/borders/1/tr.tga)"
+				0="image_tiled(x1-8,y0+27,x1,y1-52,fluent/frame/borders/1/r.tga)"
+				0="image(x1-8,y1-52,x1,y1-44,fluent/frame/borders/1/br.tga)"
+				0="image_tiled(x0+8,y1-52,x1-8,y1-44,fluent/frame/borders/1/b.tga)"
+				0="image(x0,y1-52,x0+8,y1-44,fluent/frame/borders/1/bl.tga)"
+				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
+
+                //Card 1 ( . . . )
+                1="fill(x0+28,y0+47,x0+691,y0+267,BackgroundFillColorCardBackgroundDefault)"
+                1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
+                1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
+                1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+267,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+267,x0+695,y0+271,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+267,x0+691,y0+271,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+267,x0+28,y0+271,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+267,fluent/frame/borders/2/l.tga)"
+			}
+		}
+    }
+}

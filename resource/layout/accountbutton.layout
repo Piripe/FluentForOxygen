@@ -1,0 +1,190 @@
+"resource/layout/accountbutton.layout"
+{
+	controls
+	{
+		account_avatar
+		{
+			"ControlName"	"Image"
+			"fieldName"		"account_avatar"
+			"zpos" 			"-2" // behind dropdown button
+		}
+
+		account_drop_down
+		{
+			"ControlName"	"Label"
+			"fieldName"		"account_drop_down"
+			"zpos" 			"-2" // behind dropdown button
+			"style"			"AccountDropDownStyleOffline"
+		}
+
+
+		account_balance
+		{
+			"ControlName"	"Label"
+			"fieldName"		"account_balance"
+			"style"			"AccountBalanceStyle"
+			
+			"zpos" 			"-2" // behind dropdown button
+		}
+
+		account_persona
+		{
+			"ControlName"	"Label"
+			"fieldName"		"account_persona"
+			"style" 		"AccountPersonaStyleOffline"
+			"labelText"		"%persona%"
+			"zpos" 			"-2" // behind dropdown button
+		}
+
+		account_menu_button
+		{
+			"ControlName"	"Button"
+			"fieldName"		"account_menu_button"
+			"labelText"		""
+			"style" 		"AccountMenuButtonStyle"
+		}
+	}
+
+	styles
+	{
+		AccountPersonaStyleOffline
+		{
+			font-size=0
+			padding-right=6
+			padding-left=12
+			textcolor=Friends.OfflineColor
+		}
+
+		AccountPersonaStyleOnline
+		{
+			font-size=0
+			padding-right=6
+			padding-left=12
+			textcolor=Friends.OnlineColor
+			render_bg
+		  	{
+				0="gradient_horizontal( x0, y0 - 1, x0 + 2, y1 + 1, Friends.OnlineColor, DialogBG )"
+			}
+		}
+
+		AccountPersonaStyleInGame
+		{
+			font-size=0
+			padding-right=6
+			padding-left=12
+			textcolor=Friends.InGameColor
+			render_bg
+		  	{
+				0="gradient_horizontal( x0, y0 - 1, x0 + 2, y1 + 1, Friends.InGameColor, DialogBG )"
+			}
+		}
+		
+		AccountDropDownStyleOffline
+		{
+			font-size=0
+			render_bg
+		  	{
+				1="image( x0, y0+10, x1, y1, graphics/dropdown_offline )"
+			}
+			
+		}
+		
+		AccountDropDownStyleOnline
+		{
+			font-size=0
+			render_bg
+		  	{
+				1="image( x0, y0 + 10, x1, y1, graphics/dropdown_online )"
+			}
+		}
+		
+		AccountDropDownStyleInGame
+		{
+			font-size=0
+			render_bg
+		  	{
+				1="image( x0, y0+10, x1, y1, graphics/dropdown_ingame )"
+			}
+		}
+
+		AccountButtonStyle
+		{
+			inset="1 1 0 0"
+			font-size=0
+			minimum-width=0
+			render_bg
+		  	{
+				// background fill
+				//0="fill( x0, y0, x1, y1, dark_blue )"
+			}
+			render
+		  	{
+				0="image(x0,y0,x0+28,y0+28,fluent/dialogs/rootDialog/accountButton/background.tga)"
+			}
+		}
+
+		AccountButtonStyle:hover
+		{
+			render_bg
+		  	{
+				// background fill
+				//0="fill( x0, y0, x1, y1, darkblue )"
+			}
+			render
+		  	{
+				0="image(x0,y0,x0+28,y0+28,fluent/dialogs/rootDialog/accountButton/backgroundHover.tga)"
+			}
+		}
+
+		AccountBalanceStyle
+		{
+			textcolor="labeldisabled"
+			bgcolor="none"
+			font-family=basefont
+			font-size=0
+			font-weight=400
+			font-style=regular
+			padding-top=1
+			padding-right=8
+			padding-left=2
+		}
+
+		AccountBalanceStyle [$OSX]
+		{
+		      textcolor="labeldisabled"
+		      bgcolor="none"
+		      font-family=basefont
+			font-size=0
+		      font-weight=400
+		      font-style=regular
+		      inset="0 1 0 0"
+		}
+		
+		AccountMenuButtonStyle
+		{
+			render_bg
+		  	{
+				// background fill
+				// 0="fill( x0, y0, x1, y1, darkblue )"
+			}
+		}
+		Label {
+			font-size=0
+		}
+		Button {
+			font-size=0
+		}
+	}
+
+	layout
+	{
+		place { control="account_menu_button" align=left height=28 width=28 } // span over everything
+		// place { control="account_balance" align=right height=24 }
+		// place { control="account_drop_down" align=right end-right="account_balance" margin-top=1  height=24 width=8 }
+		// place { control="account_persona" align=right end-right="account_drop_down" margin-top=1  height=24 }
+		place { control="account_avatar" align=left margin-top=-2 margin-left=-2 height=28 width=28 }
+		
+		//Hidden
+		place { control="account_balance,account_drop_down,account_persona" dir=down margin-left=-999 }
+	}
+}

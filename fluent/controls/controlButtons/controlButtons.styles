@@ -1,0 +1,195 @@
+"controlButtons.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+        
+        FrameMinimizeButton {
+			inset="12 17 0 0"
+            render_bg {}
+            image="fluent/controls/controlButtons/minimize/normal"
+            image="graphics/osx_win_dis" [$OSX]
+            image="graphics/osx_win_dis_new_dark" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMinimizeButton:framefocus {
+            render_bg {}
+            bgcolor="none"
+            image="fluent/controls/controlButtons/minimize/active"
+            image="graphics/osx_min_def" [$OSX]
+            image="graphics/osx_min_def_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMinimizeButton:hover {
+            render_bg {}
+            bgcolor="FillColorSubtleSecondary"
+            image="fluent/controls/controlButtons/minimize/active"
+            image="graphics/osx_min_hov" [$OSX]
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMinimizeButton:framefocus:hover [$OSX] {
+            render_bg {}
+            bgcolor="none"
+            image="graphics/osx_min_hov"
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMinimizeButton:active {
+            render_bg {}
+            bgcolor="FillColorSubtleTertiary"
+            image="fluent/controls/controlButtons/minimize/active"
+            image="graphics/osx_min_down" [$OSX]
+            image="graphics/osx_min_down_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        // need the maximize button to have different styles for OSX & win32
+        
+        FrameMaximizeButton {
+			inset="12 12 0 0"
+            render_bg {}
+            image="fluent/controls/controlButtons/maximize/normal"
+            image="graphics/osx_win_dis" [$OSX]
+            image="graphics/osx_win_dis_new_dark" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMaximizeButton:framefocus {
+            render_bg {}
+            bgcolor="none"
+            image="fluent/controls/controlButtons/maximize/active"
+            image="graphics/osx_min_def" [$OSX]
+            image="graphics/osx_min_def_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMaximizeButton:hover {
+            render_bg {}
+            bgcolor="FillColorSubtleSecondary"
+            image="fluent/controls/controlButtons/maximize/active"
+            image="graphics/osx_min_hov" [$OSX]
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMaximizeButton:framefocus:hover [$OSX] {
+            render_bg {}
+            bgcolor="none"
+            image="graphics/osx_min_hov"
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameMaximizeButton:active {
+            render_bg {}
+            bgcolor="FillColorSubtleTertiary"
+            image="fluent/controls/controlButtons/maximize/active"
+            image="graphics/osx_min_down" [$OSX]
+            image="graphics/osx_min_down_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        // these are for when the maximize button becomes the restore button
+        FrameRestoreButton {
+			inset="12 12 0 0"
+            render_bg {}
+            image="fluent/controls/controlButtons/restore/normal"
+            image="graphics/osx_win_dis" [$OSX]
+            image="graphics/osx_win_dis_new_dark" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameRestoreButton:framefocus {
+            render_bg {}
+            bgcolor="none"
+            image="fluent/controls/controlButtons/restore/active"
+            image="graphics/osx_min_def" [$OSX]
+            image="graphics/osx_min_def_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameRestoreButton:hover {
+            render_bg {}
+            bgcolor="FillColorSubtleSecondary"
+            image="fluent/controls/controlButtons/restore/active"
+            image="graphics/osx_min_hov" [$OSX]
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameRestoreButton:framefocus:hover [$OSX] {
+            render_bg {}
+            bgcolor="none"
+            image="graphics/osx_min_hov"
+            image="graphics/osx_min_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameRestoreButton:active {
+            render_bg {}
+            bgcolor="FillColorSubtleTertiary"
+            image="fluent/controls/controlButtons/restore/active"
+            image="graphics/osx_min_down" [$OSX]
+            image="graphics/osx_min_down_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton {
+			inset="12 12 0 0"
+            render_bg {}
+            bgcolor="none"
+            image="fluent/controls/controlButtons/close/normal"
+            image="graphics/osx_win_dis" [$OSX]
+            image="graphics/osx_win_dis_new_dark" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton:framefocus {
+            render_bg {}
+            bgcolor="none"
+            image="fluent/controls/controlButtons/close/active"
+            image="graphics/osx_close_def" [$OSX]
+            image="graphics/osx_close_def_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton:hover {
+            render_bg {}
+            bgcolor="controlButtonsCloseHover"
+            image="fluent/controls/controlButtons/close/active"
+            image="graphics/osx_close_hov" [$OSX]
+            image="graphics/osx_close_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton:framefocus:hover [$OSX] {
+            render_bg {}
+            bgcolor="none"
+            image="graphics/osx_close_hov"
+            image="graphics/osx_close_hov_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton:active {
+            render_bg {}
+            bgcolor="controlButtonsCloseActive"
+            image="fluent/controls/controlButtons/close/active"
+            image="graphics/osx_close_down" [$OSX]
+            image="graphics/osx_close_down_new" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+
+        FrameCloseButton:disabled {
+            render_bg {}
+            bgcolor="none"
+            image="graphics/win32_win_close_disabled"
+            image="graphics/osx_win_dis" [$OSX]
+            image="graphics/osx_win_dis_new_dark" [$OSX1010]
+            inset="-6 0 0 0" [$OSX]
+        }
+    }
+}

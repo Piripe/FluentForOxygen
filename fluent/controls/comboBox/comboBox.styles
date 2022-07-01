@@ -1,0 +1,93 @@
+"comboBox.styles" {
+    include "fluent/colors.styles"
+	styles {
+        // The comboboxes use the same texture as buttons
+
+        ComboBox
+        {
+			minimum-height=32
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor=FillColorTextPrimary
+            selectedtextcolor=FillColorTextPrimary
+            bgcolor=none
+			padding-left="10"
+			padding-bottom="10"
+			padding-top="10"
+			padding-right="10"
+            inset="10 0 0 0"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlDefault)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/normal/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/normal/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/normal/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/normal/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/normal/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/normal/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/normal/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/normal/l.tga)"
+            }
+        }
+
+        ComboBox:hover
+        {
+            textcolor=FillColorTextPrimary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/hover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/hover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/hover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/hover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/hover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/hover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/hover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/hover/l.tga)"
+            }
+        }
+
+        ComboBox:active
+        {
+            textcolor=FillColorTextPrimary
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlTertiary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/active/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/active/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/active/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/active/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/active/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/active/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/active/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/active/l.tga)"
+            }
+        }
+
+        ComboBox:disabled
+        {
+            textcolor=FillColorTextDisabled
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, FillColorControlDisabled)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/button/disabled/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/button/disabled/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/button/disabled/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/button/disabled/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/button/disabled/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/button/disabled/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/button/disabled/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/button/disabled/l.tga)"
+            }
+        }
+        
+        ComboBoxButton {
+            bgcolor=none
+            padding-left=0
+            image="fluent/controls/comboBox/arrow.tga"
+
+            render_bg {}
+        }
+        ComboBoxButton:active
+        {
+            image="fluent/controls/comboBox/arrowActive.tga"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+<images>
+    <image width="12" height="6" name="t.tga">
+            <src color="Dark_Background_FillColor_Acrylic_Default">base.png</src>
+            <src color="Color.FromArgb(3,255,255,255)">rounded_noise.png</src>
+    </image>
+    <image width="12" height="6" name="b.tga">
+            <src offset="0 -6" color="Dark_Background_FillColor_Acrylic_Default">base.png</src>
+            <src offset="0 -6" color="Color.FromArgb(3,255,255,255)">rounded_noise.png</src>
+    </image>
+    <folder name="handle">
+        <image width="6" height="3" name="t.tga">
+            <src color="Dark_StrokeColor_ControlStrongStroke_Default">handle.png</src>
+        </image>
+        <image width="6" height="3" name="b.tga">
+            <src offset="0 -3" color="Dark_StrokeColor_ControlStrongStroke_Default">handle.png</src>
+        </image>
+    </folder>
+    <folder name="arrows">
+        <image width="8" height="6" name="up.tga">
+            <src color="Dark_StrokeColor_ControlStrongStroke_Default">arrow_up.png</src>
+        </image>
+        <image width="8" height="6" name="upHover.tga">
+            <src color="Dark_StrokeColor_ControlStrongStroke_Secondary">arrow_up.png</src>
+        </image>
+        <image width="8" height="6" name="down.tga">
+            <src color="Dark_StrokeColor_ControlStrongStroke_Default">arrow_down.png</src>
+        </image>
+        <image width="8" height="6" name="downHover.tga">
+            <src color="Dark_StrokeColor_ControlStrongStroke_Secondary">arrow_down.png</src>
+        </image>
+    </folder>
+</images>

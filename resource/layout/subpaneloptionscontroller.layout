@@ -1,0 +1,32 @@
+"resource/layout/subpaneloptionscontroller.layout"
+{
+	styles
+	{
+		highlight
+		{
+			font-weight=600
+			font-size=24
+		}	
+	}
+	
+	layout
+	{
+		region { name=box margin-top=48 margin-bottom=48 margin-left=48 margin-right=48 width=max height=max }
+		
+		place { region=box controls=TitleLabel margin-top=12 width=max }	
+
+		place { region=box controls=GeneralSettingsButton start=TitleLabel margin-top=12 height=32 width=240 dir=down }
+		place { region=box controls=DescriptionLabel start=GeneralSettingsButton margin-left=36 margin-top=12 width=max height=40 dir=down }	
+	
+		place { region=box controls=BigPictureConfigButton start=DescriptionLabel margin-left=-36 margin-top=48 height=32 width=240 dir=down }	
+		place { region=box controls=DesktopConfigButton start=BigPictureConfigButton margin-top=12 height=32 width=240 dir=down }			
+		place { region=box controls=GuideConfigButton start=DesktopConfigButton margin-top=12 height=32 width=240 dir=down }
+		place { region=box controls=DescriptionBindingLabel start=GuideConfigButton margin-left=36 margin-top=12 width=max height=40 dir=down }		
+
+		place { region=box controls=DisableNotificationsCheckbox start=DescriptionBindingLabel margin-left=-36 margin-top=48 height=24 width=max dir=down }
+		
+
+		//Hidden
+		place { control="Divider1,Divider2" dir=down margin-left=-999 }
+	}
+}

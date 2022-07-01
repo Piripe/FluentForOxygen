@@ -1,0 +1,52 @@
+"menuBar.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+        MenuBar {
+            bgcolor=dialogbg
+            padding-right=1
+            padding-left=6
+            padding-top=2
+            padding-bottom=-2
+        }
+
+        "MenuBar MenuButton" {
+            textcolor=white
+            padding-right=-2
+            inset="-2 0 2 0"
+        }
+
+        "MenuBar MenuButton:frameFocus" {
+            textcolor=white
+        }
+
+        "MenuBar MenuButton:frameFocus:hover" {
+            textcolor=white
+            bgcolor=none
+            render_bg {}
+        }
+
+        "MenuBar MenuButton:frameFocus:selected" {
+            textcolor=white
+            bgcolor=none
+            render_bg {}
+        }
+
+        MenuButton {
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor="white"
+            bgcolor="none"
+            render_bg {}
+        }
+
+        MenuButton:hover {
+            textcolor="white"
+        }
+
+        MenuButton:selected {
+            textcolor="white"
+        }
+    }
+}

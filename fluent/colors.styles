@@ -1,0 +1,66 @@
+"colors.styles" {
+	colors {
+        accent="${AccentColor}"
+        accentSecondary="${AccentColor_Secondary}"
+        contrastedAccent="${Contrasted_AccentColor}"
+
+
+        // =========================
+        //    Fluent (new colors)
+        // =========================
+
+        BackgroundFillColorSolidBackgroundBase = "${Dark_Background_FillColor_SolidBackground_Base}"
+        BackgroundFillColorSolidBackgroundTertiary = "${Dark_Background_FillColor_SolidBackground_Tertiary}"
+
+        BackgroundFillColorCardBackgroundDefault = "${Dark_Background_FillColor_CardBackground_Default}"
+        BackgroundFillColorCardBackgroundSecondary = "${Dark_Background_FillColor_CardBackground_Secondary}"
+
+        BackgroundFillColorAcrylicDefault="${Dark_Background_FillColor_Acrylic_Default}"
+
+        FillColorControlDefault = "${Dark_FillColor_Control_Default}"
+        FillColorControlSecondary = "${Dark_FillColor_Control_Secondary}"
+        FillColorControlTertiary = "${Dark_FillColor_Control_Tertiary}"
+        FillColorControlDisabled = "${Dark_FillColor_Control_Disabled}"
+        FillColorControlInputActive = "${Dark_FillColor_Control_InputActive}"
+
+        FillColorSubtleSecondary = "${Dark_FillColor_Subtle_Secondary}"
+        FillColorSubtleTertiary = "${Dark_FillColor_Subtle_Tertiary}"
+
+        FillColorTextPrimary = "${Dark_FillColor_Text_Primary}"
+        FillColorTextSecondary = "${Dark_FillColor_Text_Secondary}"
+        FillColorTextDisabled = "${Dark_FillColor_Text_Disabled}"
+        
+        FillColorAccentTextPrimary = "${Dark_FillColor_AccentText_Primary}"
+        FillColorAccentTextSecondary = "${Dark_FillColor_AccentText_Secondary}"
+        FillColorAccentTextTertiary = "${Dark_FillColor_AccentText_Tertiary}"
+
+        StrokeColorControlStrongStrokeDefault = "${Dark_StrokeColor_ControlStrongStroke_Default}"
+
+        StrokeColorDividerStrokeDefault = "${Dark_StrokeColor_DividerStroke_Default}"
+
+
+        // ==================
+        //      Controls
+        // ==================
+
+
+        // Close Control Buttons
+        controlButtonsCloseHover = "196 43 28 255"
+        controlButtonsCloseActive = "196 43 28 229"
+
+        // ListPanel
+        listPanelBackground = "0 0 0 0"
+        listPanelSelection = "0 120 212 194"
+
+        // TextEntry      
+        textEntrySelectionBackground = "0 120 212 194"
+        
+
+        // ==================
+        //      Random
+        // ==================
+
+        // Screenshot Manager
+        screenshotManagerThumbnailSelectedAccent = "64 189 255 255"
+	}
+}

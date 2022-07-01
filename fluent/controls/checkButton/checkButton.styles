@@ -1,0 +1,43 @@
+"checkButton.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+        CheckButton {
+            font-family=basefont
+            font-size=18
+            font-weight=400
+            textcolor=FillColorTextPrimary
+            image="fluent/controls/checkButton/unselected.tga"
+        }
+
+        CheckButton:selected {
+            image="fluent/controls/checkButton/selected.tga"
+        }
+
+        CheckButton:hover {
+            image="fluent/controls/checkButton/unselectedHover.tga"
+        }
+
+        CheckButton:selected:hover {
+            image="fluent/controls/checkButton/selectedHover.tga"
+        }
+
+        CheckButton:active {
+            image="fluent/controls/checkButton/selectedActive.tga"
+        }
+
+        CheckButton:selected:active {
+            image="fluent/controls/checkButton/unselectedActive.tga"
+        }
+
+        CheckButton:disabled {
+            textcolor=FillColorTextDisabled
+            image="fluent/controls/checkButton/unselectedDisabled.tga"
+        }
+
+        CheckButton:selected:disabled {
+            textcolor=FillColorTextDisabled
+            image="fluent/controls/checkButton/selectedDisabled.tga"
+        }
+    }
+}

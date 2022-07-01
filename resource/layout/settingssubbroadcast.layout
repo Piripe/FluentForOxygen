@@ -1,0 +1,39 @@
+"resource/layout/settingssubbroadcast.layout"
+{
+	layout
+	{
+		region { name=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 width=max height=max }
+		region { name=top region=box margin-top=100 margin-bottom=24 margin-left=24 margin-right=24 height=max }
+
+		place { region=box control="BroadcastDisabledLabel" margin-top=12 width=max }
+		place { region=box control="BroadcastDisabledSupportURL" start="BroadcastDisabledLabel" dir=down margin-top=10 margin-right=20 width=max }
+		
+		place { region=box control="BroadcastStatusHeader" margin-left=20 margin-right=20 margin-top=20 }
+		place { region=box control="BroadcastStatus" start="BroadcastStatusHeader" dir=right margin-left=6 }
+
+		place { region=box control="BroadcastHelpHeader" start="BroadcastStatusHeader" margin-top=4 dir=down }
+		place { region=box control="BroadcastHelpURL" start="BroadcastHelpHeader" margin-left=6 dir=right }					
+		
+		place { region=top control="PermissionsHeader" margin-top=12 height=32 dir=down }
+		place { region=top control="Permissions" x=223 margin-top=12 width=400 height=32 dir=down }
+		
+		place { region=top control="DimensionsHeader" start="PermissionsHeader" margin-top=6 height=32 dir=down }
+		place { region=top control="Dimensions" start="Permissions" margin-top=6 width=400 height=32 dir=down }
+		
+		place { region=top control="BitrateLimitHeader" start="DimensionsHeader" margin-top=6 height=32 dir=down }
+		place { region=top control="BitrateLimit" start="Dimensions" margin-top=6 width=400 height=32 dir=down }
+		
+		place { region=top control="EncoderHeader" start="BitrateLimitHeader" margin-top=6 height=32 dir=down }
+		place { region=top control="EncoderSetting" start="BitrateLimit" margin-top=6 width=400 height=32 dir=down }
+		
+		place { region=top control="ShowChatHeader" start="EncoderHeader" margin-top=6 height=32 dir=down }
+		place { region=top control="ShowChatCombo" start="EncoderSetting" margin-top=6 width=400 height=32 dir=down }
+
+		place { region=top control="IncludeDesktop,RecordSystemAudio,RecordMic,ShowDebugInfo,ShowReminder" start="ShowChatHeader" margin-top=24 spacing=-2 dir=down }	
+		place { region=top control="ConfigMic" start="RecordMic" margin-left=6 height=28 dir=right }	
+
+		
+		//Hidden
+		place { control="Divider1,RequiresRestartLabel" dir=down margin-left=-999 }
+	}
+}

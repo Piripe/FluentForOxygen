@@ -1,0 +1,147 @@
+"scrollBar.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+
+        ScrollBar { }
+
+        ScrollBarButton.up {
+			minimum-height=0
+            bgcolor=none
+            inset="-3 2 0 0"
+            image="fluent/controls/scrollBar/arrows/up.tga"
+            render_bg {
+                0="image_tiled(x1-14,y1-9,x1-2,y1,fluent/frame/acrylic/background.tga)"
+                1="image(x1-14,y1-15,x1,y1-9,fluent/controls/scrollBar/t.tga)"
+            }
+
+        }
+        
+        "RichText ScrollBarButton.up" {
+            inset="-7 2 0 0"
+        }
+        "ListPanel ScrollBarButton.up" {
+            inset="-7 2 0 0"
+            render_bg {
+                0="image_tiled(x1-18,y1-9,x1-6,y1,fluent/frame/acrylic/background.tga)"
+                1="image(x1-18,y1-15,x1-4,y1-9,fluent/controls/scrollBar/t.tga)"
+            }
+        }
+
+        ScrollBarButton.up:hover {
+            image="fluent/controls/scrollBar/arrows/upHover.tga"
+        }
+
+        ScrollBarButton.down {
+			minimum-height=0
+            bgcolor=none
+            inset="-3 0 0 0"
+            image="fluent/controls/scrollBar/arrows/down.tga"
+            render_bg {
+                0="image_tiled(x1-14,y0,x1-2,y0+10,fluent/frame/acrylic/background.tga)"
+                1="image(x1-14,y0+10,x1,y0+16,fluent/controls/scrollBar/b.tga)"
+            }
+        }
+        
+        "RichText ScrollBarButton.down" {
+            inset="-7 0 0 0"
+        }
+        "ListPanel ScrollBarButton.down" {
+            inset="-7 0 0 0"
+            render_bg {
+                0="image_tiled(x1-18,y0,x1-6,y0+10,fluent/frame/acrylic/background.tga)"
+                1="image(x1-18,y0+10,x1-4,y0+16,fluent/controls/scrollBar/b.tga)"
+            }
+        }
+
+        ScrollBarButton.down:hover {
+            image="fluent/controls/scrollBar/arrows/downHover.tga"
+        }
+
+        ScrollBarButton.left {
+            bgcolor=none
+            inset="1 3 0 0"
+            image="graphics/icon_left_default"
+            render_bg {
+                // center fill
+                //0="fill( x0 + 2, y0 + 5, x1, y1 - 3, ButtonFace )"
+            }
+        }
+
+        ScrollBarButton.left:hover {
+
+            image="graphics/icon_left_hover"
+            inset="1 3 0 0"
+            render_bg {
+                // center fill
+                //0="fill( x0 + 2, y0 + 5, x1, y1 - 3, ButtonFaceActive )"
+            }
+        }
+
+        ScrollBarButton.right {
+            bgcolor=none
+            image="graphics/icon_right_default"
+            inset="0 2 0 0"
+            render_bg {
+                // center fill
+                //0="fill( x0, y0 + 5, x1, y1 - 3, ButtonFace )"
+            }
+        }
+
+        ScrollBarButton.right:hover {
+            image="graphics/icon_right_hover"
+            inset="0 2 0 0"
+            render_bg {
+                // center fill
+                //0="fill( x0, y0 + 5, x1, y1 - 3, ButtonFaceActive )"
+            }
+        }
+
+        ScrollBarHandle {
+            bgcolor=none
+            inset="-3 2 0 0"
+            render {
+                0="fill(x1-11,y0+3,x1-5,y1-3,StrokeColorControlStrongStrokeDefault)"
+                1="image(x1-11,y0,x1-5,y0+3,fluent/controls/scrollBar/handle/t.tga)"
+                2="image(x1-11,y1-3,x1-5,y1,fluent/controls/scrollBar/handle/b.tga)"
+            }
+        }
+        
+        "RichText ScrollBarHandle" {
+            inset="-7 2 0 0"
+            render {
+                0="fill(x1-15,y0+3,x1-9,y1-3,StrokeColorControlStrongStrokeDefault)"
+                1="image(x1-15,y0,x1-9,y0+3,fluent/controls/scrollBar/handle/t.tga)"
+                2="image(x1-15,y1-3,x1-9,y1,fluent/controls/scrollBar/handle/b.tga)"
+            }
+        }
+        "ListPanel ScrollBarHandle" {
+            inset="-7 2 0 0"
+            render {
+                0="fill(x1-15,y0+3,x1-9,y1-3,StrokeColorControlStrongStrokeDefault)"
+                1="image(x1-15,y0,x1-9,y0+3,fluent/controls/scrollBar/handle/t.tga)"
+                2="image(x1-15,y1-3,x1-9,y1,fluent/controls/scrollBar/handle/b.tga)"
+            }
+        }
+
+        ScrollBarSlider {
+            bgcolor="none"
+            render{ }
+            render_bg {
+                0="image_tiled(x1-14,y0,x1-2,y1,fluent/frame/acrylic/background.tga)"
+            }
+        }
+        "RichText ScrollBarSlider" {
+            inset="-4 0 0 0"
+            render_bg {
+                0="image_tiled(x1-18,y0,x1-6,y1,fluent/frame/acrylic/background.tga)"
+            }
+        }
+        "ListPanel ScrollBarSlider" {
+            inset="-4 0 0 0"
+            render_bg {
+                0="image_tiled(x1-18,y0,x1-6,y1,fluent/frame/acrylic/background.tga)"
+            }
+        }
+    }
+}

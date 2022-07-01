@@ -1,0 +1,13 @@
+"page.styles" {
+    include "fluent/colors.styles"
+
+	styles {
+        Page
+        {
+            bgcolor="BackgroundFillColorCardBackgroundSecondary"
+            render_bg {
+                0="fill( x0, y0 + 18, x1, y1, BackgroundFillColorCardBackgroundSecondary)"
+            }
+        }
+    }
+}

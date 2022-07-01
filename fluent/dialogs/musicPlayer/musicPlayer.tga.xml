@@ -1,0 +1,102 @@
+<images>
+    <folder name="albumImage">
+        <folder name="background">
+            <image width="4" height="4" name="bl.tga">
+                <src offset="0 -4" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="0 -4" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+            </image>
+            <image width="4" height="4" name="br.tga">
+                <src offset="-4 -4" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="-4 -4" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+            </image>
+            <image width="4" height="4" name="tl.tga">
+                <src offset="0 0" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="0 0" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+            </image>
+            <image width="4" height="4" name="tr.tga">
+                <src offset="-4 0" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="-4 0" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+            </image>
+        </folder>
+    </folder>
+    <folder name="buttons">
+        <folder name="browse">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">browse.png</src>
+            </image>
+        </folder>
+        <folder name="mute">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">mute.png</src>
+            </image>
+        </folder>
+        <folder name="next">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">next.png</src>
+            </image>
+            <image width="16" height="16" name="hover.tga">
+                <src color="AccentColor_Secondary">next.png</src>
+            </image>
+        </folder>
+        <folder name="pause">
+            <image width="50" height="50" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">pause.png</src>
+            </image>
+            <image width="50" height="50" name="hover.tga">
+                <src color="AccentColor_Secondary">pause.png</src>
+                <src color="AccentColor_Secondary">circle.png</src>
+            </image>
+            <image width="50" height="50" name="hover.tga">
+                <src color="Dark_FillColor_Text_Primary">pause.png</src>
+                <src color="AccentColor_Secondary">circle.png</src>
+            </image>
+        </folder>
+        <folder name="play">
+            <image width="50" height="50" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">play.png</src>
+            </image>
+            <image width="50" height="50" name="hover.tga">
+                <src color="AccentColor_Secondary">play.png</src>
+                <src color="AccentColor_Secondary">circle.png</src>
+            </image>
+            <image width="50" height="50" name="hover.tga">
+                <src color="Dark_FillColor_Text_Primary">play.png</src>
+                <src color="AccentColor_Secondary">circle.png</src>
+            </image>
+        </folder>
+        <folder name="previous">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">previous.png</src>
+            </image>
+            <image width="16" height="16" name="hover.tga">
+                <src color="AccentColor_Secondary">previous.png</src>
+            </image>
+        </folder>
+        <folder name="repeat">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">repeat_no.png</src>
+            </image>
+            <image width="16" height="16" name="selected.tga">
+                <src color="Dark_FillColor_TextOnAccent_Primary">repeat_yes.png</src>
+            </image>
+        </folder>
+        <folder name="repeatOnce">
+            <image width="16" height="16" name="selected.tga">
+                <src color="Dark_FillColor_TextOnAccent_Primary">repeat_once.png</src>
+            </image>
+        </folder>
+        <folder name="shuffle">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">shuffle_no.png</src>
+            </image>
+            <image width="16" height="16" name="selected.tga">
+                <src color="Dark_FillColor_TextOnAccent_Primary">shuffle_yes.png</src>
+            </image>
+        </folder>
+        <folder name="volume">
+            <image width="16" height="16" name="normal.tga">
+                <src color="Dark_FillColor_Text_Primary">volume.png</src>
+            </image>
+        </folder>
+    </folder>
+</images>

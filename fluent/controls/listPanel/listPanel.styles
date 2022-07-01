@@ -1,0 +1,128 @@
+"listPanel.styles" {
+    include "fluent/colors.styles"
+    
+    styles {
+
+        ListPanel {
+            bgcolor=listPanelBackground
+            font-family=basefont
+            font-size=14
+            font-weight=400
+            textcolor="white"
+            selectedtextcolor="white"
+            selectedbgcolor="listPanelSelection"
+            shadowtextcolor="TextDisabled"	// the color of disabled line items
+            inset="0 -1 1 1"
+            render {}
+            render_bg {}
+        }
+        
+        ListPanelInterior {
+            inset="3 1 0 0"
+            font-size=15
+            textcolor="white"
+            bgcolor="none"
+            render {}
+            render_bg {}
+        }
+
+        ListPanelInterior:scrollbar {
+            bgcolor=none
+            inset="3 1 -1 0"
+            textcolor="white"
+            render {}
+            render_bg {}
+        }
+        
+        ListPanelColumnheader {
+			minimum-height=0
+            font-family=basefont
+            font-size=14
+            font-size=13 [$OSX]
+            font-weight=400
+            textcolor="white"
+            bgcolor="none"
+            inset="1 3 0 0"
+            padding-left="2"
+            render_bg {
+                0="fill (x0, y0, x1, y1, listPanelBackground)"
+            }
+		}
+
+        ListPanelColumnHeader:hover {
+            render_bg {
+                0="fill (x0, y0, x1, y1, FillColorControlSecondary)"
+            }
+        }
+        ListPanelSectionHeader {
+            inset="2 0 0 0"
+            textcolor=label
+            bgcolor=listPanelBackground
+            font-style="uppercase"
+            render_bg {}
+        }
+
+        ListPanelSectionHeader:hover {
+            textcolor=texthover
+        }
+        
+        ListPanelDragger {
+            bgcolor="none"
+            render {
+                0="fill( x0, y0 + 2, x0 + 2, y1 - 3, FillColorControlSecondary )"
+            }
+        }
+
+
+        // ==========================
+        //    Exception per frame
+        // ==========================
+
+        "CDialogSettings ListPanel" {
+            bgcolor=BackgroundFillColorSolidBackgroundBase
+            padding-left="30"
+            render {
+                0="image(x0+16,y0+12,x0+32,y0+28,fluent/icons/x16/person.tga)"
+                1="image(x0+16,y0+37,x0+32,y0+53,fluent/icons/x16/guardian.tga)"
+                2="image(x0+16,y0+62,x0+32,y0+78,fluent/icons/x16/picture_in_picture.tga)"
+                3="image(x0+16,y0+87,x0+32,y0+103,fluent/icons/x16/e771.tga)"
+                4="image(x0+16,y0+112,x0+32,y0+128,fluent/icons/x16/library.tga)"
+                5="image(x0+16,y0+137,x0+32,y0+153,fluent/icons/x16/arrow_download.tga)"
+                6="image(x0+16,y0+162,x0+32,y0+178,fluent/icons/x16/cloud.tga)"
+                7="image(x0+16,y0+187,x0+32,y0+203,fluent/icons/x16/music_note_2.tga)"
+                8="image(x0+16,y0+212,x0+32,y0+228,fluent/icons/x16/share_screen_person.tga)"
+                9="image(x0+16,y0+237,x0+32,y0+253,fluent/icons/x16/remote.tga)"
+                10="image(x0+16,y0+262,x0+32,y0+278,fluent/icons/x16/e12b.tga)"
+                11="image(x0+16,y0+287,x0+32,y0+303,fluent/icons/x16/games.tga)"
+                12="image(x0+16,y0+312,x0+32,y0+328,fluent/icons/x16/database.tga)"
+            }
+        }
+
+        "CDialogSettings ListPanelSectionHeader" {
+            bgcolor=BackgroundFillColorSolidBackgroundBase
+            padding-left="30"
+            render {
+                0="fill(x0,y0-4,x1,y1,BackgroundFillColorSolidBackgroundBase)"
+            }
+        }
+
+        "CSettingsSubStreaming ListPanel" {
+            padding-left="4"
+            render {}
+        }
+        "CSettingsSubStreaming ListPanelInterior" {
+            bgcolor=listPanelBackground
+        }
+        
+        "CSettingsSubMusic ListPanel" {
+            padding-left="4"
+            render {}
+        }
+        "CSettingsSubMusic ListPanelInterior" {
+            bgcolor=listPanelBackground
+        }
+
+
+
+    }
+}

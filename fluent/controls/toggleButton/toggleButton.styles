@@ -1,0 +1,67 @@
+"toggleButton.styles" {
+    include "fluent/colors.styles"
+
+    styles {
+        
+        ToggleButton:selected {
+            textcolor="black"
+            bgcolor="none"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            }
+        }
+        "Page ToggleButton:selected" {
+            textcolor="black"
+            bgcolor="none"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            }
+        }
+        ToggleButton:selected:hover {
+            textcolor="black"
+            bgcolor="none"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accentSecondary)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selectedHover/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selectedHover/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selectedHover/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selectedHover/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selectedHover/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selectedHover/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selectedHover/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selectedHover/l.tga)"
+            }
+        }
+        "Page ToggleButton:selected:hover" {
+            textcolor="black"
+            bgcolor="none"
+            render_bg {
+                0="fill( x0+4, y0+4, x1-4, y1-4, accent)"
+                1="image(x0,y0,x0+4,y0+4,fluent/controls/toggleButton/selected/tl.tga)"
+                2="image_tiled(x0+4,y0,x1-4,y0+4,fluent/controls/toggleButton/selected/t.tga)"
+                3="image(x1-4,y0,x1,y0+4,fluent/controls/toggleButton/selected/tr.tga)"
+                4="image_tiled(x1-4,y0+4,x1,y1-4,fluent/controls/toggleButton/selected/r.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/toggleButton/selected/br.tga)"
+                6="image_tiled(x0+4,y1-4,x1-4,y1,fluent/controls/toggleButton/selected/b.tga)"
+                7="image(x0,y1-4,x0+4,y1,fluent/controls/toggleButton/selected/bl.tga)"
+                8="image_tiled(x0,y0+4,x0+4,y1-4,fluent/controls/toggleButton/selected/l.tga)"
+            }
+        }
+    }
+}

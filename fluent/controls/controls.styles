@@ -1,0 +1,26 @@
+"controls.styles" {
+    
+    include "fluent/controls/button/button.styles"
+    include "fluent/controls/pageTab/pageTab.styles"
+    include "fluent/controls/checkButton/checkButton.styles"
+    include "fluent/controls/comboBox/comboBox.styles"
+    include "fluent/controls/radioButton/radioButton.styles"
+    include "fluent/controls/textEntry/textEntry.styles"
+    include "fluent/controls/progressBar/progressBar.styles"
+    include "fluent/controls/scrollBar/scrollBar.styles"
+    include "fluent/controls/menu/menu.styles"
+    include "fluent/controls/listPanel/listPanel.styles"
+    include "fluent/controls/label/label.styles"
+    include "fluent/controls/controlButtons/controlButtons.styles"
+    include "fluent/controls/menuBar/menuBar.styles"
+    include "fluent/controls/backButton/backButton.styles"
+    include "fluent/controls/toggleButton/toggleButton.styles" 
+
+
+	colors {
+        
+	}
+	styles {
+
+    }
+}

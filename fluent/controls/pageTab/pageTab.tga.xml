@@ -1,0 +1,48 @@
+<images>
+    <folder name="hover">
+        <image width="8" height="8" name="tl.tga">
+            <src offset="0 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="8" height="8" name="tr.tga">
+            <src offset="-9 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+    </folder>
+    <folder name="active">
+        <image width="8" height="8" name="tl.tga">
+            <src offset="0 0" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="8" height="8" name="tr.tga">
+            <src offset="-9 0" color="Dark_FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+    </folder>
+    <folder name="selected">
+        <image width="4" height="4" name="bl.tga">
+            <src offset="0 0" color="Dark_StrokeColor_CardStroke_Default">bottom_stroke.png</src>
+            <src offset="0 0" color="Dark_Background_FillColor_SolidBackground_Tertiary">bottom.png</src>
+        </image>
+        <image width="4" height="4" name="br.tga">
+            <src offset="-3 0" color="Dark_StrokeColor_CardStroke_Default">bottom_stroke.png</src>
+            <src offset="-4 0" color="Dark_Background_FillColor_SolidBackground_Tertiary">bottom.png</src>
+        </image>
+        <image width="8" height="8" name="tl.tga">
+            <src offset="0 0" color="Dark_StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="0 0" color="Dark_Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="8" height="8" name="tr.tga">
+            <src offset="-9 0" color="Dark_StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-9 0" color="Dark_Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="8" height="1" name="l.tga">
+            <src offset="0 -8" color="Dark_StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="0 -8" color="Dark_Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="1" height="8" name="t.tga">
+            <src offset="-8 0" color="Dark_StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-8 0" color="Dark_Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+        <image width="8" height="1" name="r.tga">
+            <src offset="-9 -8" color="Dark_StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-9 -8" color="Dark_Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+        </image>
+    </folder>
+</images>

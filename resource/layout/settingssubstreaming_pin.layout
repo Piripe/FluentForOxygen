@@ -1,0 +1,39 @@
+"resource/layout/settingssubstreaming_pin.layout"
+{
+	styles
+	{
+		StreamingPINDialog
+		{
+			minimum-width = 400
+			minimum-height = 257
+		}
+
+		Key
+		{
+			bgcolor=none
+			render_bg={}
+			image="graphics/keybg"
+			inset="20 20 0 0"
+		}
+
+	}
+	
+	layout
+	{
+		region { name="top" width=max height=260 margin-left=24 margin-right=24 margin-top=36 }
+
+		region { name="bottom" width=max align=bottom height=44 align="bottom" }
+
+		place { control="KeyImage" align=left x=170 y=20 width=max height=max margin-top=-30 margin-right=0}
+
+		place { control="Description,PIN1,PIN2" region="top" margin-top=12 width=max dir=down spacing=12 }
+		
+		// bottom: OK/cancel
+		place { control="OK,Cancel" region="bottom"
+						width=92 height=25 align=right
+						margin-right=24 margin-top=0
+						margin-bottom=2 spacing=10 }
+	}
+
+}
+

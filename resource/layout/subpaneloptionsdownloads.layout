@@ -1,0 +1,60 @@
+"resource/layout/subpaneloptionsdownloads.layout"
+{
+
+	styles
+	{
+		highlight
+		{
+			font-weight=600
+			font-size=24
+		}	
+	}
+	
+	layout 
+	{
+		// Width 719
+		region { name=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 width=max height=max } // Width 671
+		
+		region { name=top region=box margin-top=24 margin-bottom=24 margin-left=24 margin-right=24 height=max } // Width 623
+
+
+
+
+
+		place { region=top controls="LibrariesLabel" margin-top=12 dir=down }
+		place { region=top controls="ManageInstalledApps" start=LibrariesLabel margin-top=12 width=275 height=32 dir=down }
+		place { region=top controls="ManageInstalledappsLabel" start=ManageInstalledApps margin-top=12 width=282 dir=down }		
+
+		place { region=top controls="RegionLabel" x=348 dir=down margin-top=12 }
+		place { region=top controls="DownloadRegionCombo" start=RegionLabel margin-top=12 height=32 width=275 dir=down }
+		place { region=top controls="RegionInfoLabel" start=DownloadRegionCombo margin-left=36 margin-top=12 width=236 dir=down }
+
+
+
+		place { region=top controls="RestrictionsLabel" start=RegionInfoLabel x=0 margin-left=-384 margin-top=72 dir=down }
+
+		place { region=top controls="AutoUpdateTimeRestrictCheckbox" start=RestrictionsLabel dir=down margin-top=12 }
+		place { region=top controls="AutoUpdateTimeRestrictStart" start=AutoUpdateTimeRestrictCheckbox dir=down margin-top=12 width=78 height=32 }
+		place { region=top controls="AutoUpdateTimeRestrictEndLabel" start=AutoUpdateTimeRestrictStart dir=right margin-left=10 height=32 }
+		place { region=top controls="AutoUpdateTimeRestrictEnd" start=AutoUpdateTimeRestrictEndLabel dir=right margin-left=10 width=78 height=32 }
+		place { region=top controls="AllowDownloadsDuringGameplayCheckbox,ThrottleDownloadsWhileStreamingCheckbox,DownloadRatesInBitsCheckbox" start=AutoUpdateTimeRestrictStart spacing=6 width=282 height=20 margin-top=12 dir=down }
+
+		place { region=top controls="ThrottleCheckbox" start=RestrictionsLabel dir=down x=348 height=24 margin-top=12 }
+		place { region=top controls="ThrottleRateCurrent" start=ThrottleCheckbox dir=right width=235 height=24 }
+		place { region=top controls="ThrottleRateEditLabel" start=ThrottleCheckbox dir=down width=175 height=32 }
+		place { region=top controls="ThrottleRateEdit" start=ThrottleRateEditLabel dir=down width=125 height=32 }
+		place { region=top controls="ThrottleRateEditSuffix" start=ThrottleRateEdit dir=right margin-left=4 margin-top=6 }
+		place { region=top controls="ThrottleRateApply" start=ThrottleRateEdit dir=down width=70 height=32 margin-top=12 }
+
+
+
+		place { region=top controls="FlushDownloadConfig" start=DownloadRatesInBitsCheckbox margin-top=72 width=235 height=32 dir=down }
+		place { region=top controls="FlushDownloadConfigLabel" start=FlushDownloadConfig margin-left=36 margin-top=24 width=max dir=down }
+		
+		
+		//Hidden
+		place { control="Divider1,Divider2,Divider3" dir=down margin-left=-999 }
+
+
+	}
+}
