@@ -37,7 +37,7 @@
             font-family=basefont
             font-size=18
             font-weight=400
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
             padding-left=39
             padding-right=6
             padding-top=10
@@ -61,7 +61,7 @@
 		account_menu_label {
 			font-size=18
 			font-weight=400
-			textcolor="white"
+			textcolor="FillColorTextPrimary"
 			font-style=""
 			render_bg{}
 		}

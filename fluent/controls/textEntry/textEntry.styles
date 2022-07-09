@@ -113,9 +113,9 @@
             font-family=basefont
             font-size=18
             font-weight=400
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
             bgcolor="none"
-            selectedtextcolor="white"
+            selectedtextcolor="FillColorTextPrimary"
             selectedbgcolor="textEntrySelectionBackground"
             shadowtextcolor="text"  // this is the cursor color
 

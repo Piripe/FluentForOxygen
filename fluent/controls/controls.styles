@@ -13,7 +13,7 @@
     include "fluent/controls/label/label.styles"
     include "fluent/controls/controlButtons/controlButtons.styles"
     include "fluent/controls/menuBar/menuBar.styles"
-    include "fluent/controls/backButton/backButton.styles"
+    include "fluent/controls/navButtons/navButtons.styles"
     include "fluent/controls/toggleButton/toggleButton.styles" 
 
 

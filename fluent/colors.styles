@@ -9,34 +9,35 @@
         //    Fluent (new colors)
         // =========================
 
-        BackgroundFillColorSolidBackgroundBase = "${Dark_Background_FillColor_SolidBackground_Base}"
-        BackgroundFillColorSolidBackgroundTertiary = "${Dark_Background_FillColor_SolidBackground_Tertiary}"
+        BackgroundFillColorSolidBackgroundBase = "${Background_FillColor_SolidBackground_Base}"
+        BackgroundFillColorSolidBackgroundTertiary = "${Background_FillColor_SolidBackground_Tertiary}"
 
-        BackgroundFillColorCardBackgroundDefault = "${Dark_Background_FillColor_CardBackground_Default}"
-        BackgroundFillColorCardBackgroundSecondary = "${Dark_Background_FillColor_CardBackground_Secondary}"
+        BackgroundFillColorCardBackgroundDefault = "${Background_FillColor_CardBackground_Default}"
+        BackgroundFillColorCardBackgroundSecondary = "${Background_FillColor_CardBackground_Secondary}"
 
-        BackgroundFillColorAcrylicDefault="${Dark_Background_FillColor_Acrylic_Default}"
+        BackgroundFillColorAcrylicDefault="${Background_FillColor_Acrylic_Default}"
 
-        FillColorControlDefault = "${Dark_FillColor_Control_Default}"
-        FillColorControlSecondary = "${Dark_FillColor_Control_Secondary}"
-        FillColorControlTertiary = "${Dark_FillColor_Control_Tertiary}"
-        FillColorControlDisabled = "${Dark_FillColor_Control_Disabled}"
-        FillColorControlInputActive = "${Dark_FillColor_Control_InputActive}"
+        FillColorControlDefault = "${FillColor_Control_Default}"
+        FillColorControlSecondary = "${FillColor_Control_Secondary}"
+        FillColorControlTertiary = "${FillColor_Control_Tertiary}"
+        FillColorControlDisabled = "${FillColor_Control_Disabled}"
+        FillColorControlInputActive = "${FillColor_Control_InputActive}"
 
-        FillColorSubtleSecondary = "${Dark_FillColor_Subtle_Secondary}"
-        FillColorSubtleTertiary = "${Dark_FillColor_Subtle_Tertiary}"
+        FillColorSubtleSecondary = "${FillColor_Subtle_Secondary}"
+        FillColorSubtleTertiary = "${FillColor_Subtle_Tertiary}"
 
-        FillColorTextPrimary = "${Dark_FillColor_Text_Primary}"
-        FillColorTextSecondary = "${Dark_FillColor_Text_Secondary}"
-        FillColorTextDisabled = "${Dark_FillColor_Text_Disabled}"
+        FillColorTextPrimary = "${FillColor_Text_Primary}"
+        FillColorTextSecondary = "${FillColor_Text_Secondary}"
+        FillColorTextTertiary = "${FillColor_Text_Tertiary}"
+        FillColorTextDisabled = "${FillColor_Text_Disabled}"
         
-        FillColorAccentTextPrimary = "${Dark_FillColor_AccentText_Primary}"
-        FillColorAccentTextSecondary = "${Dark_FillColor_AccentText_Secondary}"
-        FillColorAccentTextTertiary = "${Dark_FillColor_AccentText_Tertiary}"
+        FillColorAccentTextPrimary = "${FillColor_AccentText_Primary}"
+        FillColorAccentTextSecondary = "${FillColor_AccentText_Secondary}"
+        FillColorAccentTextTertiary = "${FillColor_AccentText_Tertiary}"
 
-        StrokeColorControlStrongStrokeDefault = "${Dark_StrokeColor_ControlStrongStroke_Default}"
+        StrokeColorControlStrongStrokeDefault = "${StrokeColor_ControlStrongStroke_Default}"
 
-        StrokeColorDividerStrokeDefault = "${Dark_StrokeColor_DividerStroke_Default}"
+        StrokeColorDividerStrokeDefault = "${StrokeColor_DividerStroke_Default}"
 
 
         // ==================

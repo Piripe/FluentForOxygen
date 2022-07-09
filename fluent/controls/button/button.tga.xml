@@ -1,138 +1,138 @@
 <images>
     <folder name="normal">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -4" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -4" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="Dark_FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
     <folder name="hover">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -5" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -4" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -4" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="Dark_FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(1,4,Dark_Elevation_Control_Border_1,Dark_Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 0" color="vertical-gradient(1,4,Elevation_Control_Border_1,Elevation_Control_Border_2)">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
     <folder name="active">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="Dark_FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="FillColor_Control_Tertiary">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
     <folder name="disabled">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -5" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="Dark_FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="Dark_StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="FillColor_Control_Disabled">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
 </images>

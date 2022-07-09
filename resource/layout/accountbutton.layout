@@ -49,39 +49,31 @@
 	{
 		AccountPersonaStyleOffline
 		{
-			font-size=0
-			padding-right=6
-			padding-left=12
-			textcolor=Friends.OfflineColor
+			padding-left=6
+			padding-right=2
+			font-size=16
+			textcolor=FillColorTextDisabled
 		}
 
 		AccountPersonaStyleOnline
 		{
-			font-size=0
-			padding-right=6
-			padding-left=12
-			textcolor=Friends.OnlineColor
-			render_bg
-		  	{
-				0="gradient_horizontal( x0, y0 - 1, x0 + 2, y1 + 1, Friends.OnlineColor, DialogBG )"
-			}
+			padding-left=6
+			padding-right=2
+			font-size=16
+			textcolor=FillColorTextPrimary
 		}
 
 		AccountPersonaStyleInGame
 		{
-			font-size=0
-			padding-right=6
-			padding-left=12
-			textcolor=Friends.InGameColor
-			render_bg
-		  	{
-				0="gradient_horizontal( x0, y0 - 1, x0 + 2, y1 + 1, Friends.InGameColor, DialogBG )"
-			}
+			padding-left=6
+			padding-right=2
+			font-size=16
+			textcolor=FillColorTextSecondary
 		}
 		
 		AccountDropDownStyleOffline
 		{
-			font-size=0
+			font-size=12
 			render_bg
 		  	{
 				1="image( x0, y0+10, x1, y1, graphics/dropdown_offline )"
@@ -91,7 +83,7 @@
 		
 		AccountDropDownStyleOnline
 		{
-			font-size=0
+			font-size=12
 			render_bg
 		  	{
 				1="image( x0, y0 + 10, x1, y1, graphics/dropdown_online )"
@@ -100,7 +92,7 @@
 		
 		AccountDropDownStyleInGame
 		{
-			font-size=0
+			font-size=12
 			render_bg
 		  	{
 				1="image( x0, y0+10, x1, y1, graphics/dropdown_ingame )"
@@ -119,7 +111,7 @@
 			}
 			render
 		  	{
-				0="image(x0,y0,x0+28,y0+28,fluent/dialogs/rootDialog/accountButton/background.tga)"
+				0="image(x0,y0,x0+29,y0+29,fluent/dialogs/rootDialog/accountButton/background.tga)"
 			}
 		}
 
@@ -132,7 +124,7 @@
 			}
 			render
 		  	{
-				0="image(x0,y0,x0+28,y0+28,fluent/dialogs/rootDialog/accountButton/backgroundHover.tga)"
+				0="image(x0,y0,x0+29,y0+29,fluent/dialogs/rootDialog/accountButton/backgroundHover.tga)"
 			}
 		}
 
@@ -178,13 +170,13 @@
 
 	layout
 	{
-		place { control="account_menu_button" align=left height=28 width=28 } // span over everything
+		place { control="account_menu_button" align=left height=29 width=${showUsername?"max":29} } // span over everything
 		// place { control="account_balance" align=right height=24 }
 		// place { control="account_drop_down" align=right end-right="account_balance" margin-top=1  height=24 width=8 }
-		// place { control="account_persona" align=right end-right="account_drop_down" margin-top=1  height=24 }
-		place { control="account_avatar" align=left margin-top=-2 margin-left=-2 height=28 width=28 }
+		#IF(showUsername)place { control="account_persona" align=right height=24 }#ENDIF
+		place { control="account_avatar" #IF(showUsername)align=right end-right="account_persona" margin-right=2#ELSEalign=left#ENDIF margin-top=-2 margin-left=-2 height=29 width=29 }
 		
 		//Hidden
-		place { control="account_balance,account_drop_down,account_persona" dir=down margin-left=-999 }
+		place { control="account_balance,account_drop_down#IF(!showUsername),account_persona#ENDIF" dir=down margin-left=-999 width=0 }
 	}
 }

@@ -1,34 +1,34 @@
 <images>
     <folder name="close">
         <image width="10" height="10" name="normal.tga">
-            <src color="Dark_FillColor_Text_Disabled">close.png</src>
+            <src color="FillColor_Text_Disabled">close.png</src>
         </image>
         <image width="10" height="10" name="active.tga">
-            <src color="Dark_FillColor_Text_Primary">close.png</src>
+            <src color="Color.White">close.png</src>
         </image>
     </folder>
     <folder name="maximize">
         <image width="10" height="10" name="normal.tga">
-            <src color="Dark_FillColor_Text_Disabled">maximize.png</src>
+            <src color="FillColor_Text_Disabled">maximize.png</src>
         </image>
         <image width="10" height="10" name="active.tga">
-            <src color="Dark_FillColor_Text_Primary">maximize.png</src>
+            <src color="FillColor_Text_Primary">maximize.png</src>
         </image>
     </folder>
     <folder name="restore">
         <image width="10" height="10" name="normal.tga">
-            <src color="Dark_FillColor_Text_Disabled">restore.png</src>
+            <src color="FillColor_Text_Disabled">restore.png</src>
         </image>
         <image width="10" height="10" name="active.tga">
-            <src color="Dark_FillColor_Text_Primary">restore.png</src>
+            <src color="FillColor_Text_Primary">restore.png</src>
         </image>
     </folder>
     <folder name="minimize">
         <image width="10" height="10" name="normal.tga">
-            <src color="Dark_FillColor_Text_Disabled">minimize.png</src>
+            <src color="FillColor_Text_Disabled">minimize.png</src>
         </image>
         <image width="10" height="10" name="active.tga">
-            <src color="Dark_FillColor_Text_Primary">minimize.png</src>
+            <src color="FillColor_Text_Primary">minimize.png</src>
         </image>
     </folder>
 </images>

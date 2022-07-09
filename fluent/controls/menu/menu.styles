@@ -24,7 +24,7 @@
             font-family=basefont
             font-size=18
             font-weight=400
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
             padding-left=6
             padding-right=6
             padding-top=10
@@ -72,18 +72,6 @@
                 8="image_tiled(x0, y0+8, x0+8, y1-8, fluent/controls/menu/background/l.tga)"
             }
             corner_rounding=8
-            // render_bg
-            // {
-            //     // top area and graphic
-            //     0="fill( x0, y0, x1, y1, MenuBg )"
-            //     1="image( x0, y0, x1, y1, graphics/clienttexture8)"
-
-            //                         // lines around
-            //         2="fill( x0 + 1, y0, x1 - 1, y0 + 1, blueborder )"  // top
-            //         3="fill( x0 + 1, y1 - 1, x1 - 1, y1, blueborder )"  // bottom
-            //         4="fill( x0, y0 + 1, x0 + 1, y1 - 1, blueborder )"  // left
-            //         5="fill( x1 - 1, y0 + 1, x1, y1 - 1, blueborder )"  // right
-            // }
         }
 
         SuperNavMenuItem {
@@ -103,10 +91,12 @@
             textcolor="SuperNavHover"
         }
 
-        "SuperNavMenuDivider" {
+        MenuSeparator
+        {
             textcolor="none"
+            bgcolor=none
             render {
-                1="fill( x0+6, y0+1, x1-6, y0+2, SuperDivider )"
+                0="fill(x0+1,y0+3,x1-1,y0+4,StrokeColorDividerStrokeDefault)"
             }
         }
     }

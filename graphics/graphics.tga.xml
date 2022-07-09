@@ -1,34 +1,37 @@
 <images>
     <image width="72" height="72" name="icon_security_fair.tga">
-        <src color="Dark_FillColor_Text_Primary">icon_security.png</src>
+        <src color="FillColor_Text_Primary">icon_security.png</src>
         <src offset="31 31">fair.png</src>
     </image>
     <image width="72" height="72" name="icon_security_good.tga">
-        <src color="Dark_FillColor_Text_Primary">icon_security.png</src>
+        <src color="FillColor_Text_Primary">icon_security.png</src>
         <src offset="40 40">good.png</src>
     </image>
     <image width="72" height="72" name="icon_security_poor.tga">
-        <src color="Dark_FillColor_Text_Primary">icon_security.png</src>
+        <src color="FillColor_Text_Primary">icon_security.png</src>
         <src offset="40 40">poor.png</src>
     </image>
     <image width="72" height="72" name="icon_security_twofactor.tga">
-        <src color="Dark_FillColor_Text_Primary">icon_security.png</src>
+        <src color="FillColor_Text_Primary">icon_security.png</src>
         <src offset="40 40">good.png</src>
     </image>
     <image width="72" height="72" name="icon_security_unknown.tga">
-        <src color="Dark_FillColor_Text_Primary">icon_security.png</src>
+        <src color="FillColor_Text_Primary">icon_security.png</src>
         <src offset="40 40">unknown.png</src>
     </image>
     <image width="16" height="16" name="inbox_comment.tga">
-        <src color="Dark_FillColor_Text_Primary">inbox_comment.png</src>
+        <src color="FillColor_Text_Primary">inbox_comment.png</src>
     </image>
     <image width="16" height="16" name="inbox_gift.tga">
-        <src color="Dark_FillColor_Text_Primary">inbox_gift.png</src>
+        <src color="FillColor_Text_Primary">inbox_gift.png</src>
     </image>
     <image width="16" height="16" name="inbox_invite.tga">
-        <src color="Dark_FillColor_Text_Primary">inbox_invite.png</src>
+        <src color="FillColor_Text_Primary">inbox_invite.png</src>
     </image>
     <image width="16" height="16" name="inbox_item.tga">
-        <src color="Dark_FillColor_Text_Primary">inbox_item.png</src>
+        <src color="FillColor_Text_Primary">inbox_item.png</src>
     </image>
+        <image width="16" height="16" name="html_lock.tga">
+            <src color="FillColor_Text_Secondary">~/fluent/icons/icons.tga/x16/lock_closed.png</src>
+        </image>
 </images>

@@ -562,50 +562,50 @@ steam.styles
 
     "GameItem_Installed"
     {
-      textcolor="text"
-      selectedtextcolor="white"
+      textcolor="FillColorTextPrimary"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Installed:hover"
     {
-      textcolor="white"
-      selectedtextcolor="white"
+      textcolor="FillColorTextPrimary"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Running"
     {
       textcolor="Friends.InGameColor"
-      selectedtextcolor="white"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Running:hover"
     {
-      textcolor="white"
-      selectedtextcolor="white"
+      textcolor="FillColorTextPrimary"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Shortcut"
     {
-      textcolor="text"
-      selectedtextcolor="white"
+      textcolor="FillColorTextPrimary"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Shortcut:hover"
     {
-        textcolor="white"
-        selectedtextcolor="white"
+        textcolor="FillColorTextPrimary"
+        selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Mod"
     {
-      textcolor="text"
-      selectedtextcolor="white"
+      textcolor="FillColorTextPrimary"
+      selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Mod:hover"
     {
-        textcolor="white"
-        selectedtextcolor="white"
+        textcolor="FillColorTextPrimary"
+        selectedtextcolor="FillColorTextPrimary"
     }
 
     "GameItem_Updating"
@@ -989,13 +989,6 @@ steam.styles
 		font-style="uppercase"
     }
 
-    MenuSeparator
-    {
-		inset="-4 0 0 0"
-		textcolor="divider"
-		bgcolor=none
-    }
-
     Notification
     {
 		font-family=basefont
@@ -1292,7 +1285,7 @@ steam.styles
       font-family=basefont
       font-size=14
       font-weight=400
-      textcolor="white"
+      textcolor="FillColorTextPrimary"
       font-style=uppercase
     }
 
@@ -1572,91 +1565,6 @@ steam.styles
         inset="1 -1 1 1"
     }
 
-    VRButton
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr"
-    }
-
-    VRButton:hover
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_over"
-    }
-
-    VRButton:active
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_down"
-    }
-
-    VRButton:disabled
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_disabled"
-    }
-
-    VRButtonExit
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_happy"
-    }
-
-    VRButtonExit:hover
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_happy_over"
-    }
-
-    VRButtonExit:active
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_happy_down"
-    }
-
-    VRButtonExit:disabled
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_vr_disabled"
-    }
-
-    ForwardButton
-    {
-      bgcolor=none
-      inset="-5 -1 0 0"
-      render_bg={}
-      image="graphics/icon_button_forward"
-    }
-
-    ForwardButton:hover
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_forward_over"
-    }
-
-    ForwardButton:active
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_forward_down"
-    }
-
-    ForwardButton:disabled
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_forward_disabled"
-    }
-
     HomeButton
     {
       bgcolor=none
@@ -1684,64 +1592,6 @@ steam.styles
       bgcolor=none
       render_bg={}
       image="graphics/icon_button_home_disabled"
-    }
-
-    ReloadButton
-    {
-      bgcolor=none
-      inset="-5 0 0 0"
-      render_bg={}
-      image="graphics/icon_button_reload"
-    }
-
-    ReloadButton:hover
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_reload_over"
-    }
-
-    ReloadButton:active
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_reload_down"
-    }
-
-    ReloadButton:disabled
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_reload_disabled"
-    }
-
-    StopButton
-    {
-      bgcolor=none
-      inset="-5 0 0 0"
-      render_bg={}
-      image="graphics/icon_button_stop"
-    }
-
-    StopButton:hover
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_stop_over"
-    }
-
-    StopButton:active
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_stop_down"
-    }
-
-    StopButton:disabled
-    {
-      bgcolor=none
-      render_bg={}
-      image="graphics/icon_button_stop_disabled"
     }
 
 
@@ -2075,7 +1925,7 @@ steam.styles
 
 	"NotifyRemotePlayTogetherTitle"
 	{
-		textcolor="white"
+		textcolor="FillColorTextPrimary"
 	}
 
   }

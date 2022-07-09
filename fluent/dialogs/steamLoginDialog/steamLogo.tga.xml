@@ -1,3 +1,3 @@
-<image width="157" height="48" name="bl.tga">
-    <src color="Dark_FillColor_Text_Primary">logo.png</src>
+<image width="157" height="48" name="steamLogo.tga">
+    <src color="FillColor_Text_Primary">logo.png</src>
 </image>

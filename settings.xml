@@ -1,53 +1,97 @@
 <settings>
-    <category id="categoryone">
-        <title>1st Category</title>
-        <image src="oxygen/skin_logo.png"></image>
-        <label onclick="labelClick">Title of 1st Category</label>
-        <script>
-            function labelClick(e) {
-                IntVar+=1;
-                document.getElementById("categoryone").title = `Wesh ${e.timeStamp.toString()}`;
-                e.target.innerText = AccentColor//`Title of Wesh ${e.timeStamp.toString()}`
-                // document.getElementById("element1").innerText = `The best var : ${IntVar}`
-                document.children[0].children[5].value = true;
-                document.children[0].children[7].height += 50;
-                document.children[0].children[7].values = ArrayVar;
-                document.children[0].children[7].innerText = `Title of Wesh ${e.timeStamp.toString()}`
-            }
-        </script>
-        <track min="0" max="100" value="5">Si si</track>
-        <track id="trackbar" min="0" max="5" value="0">Si si (2)</track>
-        <color id="accentColor" value="#fff" onchange="updateAccentColor">Accent Color</color>
-        <checkbox>1st Checkbox</checkbox>
-        <checkbox id="checkbox">2nd Checkbox</checkbox>
-        <combo simple="true" editable="true" default-value="VaLUe" onchange="updateComboInnerText">
-            A Combo box
-            <option id="element1">Value 1</option>
-            <option>Value 2</option>
-            <option>Value 3</option>
-            <option>Value 4</option>
+    <category>
+        <title>General</title>
+        <label margin-top="0" margin-bottom="8" font-size="16" font-weight="600">Colors</label>
+        <combo id="theme" onchange="updateTheme" value="dark" margin-bottom="4">
+            Theme
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
         </combo>
-        <link href="https://google.com/">Google lol</link>
-        <link href="D:\Mes documents\Bureau\DL Music.bat">DL Music lol</link>
-        <link href="D:\Mes documents\Bureau\Oxygen\src\Oxygen\Oxygen\bin\Release\Oxygen.exe">Oxygen Part 1 lol</link>
-        <link href="file:///D:/Mes%20documents/Bureau/Oxygen/src/Oxygen/Oxygen/bin/Release/Oxygen.exe">Oxygen Part 1 but file:/// lol sdnhyghjycrfdyhjugyhjudfjyhugvfjyhdugjyhudvjyhgjyfhudyjhuvgvfjyhjyhuvdgyjhudvgyjhudvjufyhjuyhguyjhdfyujhvgyfujhdvgyjuhdfjyuhgjyuhdfvyjuhg</link>
+        <color id="accentColor" value="#60CDFF" onchange="updateAccentColor">Accent Color</color>
+        <checkbox id="enableAcrylic" margin-top="-6" value="true" onchange="updateEnableAcrylic">Enable acrylic background</checkbox>
         <script>
-            function updateAccentColor(e) {
-                AccentColor = e.target.value;
-            }
-            function updateComboInnerText(e) {
-                ArrayVar = e.target.values;
-            }
-            document.getElementById("accentColor").value = AccentColor;
         </script>
     </category>
     <category>
-        <title>2nd Category</title>
-        <label>Title of 2nd Category</label>
-        <track min="0" max="12" value="0">Menu Lenght</track>
+        <title>Main Interface</title>
+        <label margin-top="0" margin-bottom="8" font-size="16" font-weight="600">Title bar</label>
+        <combo id="titleBarHeight1" onchange="updateTitleBarHeight" value="48">
+            Title bar height
+            <option value="32">Thin</option>
+            <option value="48">Standard</option>
+        </combo>
+        <combo visible="false" id="titleBarHeight2" onchange="updateTitleBarHeight" value="48">
+            Title bar height
+            <option value="48">Standard</option>
+            <option value="80">Thick</option>
+        </combo>
+        <checkbox margin-top="8" id="showBack" onchange="updateShowBack" value="true">Show backward button</checkbox>
+        <checkbox id="showRefresh" onchange="updateShowRefresh">Show refresh button</checkbox>
+        <checkbox id="showForward" onchange="updateShowForward">Show forward button</checkbox>
+        <checkbox margin-top="8" id="showUsername" onchange="updateShowUsername">Show username after profile picture</checkbox>
+        <label margin-top="36" margin-bottom="8" font-size="16" font-weight="600">Navigation tabs</label>
+        <combo id="navLocation" onchange="updateNavLocation" value="left" margin-bottom="10">
+            Navigation Location
+            <option value="left">Left</option>
+            <option value="top">Top</option>
+        </combo>
+        <combo id="navSubmenuLocation" onchange="updateNavSubmenuLocation" value="13">
+            Navigation Sub-menu Location
+            <option value="10">Bottom-Left ¼</option>
+            <option value="13">Bottom-Left ⅓</option>
+            <option value="20">Bottom-Left ½</option>
+            <option value="160">Bottom</option>
+        </combo>
+        <combo id="navStyle1" visible="false" value="1">
+            [TODO] Navigation Style
+            <option value="1">[TODO] Menu Items</option>
+            <option value="2">[TODO] Big Menu Items</option>
+            <option value="3">[TODO] Ower's Layout (It's ugly)</option>
+        </combo>
+        <combo id="navStyle2" visible="false" value="1">
+            [TODO] Navigation Style
+            <option value="1">[TODO] Menu Items</option>
+            <option value="2">[TODO] Tabs</option>
+            <option value="3">[TODO] Top nav</option>
+        </combo>
+        <label margin-top="36" margin-bottom="8" font-size="16" font-weight="600">Show icons</label>
+        <checkbox id="showIconDownload" onchange="updateShowIconDownload" value="true">Download</checkbox>
+        <checkbox id="showIconBigPicture" onchange="updateShowIconBigPicture" value="true">Big Picture</checkbox>
+        <checkbox id="showIconVR" onchange="updateShowIconVR" value="true">Steam VR</checkbox>
+        <checkbox id="showIconInbox" onchange="updateShowIconInbox" value="true">Inbox</checkbox>
+        <checkbox id="showIconAnnouncement" onchange="updateShowIconAnnouncement" value="true">Announcement</checkbox>
+        <checkbox id="showIconParentalLock" onchange="updateShowIconParentalLock" value="true">Parental Lock (Currently Unsupported)</checkbox>
+        <checkbox id="showIconAddGame" onchange="updateShowIconAddGame" value="true">Add Game (Currently Unsupported)</checkbox>
+        <checkbox id="showIconFriends" onchange="updateShowIconFriends" value="true">Friends</checkbox>
+        <label margin-top="36" margin-bottom="8" font-size="16" font-weight="600">Steam Menu</label>
+        <combo id="steamMenuPreset" value="default" onchange="updateSteamMenuPreset" >
+            Menu Preset
+            <option value="default">Default</option>
+            <option value="everything">Everything</option>
+        </combo>
+        <combo id="steamMenu" simple="true" editable="true" height="350" value="1">
+            Menu Organisation
+        </combo>
+        <label margin-top="8" font-size="12">Pro Tip: You can add the code of a normal Steam menu item.</label>
+        <label margin-top="2" font-size="12">Exemple: OpenMyLink { text="Open this incredible link please" shellcmd="steam://openurl/https://github.com/Piripe/FluentForSteam" }</label>
     </category>
     <category>
-        <title>3rd Category</title>
-        <label>Title of 3rd Category</label>
+        <title>About</title>
+        <image src="oxygen/skin_logo.png"></image>
+
+        <label margin-top="24" margin-bottom="0" font-size="16" font-weight="600">Links</label>
+        <link margin-top="8" margin-bottom="0" font-size="12" href="https://discord.gg/QhaFQzXb9a">Discord</link>
+        <link margin-top="0" margin-bottom="0" font-size="12" href="https://github.com/Piripe/FluentForOxygen">Github</link>
+        <link margin-top="8" margin-bottom="0" font-size="12" href="https://github.com/Piripe/FluentForOxygen/issues/new">Found an bug?
+Want to request for a feature?</link>
+
+        <label margin-top="24" margin-bottom="0" font-size="16" font-weight="600">Infos</label>
+        <label margin-top="8" margin-bottom="0" font-size="12">Made by Piripe</label>
+        <label id="skinVersion" margin-top="0" margin-bottom="4" font-size="12">Skin version </label>
+
+        <label margin-top="24" margin-bottom="0" font-size="16" font-weight="600">Contributors</label>
+        <label margin-top="8" margin-bottom="0" font-size="12">No one except Piripe :sob:</label>
     </category>
+    <script src="oxygen/themes.js"></script>
+    <script src="oxygen/settings.js"></script>
 </settings>

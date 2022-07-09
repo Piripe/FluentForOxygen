@@ -1,28 +1,28 @@
 <images>
     <folder name="background">
         <image width="1" height="8" name="b.tga">
-            <src offset="-8 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-8 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="8" name="bl.tga">
-            <src offset="0 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="0 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="8" name="br.tga">
-            <src offset="-9 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-9 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="1" name="l.tga">
-            <src offset="0 -8" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="0 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="1" name="r.tga">
-            <src offset="-9 -8" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-9 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="1" height="8" name="t.tga">
-            <src offset="-8 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-8 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="8" name="tl.tga">
-            <src offset="0 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="0 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
         <image width="8" height="8" name="tr.tga">
-            <src offset="-9 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <src offset="-9 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
         </image>
     </folder>
     <folder name="item">
@@ -30,24 +30,32 @@
 
             <!--Item corners-->
             <image width="4" height="4" name="bl.tga">
-                <src offset="0 -5" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <src offset="0 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="br.tga">
-                <src offset="-5 -5" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <src offset="-5 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="tl.tga">
-                <src offset="0 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <src offset="0 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="tr.tga">
-                <src offset="-5 0" color="Dark_FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <src offset="-5 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
             </image>
 
-            <!--Select accent dot-->
+            <!--Vertical select accent dot-->
             <image width="3" height="2" name="b.tga">
                 <src offset="0 -1" color="AccentColor">dot.png</src>
             </image>
             <image width="3" height="2" name="t.tga">
                 <src offset="0 0" color="AccentColor">dot.png</src>
+            </image>
+            
+            <!--Horizontal select accent dot-->
+            <image width="2" height="3" name="l.tga">
+                <src offset="0 0" color="AccentColor">dot.png</src>
+            </image>
+            <image width="2" height="3" name="r.tga">
+                <src offset="-1 0" color="AccentColor">dot.png</src>
             </image>
         </folder>
     </folder>

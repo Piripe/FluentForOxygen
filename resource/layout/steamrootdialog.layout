@@ -155,7 +155,7 @@
 
 		AddGameButton:hover
 		{
-			textcolor="white"
+			textcolor="FillColorTextPrimary"
 			render_bg
 			{
 				0="image( x0 + 2, y0 + 4, x1, y1, graphics/icon_addgame_over )"
@@ -168,19 +168,6 @@
 		{
 			bgcolor=BackgroundFillColorSolidBackgroundBase
 
-			// render_bg
-			// {
-			// 	// top area and graphic
-
-			// 	0="gradient( x0, y0, x1, y0+175, ClientBGTop, DialogBG )"
-			// 	2="image( x0, y0, x1, y0+175, graphics/clienttexture2)"
-
-			// 	3="fill( x0, y0+175, x0+20, y1-76, DialogBG )"
-			// 	4="fill( x1-20, y0+175, x1, y1-76, DialogBG )"
-
-			// 	// fill in the bottom area
-			// 	5="fill( x0, y1 - 76, x1, y1, DialogBG )"
-			// }
 		}
 
 
@@ -191,7 +178,7 @@
 			font-size=14
 			font-weight=1000
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 			padding-left=50
 			padding-right=50
 			padding-top=6
@@ -209,7 +196,7 @@
 			font-size=14
 			font-weight=1000
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 			padding-left=50
 			padding-right=50
 			padding-top=6
@@ -226,7 +213,7 @@
 			font-size=14
 			font-weight=1000
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 			padding-left=50
 			padding-right=50
 			padding-top=6
@@ -244,7 +231,7 @@
 			font-size=14
 			font-weight=1000
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 			padding-left=50
 			padding-right=50
 			padding-top=6
@@ -261,13 +248,13 @@
 			font-size=14
 			font-weight=800
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 
 			padding-top=2
 			padding-right=16
 
 			render {
-				0="image(x0+6,y0+6,x0+22,y0+22,fluent/icons/x16/ed0d.tga)"
+				0="image(${titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/ed0d.tga)"
 			}
 			render_bg {}
 		}
@@ -278,12 +265,12 @@
 			font-size=13
 			font-weight=800
 			font-style=none
-			textcolor=white
+			textcolor=FillColorTextPrimary
 			padding-top=3
 			padding-right=16
 
 			render {
-				0="image(x0+6,y0+6,x0+22,y0+22,fluent/icons/x16/ed0d.tga)"
+				0="image(${titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/ed0d.tga)"
 			}
 			render_bg {}
 		}
@@ -295,10 +282,10 @@
                 0="fill( x0+4, y0, x1-4, y0+4, FillColorSubtleSecondary)"
                 1="fill( x0+4, y1-4, x1-4, y1, FillColorSubtleSecondary)"
                 2="fill( x0, y0+4, x1, y1-4, FillColorSubtleSecondary)"
-                3="image(x0,y0,x0+4,y0+4,fluent/controls/backButton/hover/tl.tga)"
-                4="image(x1-4,y0,x1,y0+4,fluent/controls/backButton/hover/tr.tga)"
-                5="image(x1-4,y1-4,x1,y1,fluent/controls/backButton/hover/br.tga)"
-                6="image(x0,y1-4,x0+4,y1,fluent/controls/backButton/hover/bl.tga)"
+                3="image(x0,y0,x0+4,y0+4,fluent/controls/navButtons/hover/tl.tga)"
+                4="image(x1-4,y0,x1,y0+4,fluent/controls/navButtons/hover/tr.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/navButtons/hover/br.tga)"
+                6="image(x0,y1-4,x0+4,y1,fluent/controls/navButtons/hover/bl.tga)"
 
 			}
 		}
@@ -310,10 +297,10 @@
                 0="fill( x0+4, y0, x1-4, y0+4, FillColorSubtleTertiary)"
                 1="fill( x0+4, y1-4, x1-4, y1, FillColorSubtleTertiary)"
                 2="fill( x0, y0+4, x1, y1-4, FillColorSubtleTertiary)"
-                3="image(x0,y0,x0+4,y0+4,fluent/controls/backButton/active/tl.tga)"
-                4="image(x1-4,y0,x1,y0+4,fluent/controls/backButton/active/tr.tga)"
-                5="image(x1-4,y1-4,x1,y1,fluent/controls/backButton/active/br.tga)"
-                6="image(x0,y1-4,x0+4,y1,fluent/controls/backButton/active/bl.tga)"
+                3="image(x0,y0,x0+4,y0+4,fluent/controls/navButtons/active/tl.tga)"
+                4="image(x1-4,y0,x1,y0+4,fluent/controls/navButtons/active/tr.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/navButtons/active/br.tga)"
+                6="image(x0,y1-4,x0+4,y1,fluent/controls/navButtons/active/bl.tga)"
 			}
 		}
 
@@ -329,8 +316,9 @@
 
 		inbox_button_active
 		{
+			font-size=0
 			render {
-				0="image(x0+6,y0+6,x0+22,y0+22,fluent/icons/x16/ed0c.tga)"
+				0="image(${titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/ed0c.tga)"
 			}
 			render_bg {}
 		}
@@ -342,10 +330,10 @@
                 0="fill( x0+4, y0, x1-4, y0+4, FillColorSubtleSecondary)"
                 1="fill( x0+4, y1-4, x1-4, y1, FillColorSubtleSecondary)"
                 2="fill( x0, y0+4, x1, y1-4, FillColorSubtleSecondary)"
-                3="image(x0,y0,x0+4,y0+4,fluent/controls/backButton/hover/tl.tga)"
-                4="image(x1-4,y0,x1,y0+4,fluent/controls/backButton/hover/tr.tga)"
-                5="image(x1-4,y1-4,x1,y1,fluent/controls/backButton/hover/br.tga)"
-                6="image(x0,y1-4,x0+4,y1,fluent/controls/backButton/hover/bl.tga)"
+                3="image(x0,y0,x0+4,y0+4,fluent/controls/navButtons/hover/tl.tga)"
+                4="image(x1-4,y0,x1,y0+4,fluent/controls/navButtons/hover/tr.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/navButtons/hover/br.tga)"
+                6="image(x0,y1-4,x0+4,y1,fluent/controls/navButtons/hover/bl.tga)"
 
 			}
 		}
@@ -356,10 +344,10 @@
                 0="fill( x0+4, y0, x1-4, y0+4, FillColorSubtleTertiary)"
                 1="fill( x0+4, y1-4, x1-4, y1, FillColorSubtleTertiary)"
                 2="fill( x0, y0+4, x1, y1-4, FillColorSubtleTertiary)"
-                3="image(x0,y0,x0+4,y0+4,fluent/controls/backButton/active/tl.tga)"
-                4="image(x1-4,y0,x1,y0+4,fluent/controls/backButton/active/tr.tga)"
-                5="image(x1-4,y1-4,x1,y1,fluent/controls/backButton/active/br.tga)"
-                6="image(x0,y1-4,x0+4,y1,fluent/controls/backButton/active/bl.tga)"
+                3="image(x0,y0,x0+4,y0+4,fluent/controls/navButtons/active/tl.tga)"
+                4="image(x1-4,y0,x1,y0+4,fluent/controls/navButtons/active/tr.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/navButtons/active/br.tga)"
+                6="image(x0,y1-4,x0+4,y1,fluent/controls/navButtons/active/bl.tga)"
 			}
 		}
 
@@ -377,7 +365,7 @@
 		{
 			minimum-height=0
 			render {
-				0="image(x0+6,y0+6,x0+22,y0+22,fluent/icons/x16/megaphone.tga)"
+				0="image(${titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/megaphone.tga)"
 			}
 			render_bg {}
 		}
@@ -390,39 +378,20 @@
                 0="fill( x0+4, y0, x1-4, y0+4, FillColorSubtleSecondary)"
                 1="fill( x0+4, y1-4, x1-4, y1, FillColorSubtleSecondary)"
                 2="fill( x0, y0+4, x1, y1-4, FillColorSubtleSecondary)"
-                3="image(x0,y0,x0+4,y0+4,fluent/controls/backButton/hover/tl.tga)"
-                4="image(x1-4,y0,x1,y0+4,fluent/controls/backButton/hover/tr.tga)"
-                5="image(x1-4,y1-4,x1,y1,fluent/controls/backButton/hover/br.tga)"
-                6="image(x0,y1-4,x0+4,y1,fluent/controls/backButton/hover/bl.tga)"
+                3="image(x0,y0,x0+4,y0+4,fluent/controls/navButtons/hover/tl.tga)"
+                4="image(x1-4,y0,x1,y0+4,fluent/controls/navButtons/hover/tr.tga)"
+                5="image(x1-4,y1-4,x1,y1,fluent/controls/navButtons/hover/br.tga)"
+                6="image(x0,y1-4,x0+4,y1,fluent/controls/navButtons/hover/bl.tga)"
 			}
 		}
 
 		announcement_button_active
 		{
 			render {
-				0="image(x0+6,y0+6,x0+22,y0+22,fluent/icons/x16/megaphone_loud.tga)"
+				0="image(${titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/megaphone_loud.tga)"
 			}
 			render_bg {}
 		}
-
-		// Menu
-		// {
-		// 	bgcolor="dialogbg"
-		// 	padding-right=4
-		// 	inset="2 2 2 2"
-
-		// 	render_bg
-		// 	{
-		// 		0="gradient( x0 + 1, y0 + 1, x1 - 1, y0+140, MenuBG1, MenuBG2  )"
-		// 		1="fill( x0 + 1 , y0 + 140, x1 - 1, y1 - 1, MenuBG2  )"
-
-		// 		// lines around
-		// 		2="fill( x0 + 1, y0, x1 - 1, y0 + 1, clientbg )"  // top
-		// 		3="fill( x0 + 1, y1 - 1, x1 - 1, y1, clientbg )"  // bottom
-		// 		4="fill( x0, y0 + 1, x0 + 1, y1 - 1, clientbg )"  // left
-		// 		5="fill( x1 - 1, y0 + 1, x1, y1 - 1, clientbg )"  // right
-		// 	}
-		// }
 
 		parental_lock_button
 		{
@@ -469,260 +438,72 @@
 		}
 
 
-		VRButtonExit [$OSX]
+		VRButton
 		{
-			padding-left=0
-			padding-top=8
-			padding-right=0
-			padding-bottom=0
+			minimum-height=28
+			textcolor=none
+			bgcolor=none
+			render={
+				0="image(${navLocation=="left"?"x1-28,y0+10,x1-12,y0+26":titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/headset_vr.tga)"
+			}
+			render_bg={}
+		}
+
+		VRButton:hover
+		{
+			render_bg={
+					0="fill(x0+4,y0,x1-4,y0+4,FillColorSubtleSecondary)"
+					1="fill(x0+4,y1-4,x1-4,y1,FillColorSubtleSecondary)"
+					2="fill(x0,y0+4,x1,y1-4,FillColorSubtleSecondary)"
+					3="image(x0,y0,x0+4,y0+4,fluent/controls/menu/item/selected/tl.tga)"
+					4="image(x1-4,y0,x1,y0+4,fluent/controls/menu/item/selected/tr.tga)"
+					5="image(x1-4,y1-4,x1,y1,fluent/controls/menu/item/selected/br.tga)"
+					6="image(x0,y1-4,x0+4,y1,fluent/controls/menu/item/selected/bl.tga)"
+			}
+		}
+
+		VRButton:disabled:hover
+		{
+			render_bg={}
+		}
+
+		VRButtonExit
+		{
+			minimum-height=28
+			textcolor=none
+			bgcolor=none
+			render={
+				0="image(${navLocation=="left"?"x1-28,y0+10,x1-12,y0+26":titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/headset_vr.tga)"
+			}
+			render_bg={
+				0="fill(x0+4,y0,x1-4,y0+4,FillColorSubtleSecondary)"
+				1="fill(x0+4,y1-4,x1-4,y1,FillColorSubtleSecondary)"
+				2="fill(x0,y0+4,x1,y1-4,FillColorSubtleSecondary)"
+				3="image(x0,y0,x0+4,y0+4,fluent/controls/menu/item/selected/tl.tga)"
+				4="image(x1-4,y0,x1,y0+4,fluent/controls/menu/item/selected/tr.tga)"
+				5="image(x1-4,y1-4,x1,y1,fluent/controls/menu/item/selected/br.tga)"
+				6="image(x0,y1-4,x0+4,y1,fluent/controls/menu/item/selected/bl.tga)"
+				
+                7="image(x0,y0+10,x0+3,y0+12,fluent/controls/menu/item/selected/t.tga)"
+                8="image(x0,y1-12,x0+3,y1-10,fluent/controls/menu/item/selected/b.tga)"
+                9="fill(x0,y0+12,x0+3,y1-12,accent)"
+			}
 		}
 
 		inboxmenuitem
 		{
-			textcolor=white
+			textcolor=FillColorTextPrimary
 		}
 
 		inboxmenuitem_active
 		{
-			textcolor=white
+			textcolor=FillColorTextPrimary
 		}
 
 		inboxmenuitem_active:hover
 		{
-			textcolor=white
+			textcolor=FillColorTextPrimary
 		}
-
-
-		// //unique styles for the client main window
-		// FrameMinimizeButton
-		// {
-		// 	render_bg {}
-		// 	image="graphics/win32_win_min"
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	image="graphics/osx_win_dis"[$OSX]
-		// 	image="graphics/osx_win_dis_new_dark"[$OSX1010]
-		// }
-
-		// FrameMinimizeButton:hover
-		// {
-		// 	render_bg {}
-		// 	bgcolor="none"
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	image="graphics/win32_win_min_hover"
-		// 	image="graphics/osx_min_hov" [$OSX]
-		// 	image="graphics/osx_min_hov_new" [$OSX1010]
-		// }
-
-		// FrameMinimizeButton:framefocus [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	image="graphics/osx_min_def"
-		// 	image="graphics/osx_min_def_new" [$OSX1010]
-		// }
-
-		// FrameMinimizeButton:framefocus:hover [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	image="graphics/osx_min_hov"
-		// 	image="graphics/osx_min_hov_new" [$OSX1010]
-		// }
-
-		// FrameMinimizeButton:active [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	image="graphics/osx_min_down"
-		// 	image="graphics/osx_min_down_new" [$OSX1010]
-		// }
-
-
-		// // need the maximize button to have different styles for OSX & win32
-		// FrameMaximizeButton
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	image="graphics/win32_win_max"
-		// 	image="graphics/osx_win_dis" [$OSX]
-		// 	image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		// }
-
-		// FrameMaximizeButton:hover
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_max_hover"
-		// 	image="graphics/osx_max_hov" [$OSX]
-		// 	image="graphics/osx_max_hov_new" [$OSX1010]
-		// }
-
-		// FrameMaximizeButton:framefocus
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_max"
-		// 	image="graphics/osx_max_def" [$OSX]
-		// 	image="graphics/osx_max_def_new" [$OSX1010]
-		// }
-
-		// FrameMaximizeButton:framefocus:hover
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_max_hover"
-		// 	image="graphics/osx_max_hov" [$OSX]
-		// 	image="graphics/osx_max_hov_new" [$OSX1010]
-		// }
-
-		// FrameMaximizeButton:active
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_max_hover"
-		// 	image="graphics/osx_max_down" [$OSX]
-		// 	image="graphics/osx_max_down_new" [$OSX1010]
-		// }
-
-		// // these are for when the maximize button becomes the restore button
-		// FrameRestoreButton
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="0 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	image="graphics/win32_win_restore"
-		// 	image="graphics/osx_win_dis" [$OSX]
-		// 	image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		// }
-
-		// FrameRestoreButton:hover
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="0 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_restore_hover"
-		// 	image="graphics/osx_max_hov" [$OSX]
-		// 	image="graphics/osx_max_hov_new" [$OSX1010]
-		// }
-
-		// FrameRestoreButton:framefocus
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="0 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_restore"
-		// 	image="graphics/osx_max_def" [$OSX]
-		// 	image="graphics/osx_max_def_new" [$OSX1010]
-		// }
-
-		// FrameRestoreButton:framefocus:hover
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="0 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_restore_hover"
-		// 	image="graphics/osx_max_hov" [$OSX]
-		// 	image="graphics/osx_max_hov_new" [$OSX1010]
-		// }
-
-		// FrameRestoreButton:active
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="0 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_restore_hover"
-		// 	image="graphics/osx_max_down" [$OSX]
-		// 	image="graphics/osx_max_down_new" [$OSX1010]
-		// }
-
-		// FrameCloseButton
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	padding-right=9 [!$OSX]
-		// 	image="graphics/win32_win_close"
-		// 	image="graphics/osx_win_dis" [$OSX]
-		// 	image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		// }
-
-		// FrameCloseButton:hover
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	padding-top=13 [!$OSX]
-		// 	padding-right=9 [!$OSX]
-		// 	image="graphics/win32_win_close_hover"
-		// 	image="graphics/osx_close_hov" [$OSX]
-		// 	image="graphics/osx_close_hov_new" [$OSX1010]
-		// }
-
-		// FrameCloseButton:framefocus [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	bgcolor="none"
-		// 	image="graphics/osx_close_def"
-		// 	image="graphics/osx_close_def_new" [$OSX1010]
-		// }
-
-		// FrameCloseButton:framefocus:hover [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	bgcolor="none"
-		// 	image="graphics/osx_close_hov"
-		// 	image="graphics/osx_close_hov_new" [$OSX1010]
-		// }
-
-		// FrameCloseButton:active [$OSX]
-		// {
-		// 	render_bg {}
-		// 	inset="-6 0 -2 -8"
-		// 	bgcolor="none"
-		// 	image="graphics/osx_close_down"
-		// 	image="graphics/osx_close_down_new" [$OSX1010]
-		// }
-
-		// FrameCloseButton:disabled
-		// {
-		// 	render_bg {}
-		// 	inset="0 0 4 0"
-		// 	inset="-6 0 -2 -8" [$OSX]
-		// 	bgcolor="none"
-		// 	image="graphics/win32_win_close_disabled"
-		// 	image="graphics/osx_win_dis" [$OSX]
-		// 	image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		// }
 
 		UniverseLabel
 		{
@@ -730,7 +511,8 @@
 		}
 
 		ClientTitle {
-            inset="72 0 0 0"
+			minimum-height=32
+            inset="${Math.max(39,30+navButtonsLenght*42)} ${titleBarHeight==48?13:-4} 0 0"
 
 		}
 		
@@ -762,10 +544,12 @@
 
 		FullscreenButton {
 			bgcolor=none
-			render_bg={}
+			render={
+				0="image(${navLocation=="left"?"x1-28,y0+10,x1-12,y0+26":titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/games.tga)"
+			}
             render_bg {
-                10="image(x1-28,y0+10,x1-12,y0+26,fluent/icons/x16/games.tga)"
             }
+			minimum-height=28
 		}
 
 
@@ -779,8 +563,6 @@
                 4="image(x1-4,y0,x1,y0+4,fluent/controls/menu/item/selected/tr.tga)"
                 5="image(x1-4,y1-4,x1,y1,fluent/controls/menu/item/selected/br.tga)"
                 6="image(x0,y1-4,x0+4,y1,fluent/controls/menu/item/selected/bl.tga)"
-				
-                10="image(x1-28,y0+10,x1-12,y0+26,fluent/icons/x16/games.tga)"
             }
 		}
 
@@ -789,9 +571,10 @@
 			bgcolor=none
 			textcolor=none
 			render_bg={}
-			render_bg {
-				10="image(x1-28,y0+10,x1-12,y0+26,fluent/icons/x16/people.tga)"
+			render={
+				0="image(${navLocation=="left"?"x1-28,y0+10,x1-12,y0+26":titleBarHeight==48?"x0+8,y0+8,x0+24,y0+24":"x0+6,y0+6,x0+22,y0+22"},fluent/icons/x16/people.tga)"
 			}
+			minimum-height=28
 		}
 
 		view_friends:Hover {
@@ -804,8 +587,6 @@
                 4="image(x1-4,y0,x1,y0+4,fluent/controls/menu/item/selected/tr.tga)"
                 5="image(x1-4,y1-4,x1,y1,fluent/controls/menu/item/selected/br.tga)"
                 6="image(x0,y1-4,x0+4,y1,fluent/controls/menu/item/selected/bl.tga)"
-				
-                10="image(x1-28,y0+10,x1-12,y0+26,fluent/icons/x16/people.tga)"
             }
 		}
 	}
@@ -827,11 +608,10 @@
 
 	layout
 	{
-		place { control="UIStatusPanel" margin-bottom=0 margin-left=0 width=49 height=150 align=bottom }
 		
 		place { control="UINavigatorPanel" width=max height=max margin-right=1 margin-left=0 margin-bottom=-19 margin-top=0 }
 
-		place [!$OSX] { control="MenuBar" align=top margin-top=7 margin-left=44 width=22 height=18 }
+		place [!$OSX] { control="MenuBar" align=top margin-top=${titleBarHeight==48?16:7} margin-left=${Math.max(11,2+navButtonsLenght*42)} width=22 height=18 }
 
 		// controls from left to right, otherwise depencencies are broken using end-right
 
@@ -840,23 +620,41 @@
 
 		place [$OSX]  { control="universe_label, EOLAlert, SupportAlert" spacing=8 start="frame_maximize" align=left margin-top=-4 margin-left=13 height=24 }
 
-		place { control="fullscreen" align=bottom height=36 width=40 margin-left=5 margin-bottom=85 }
-
-		place { control="startvr, exitvr" align=right end-right="fullscreen" margin-right=4 margin-top=10 }
-
-		place { control="AccountButton" align=right end-right="frame_minimize" margin-top=3 margin-right=54 width=28 height=28 }
-		place { control="InboxButton" align=right end-right="AccountButton" margin-top=3 margin-right=12 width=28 height=28 }
-		place { control="AnnouncementButton" align=right end-right="InboxButton" margin-top=3 margin-right=6 height=28 width=28 }
-		place { control="ParentalLockButton" align=right end-right="AnnouncementButton" margin-top=9 margin-right=8 height=24 width=44 }
+		place { control="AccountButton" align=right end-right="frame_minimize" margin-top=${titleBarHeight==48?11:3} margin-right=${showUsername?75:54} width=29 height=29 }
+		#IF(showIconInbox)place { control="InboxButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("inbox")*((titleBarHeight==48?32:28)+4)+12} width=${titleBarHeight==48?32:28} height=${titleBarHeight==48?32:28} }#ENDIF
+		#IF(showIconAnnouncement)place { control="AnnouncementButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("announcement")*((titleBarHeight==48?32:28)+4)+12} height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} }#ENDIF
+		#IF(showIconParentalLock)place { control="ParentalLockButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("parentallock")*((titleBarHeight==48?32:28)+4)+12} height=24 width=44 }#ENDIF
 		place [!$OSX] { control="universe_label, EOLAlert, SupportAlert" spacing=8 align=right end-right="ParentalLockButton" margin-top=9 margin-right=8 height=24 }
 
-		region { name=bottom align=bottom width=max height=62 margin-bottom=180 }
+		#IF(navLocation=="left")
+			#IF(showIconDownload)place { control="UIStatusPanel" align=bottom height=36 width=40 margin-left=5 margin-bottom=${getIconPosition("download")*40+5}}#ENDIF
 
-		place { control="add_game" x=14 y=16 region=bottom height=30}
+			#IF(showIconFriends)place { control="view_friends" align=bottom height=36 width=40 margin-left=5 margin-bottom=${getIconPosition("friends")*40+5}}#ENDIF
+			
+			#IF(showIconBigPicture)place { control="fullscreen" align=bottom height=36 width=40 margin-left=5 margin-bottom=${getIconPosition("bigpicture")*40+5} }#ENDIF
 
-		place { control="view_friends" align=bottom height=36 width=40 margin-left=5 margin-bottom=45}
+			#IF(showIconVR)place { control="startvr, exitvr" align=bottom height=36 width=40 margin-left=5 margin-bottom=${getIconPosition("vr")*40+5} }#ENDIF
 
+			region { name=bottom align=bottom width=max height=62 margin-bottom=180 }
+
+			#IF(showIconAddGame)place { control="add_game" x=14 y=16 region=bottom height=30}#ENDIF
+		#ELSE
+			#IF(showIconFriends)place { control="view_friends" align=right height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("friends")*((titleBarHeight==48?32:28)+4)+12} }#ENDIF
+
+			#IF(showIconDownload)place { control="UIStatusPanel" align=right height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("download")*((titleBarHeight==48?32:28)+4)+12} }#ENDIF
+			
+			#IF(showIconBigPicture)place { control="fullscreen" align=right height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("bigpicture")*((titleBarHeight==48?32:28)+4)+12} }#ENDIF
+
+			#IF(showIconVR)place { control="startvr, exitvr" align=right height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("vr")*((titleBarHeight==48?32:28)+4)+12} }#ENDIF
+
+			region { name=bottom align=bottom width=max height=62 margin-bottom=180 }
+
+			#IF(showIconAddGame)place { control="add_game" x=14 y=16 region=bottom height=30}#ENDIF
+		#ENDIF
  		// the title bar is missing, so increase the size of the grip
 		place { control="frame_captiongrip" margin=2 width=max height=104 }
+		
+		//Hidden
+		place { control="${showIconDownload?"":"UIStatusPanel,"}${showIconBigPicture?"":"fullscreen,"}${showIconVR?"":"startvr,exitvr,"}${showIconInbox?"":"InboxButton,"}${showIconAnnouncement?"":"AnnouncementButton,"}${showIconParentalLock?"":"ParentalLockButton,"}${showIconAddGame?"":"add_game,"}${showIconFriends?"":"view_friends,"}" dir=down margin-left=-999 }
 	}
 }

@@ -1,0 +1,66 @@
+<images>
+    <folder name="hover">
+        <image width="4" height="4" name="bl.tga">
+            <src offset="0 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="br.tga">
+            <src offset="-5 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tl.tga">
+            <src offset="0 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tr.tga">
+            <src offset="-5 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+    </folder>
+    <folder name="active">
+        <image width="4" height="4" name="bl.tga">
+            <src offset="0 -5" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="br.tga">
+            <src offset="-5 -5" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tl.tga">
+            <src offset="0 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+        <image width="4" height="4" name="tr.tga">
+            <src offset="-5 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+        </image>
+    </folder>
+    <image width="12" height="12" name="arrowBack.tga">
+        <src color="FillColor_Text_Primary">arrow_back.png</src>
+    </image>
+    <image width="12" height="12" name="arrowBackActive.tga">
+        <src color="FillColor_Text_Secondary">arrow_back.png</src>
+    </image>
+    <image width="12" height="12" name="arrowBackDisabled.tga">
+        <src color="FillColor_Text_Disabled">arrow_back.png</src>
+    </image>
+    <image width="12" height="12" name="refresh.tga">
+        <src color="FillColor_Text_Primary">refresh.png</src>
+    </image>
+    <image width="12" height="12" name="refreshActive.tga">
+        <src color="FillColor_Text_Secondary">refresh.png</src>
+    </image>
+    <image width="12" height="12" name="refreshDisabled.tga">
+        <src color="FillColor_Text_Disabled">refresh.png</src>
+    </image>
+    <image width="12" height="12" name="stop.tga">
+        <src color="FillColor_Text_Primary">stop.png</src>
+    </image>
+    <image width="12" height="12" name="stopActive.tga">
+        <src color="FillColor_Text_Secondary">stop.png</src>
+    </image>
+    <image width="12" height="12" name="stopDisabled.tga">
+        <src color="FillColor_Text_Disabled">stop.png</src>
+    </image>
+    <image width="12" height="12" name="arrowForward.tga">
+        <src color="FillColor_Text_Primary">arrow_forward.png</src>
+    </image>
+    <image width="12" height="12" name="arrowForwardActive.tga">
+        <src color="FillColor_Text_Secondary">arrow_forward.png</src>
+    </image>
+    <image width="12" height="12" name="arrowForwardDisabled.tga">
+        <src color="FillColor_Text_Disabled">arrow_forward.png</src>
+    </image>
+</images>

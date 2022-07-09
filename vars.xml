@@ -1,5 +1,28 @@
 <vars>
+    <var>theme</var>
     <var>AccentColor</var>
-    <var>IntVar</var>
-    <var>ArrayVar</var>
+    <var>enableAcrylic</var>
+
+    <var>titleBarHeight</var>
+    <var>navButtonsLenght</var>
+    <var>showBack</var>
+    <var>showRefresh</var>
+    <var>showForward</var>
+    <var>showUsername</var>
+
+    <var>navLocation</var>
+    <var>navSubmenuLocation</var>
+    <var>navStyle</var>
+
+    <var>showIconDownload</var>
+    <var>showIconBigPicture</var>
+    <var>showIconVR</var>
+    <var>showIconInbox</var>
+    <var>showIconAnnouncement</var>
+    <var>showIconParentalLock</var>
+    <var>showIconAddGame</var>
+    <var>showIconFriends</var>
+
+    <var>steamMenuPreset</var>
+    <var>steamMenu</var>
 </vars>

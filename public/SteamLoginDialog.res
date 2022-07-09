@@ -53,7 +53,7 @@
 		"loginerror_style_body"
 		{
 			"font-size"		"14"
-			textcolor=white
+			textcolor=FillColor_Text_Primary
 			bgcolor=none
 			padding=8
 

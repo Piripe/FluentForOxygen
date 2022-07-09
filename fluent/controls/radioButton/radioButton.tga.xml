@@ -1,42 +1,42 @@
 <images>
     <image width="20" height="20" name="unselected.tga">
-        <src color="Dark_FillColor_ControlAlt_Secondary">base.png</src>
-        <src color="Dark_StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <src color="FillColor_ControlAlt_Secondary">base.png</src>
+        <src color="StrokeColor_ControlStrongStroke_Default">stroke.png</src>
     </image>
     <image width="20" height="20" name="unselectedActive.tga">
-        <src color="Dark_FillColor_ControlAlt_Quarternary">base.png</src>
-        <src color="Dark_StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
-        <src offset="5 5" color="Dark_FillColor_Text_Primary">dot_10.png</src>
+        <src color="FillColor_ControlAlt_Quarternary">base.png</src>
+        <src color="StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
+        <src offset="5 5" color="FillColor_Text_Primary">dot_10.png</src>
     </image>
     <image width="20" height="20" name="unselectedDisabled.tga">
-        <src color="Dark_StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
+        <src color="StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
     </image>
     <image width="20" height="20" name="unselectedHover.tga">
-        <src color="Dark_FillColor_ControlAlt_Tertiary">base.png</src>
-        <src color="Dark_StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <src color="FillColor_ControlAlt_Tertiary">base.png</src>
+        <src color="StrokeColor_ControlStrongStroke_Default">stroke.png</src>
     </image>
 
     <image width="20" height="20" name="selected.tga">
         <src color="AccentColor">base.png</src>
         <src color="AccentColor">stroke.png</src>
-        <src offset="5 5" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">dot_10.png</src>
-        <src offset="6 6" color="Dark_FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <src offset="5 5" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_10.png</src>
+        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
     </image>
     <image width="20" height="20" name="selectedActive.tga">
         <src color="AccentColor_Tertiary">base.png</src>
         <src color="AccentColor_Tertiary">stroke.png</src>
-        <src offset="5 5" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">dot_10.png</src>
-        <src offset="6 6" color="Dark_FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <src offset="5 5" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_10.png</src>
+        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
     </image>
     <image width="20" height="20" name="selectedDisabled.tga">
-        <src color="Dark_FillColor_Accent_Disabled">base.png</src>
-        <src color="Dark_FillColor_Accent_Disabled">stroke.png</src>
-        <src offset="6 6" color="Dark_FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <src color="FillColor_Accent_Disabled">base.png</src>
+        <src color="FillColor_Accent_Disabled">stroke.png</src>
+        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
     </image>
     <image width="20" height="20" name="selectedHover.tga">
         <src color="AccentColor_Secondary">base.png</src>
         <src color="AccentColor_Secondary">stroke.png</src>
-        <src offset="4 4" color="vertical-gradient(0,8,Dark_Elevation_Circle_Border_1,Dark_Elevation_Circle_Border_2)">dot_12.png</src>
-        <src offset="5 5" color="Dark_FillColor_TextOnAccent_Primary">dot_10.png</src>
+        <src offset="4 4" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_12.png</src>
+        <src offset="5 5" color="FillColor_TextOnAccent_Primary">dot_10.png</src>
     </image>
 </images>

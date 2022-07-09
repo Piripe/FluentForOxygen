@@ -2,16 +2,16 @@
     <folder name="warpPanel">
         <folder name="background">
             <image width="4" height="4" name="bl.tga">
-                <src offset="0 -4" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="0 -4" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="br.tga">
-                <src offset="-4 -4" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="-4 -4" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="tl.tga">
-                <src offset="0 0" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="0 0" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
             </image>
             <image width="4" height="4" name="tr.tga">
-                <src offset="-4 0" color="Dark_Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
+                <src offset="-4 0" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
             </image>
         </folder>
         <folder name="selected">

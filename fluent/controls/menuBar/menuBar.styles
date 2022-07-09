@@ -11,23 +11,23 @@
         }
 
         "MenuBar MenuButton" {
-            textcolor=white
+            textcolor=FillColorTextPrimary
             padding-right=-2
             inset="-2 0 2 0"
         }
 
         "MenuBar MenuButton:frameFocus" {
-            textcolor=white
+            textcolor=FillColorTextPrimary
         }
 
         "MenuBar MenuButton:frameFocus:hover" {
-            textcolor=white
+            textcolor=FillColorTextPrimary
             bgcolor=none
             render_bg {}
         }
 
         "MenuBar MenuButton:frameFocus:selected" {
-            textcolor=white
+            textcolor=FillColorTextPrimary
             bgcolor=none
             render_bg {}
         }
@@ -36,17 +36,17 @@
             font-family=basefont
             font-size=18
             font-weight=400
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
             bgcolor="none"
             render_bg {}
         }
 
         MenuButton:hover {
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
         }
 
         MenuButton:selected {
-            textcolor="white"
+            textcolor="FillColorTextPrimary"
         }
     }
 }

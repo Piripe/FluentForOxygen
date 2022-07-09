@@ -1,77 +1,77 @@
 <images>
     <folder name="acrylic">
         <image width="256" height="256" name="background.tga">
-            <src color="Dark_Background_FillColor_Acrylic_Default">~/oxygen/solid_color.png</src>
-            <src color="Color.FromArgb(3,255,255,255)">~/oxygen/noise.png</src>
+            <src color="Background_FillColor_Acrylic_Default">~/oxygen/solid_color.png</src>
+            <src if="enableAcrylic" color="Color.FromArgb(3,255,255,255)">~/oxygen/noise.png</src>
         </image>
     </folder>
     <folder name="borders">
         <folder name="1">
             <image width="1" height="8" name="b.tga">
-                <src offset="-8 -9" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="-8 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="-8 -9" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="-8 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="8" name="bl.tga">
-                <src offset="0 -9" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="0 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="0 -9" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="0 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="8" name="br.tga">
-                <src offset="-9 -9" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="-9 -9" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="-9 -9" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="-9 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="1" name="l.tga">
-                <src offset="0 -8" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="0 -8" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="0 -8" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="0 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="1" name="r.tga">
-                <src offset="-9 -8" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="-9 -8" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="-9 -8" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="-9 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="1" height="8" name="t.tga">
-                <src offset="-8 0" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="-8 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="-8 0" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="-8 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="8" name="tl.tga">
-                <src offset="0 0" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="0 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="0 0" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="0 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
             <image width="8" height="8" name="tr.tga">
-                <src offset="-9 0" color="Dark_Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
-                <src offset="-9 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+                <src offset="-9 0" color="Background_FillColor_CardBackground_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+                <src offset="-9 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
             </image>
         </folder>
         <folder name="2">
             <image width="1" height="4" name="b.tga">
-                <src offset="-4 -5" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="-4 -5" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="-4 -5" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="-4 -5" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="4" name="bl.tga">
-                <src offset="0 -5" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="0 -5" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="0 -5" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="0 -5" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="4" name="br.tga">
-                <src offset="-5 -5" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="-5 -5" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="-5 -5" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="-5 -5" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="1" name="l.tga">
-                <src offset="0 -4" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="0 -4" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="0 -4" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="0 -4" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="1" name="r.tga">
-                <src offset="-5 -4" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="-5 -4" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="-5 -4" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="-5 -4" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="1" height="4" name="t.tga">
-                <src offset="-4 0" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="-4 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="-4 0" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="-4 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="4" name="tl.tga">
-                <src offset="0 0" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="0 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="0 0" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="0 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
             <image width="4" height="4" name="tr.tga">
-                <src offset="-5 0" color="Dark_Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
-                <src offset="-5 0" color="Dark_StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
+                <src offset="-5 0" color="Background_FillColor_CardBackground_Default">~/oxygen/rounded_fill_4_3.png</src>
+                <src offset="-5 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_4.png</src>
             </image>
         </folder>
     </folder>
