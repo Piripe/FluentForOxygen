@@ -121,6 +121,14 @@
         "CSettingsSubMusic ListPanelInterior" {
             bgcolor=listPanelBackground
         }
+        
+        "CSubPanelOptionsFamily ListPanel" {
+            padding-left="4"
+            render {}
+        }
+        "CSubPanelOptionsFamily ListPanelInterior" {
+            bgcolor=listPanelBackground
+        }
 
 
 

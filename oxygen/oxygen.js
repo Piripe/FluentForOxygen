@@ -69,6 +69,7 @@ let steamMenu = [
     'SystemInfo',
     'About',
     'Divider',
+    'Restart',
     'Exit',
 ];
 

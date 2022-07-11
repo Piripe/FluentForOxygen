@@ -620,7 +620,7 @@
 
 		place [$OSX]  { control="universe_label, EOLAlert, SupportAlert" spacing=8 start="frame_maximize" align=left margin-top=-4 margin-left=13 height=24 }
 
-		place { control="AccountButton" align=right end-right="frame_minimize" margin-top=${titleBarHeight==48?11:3} margin-right=${showUsername?75:54} width=29 height=29 }
+		place { control="AccountButton" align=right end-right="frame_minimize" margin-top=${titleBarHeight==48?11:3} margin-right=54 #IF(!showUsername)width=29#ENDIF height=29 }
 		#IF(showIconInbox)place { control="InboxButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("inbox")*((titleBarHeight==48?32:28)+4)+12} width=${titleBarHeight==48?32:28} height=${titleBarHeight==48?32:28} }#ENDIF
 		#IF(showIconAnnouncement)place { control="AnnouncementButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("announcement")*((titleBarHeight==48?32:28)+4)+12} height=${titleBarHeight==48?32:28} width=${titleBarHeight==48?32:28} }#ENDIF
 		#IF(showIconParentalLock)place { control="ParentalLockButton" align=right end-right="AccountButton" margin-top=${titleBarHeight==48?9:3} margin-right=${getIconPosition("parentallock")*((titleBarHeight==48?32:28)+4)+12} height=24 width=44 }#ENDIF

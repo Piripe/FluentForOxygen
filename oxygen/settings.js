@@ -126,6 +126,8 @@ function updateSteamMenuPreset(e) {
     setMenuPreset();
     document.getElementById("steamMenu").values = steamMenu;
 }
+document.getElementById("steamMenuPreset").value = steamMenuPreset;
+setMenuPreset();
 document.getElementById("steamMenu").values = steamMenu;
 
 // --- About

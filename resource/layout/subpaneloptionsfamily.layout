@@ -68,7 +68,7 @@
 		place { controls="FamilySharingInfoText" region=box start=FamilySharingTitle  margin-top=12 width=max dir=down }
 		place { controls="AuthorizedDeviceCheck,ManageSharingLabel" region=box margin-top=12 width=623 height=24 start=FamilySharingInfoText dir=down spacing=6 }
 				
-		place { controls="BorrowersLabel" region=box start=FamilySharingInfoText margin-top=44 width=max height=24 dir=down }
+		place { controls="BorrowersLabel" region=box start=ManageSharingLabel margin-top=24 width=max height=24 dir=down }
 		place { controls="BorrowersList" region=box start=BorrowersLabel width=max height=121 margin-top=6 dir=down }
 		place { controls="ShowNotificationsCheck" region=box start=BorrowersList margin-top=10 dir=down width=max }
 								

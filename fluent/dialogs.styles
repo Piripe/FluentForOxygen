@@ -89,16 +89,16 @@
 				1="image(x0+24,y0+177,x0+28,y0+181,fluent/frame/borders/2/bl.tga)"
 				1="image_tiled(x0+24,y0+47,x0+28,y0+177,fluent/frame/borders/2/l.tga)"
 				
-				// Card 1
-				1="fill(x0+28,y0+209,x1-28,y0+405,BackgroundFillColorCardBackgroundDefault)"
+				// Card 2
+				1="fill(x0+28,y0+209,x1-28,y1-72,BackgroundFillColorCardBackgroundDefault)"
 				1="image(x0+24,y0+205,x0+28,y0+209,fluent/frame/borders/2/tl.tga)"
 				1="image_tiled(x0+28,y0+205,x1-28,y0+209,fluent/frame/borders/2/t.tga)"
 				1="image(x1-28,y0+205,x1-24,y0+209,fluent/frame/borders/2/tr.tga)"
-				1="image_tiled(x1-28,y0+209,x1-24,y0+405,fluent/frame/borders/2/r.tga)"
-				1="image(x1-28,y0+405,x1-24,y0+409,fluent/frame/borders/2/br.tga)"
-				1="image_tiled(x0+28,y0+405,x1-28,y0+409,fluent/frame/borders/2/b.tga)"
-				1="image(x0+24,y0+405,x0+28,y0+409,fluent/frame/borders/2/bl.tga)"
-				1="image_tiled(x0+24,y0+209,x0+28,y0+405,fluent/frame/borders/2/l.tga)"
+				1="image_tiled(x1-28,y0+209,x1-24,y1-72,fluent/frame/borders/2/r.tga)"
+				1="image(x1-28,y1-72,x1-24,y1-68,fluent/frame/borders/2/br.tga)"
+				1="image_tiled(x0+28,y1-72,x1-28,y1-68,fluent/frame/borders/2/b.tga)"
+				1="image(x0+24,y1-72,x0+28,y1-68,fluent/frame/borders/2/bl.tga)"
+				1="image_tiled(x0+24,y0+209,x0+28,y1-72,fluent/frame/borders/2/l.tga)"
 			}
 		}
 		CSettingsSubInGame
@@ -430,15 +430,15 @@
 				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
 
                 //Card 1 (HEY! WTF BRO!? Why there is no more than one card?)
-                1="fill(x0+28,y0+111,x0+691,y0+465,BackgroundFillColorCardBackgroundDefault)"
+                1="fill(x0+28,y0+111,x0+691,y0+490,BackgroundFillColorCardBackgroundDefault)"
                 1="image(x0+24,y0+107,x0+28,y0+111,fluent/frame/borders/2/tl.tga)"
                 1="image_tiled(x0+28,y0+107,x0+691,y0+111,fluent/frame/borders/2/t.tga)"
                 1="image(x0+691,y0+107,x0+695,y0+111,fluent/frame/borders/2/tr.tga)"
-                1="image_tiled(x0+691,y0+111,x0+695,y0+465,fluent/frame/borders/2/r.tga)"
-                1="image(x0+691,y0+465,x0+695,y0+469,fluent/frame/borders/2/br.tga)"
-                1="image_tiled(x0+28,y0+465,x0+691,y0+469,fluent/frame/borders/2/b.tga)"
-                1="image(x0+24,y0+465,x0+28,y0+469,fluent/frame/borders/2/bl.tga)"
-                1="image_tiled(x0+24,y0+111,x0+28,y0+465,fluent/frame/borders/2/l.tga)"
+                1="image_tiled(x0+691,y0+111,x0+695,y0+490,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+490,x0+695,y0+494,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+490,x0+691,y0+494,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+490,x0+28,y0+494,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+111,x0+28,y0+490,fluent/frame/borders/2/l.tga)"
 			}
 		}
 		CSettingsSubStreaming
