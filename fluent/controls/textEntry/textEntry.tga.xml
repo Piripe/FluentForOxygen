@@ -2,102 +2,102 @@
     <folder name="normal">
         <image width="1" height="4" name="b.tga">
             <src offset="-4 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
             <src offset="0 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
             <src offset="-5 -5" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
             <src offset="0 -4" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
             <src offset="-5 -4" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
             <src offset="-4 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
             <src offset="0 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
             <src offset="-5 0" color="FillColor_Control_Default">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
     <folder name="hover">
         <image width="1" height="4" name="b.tga">
             <src offset="-4 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
             <src offset="0 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
             <src offset="-5 -5" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
             <src offset="0 -4" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -4" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
             <src offset="-5 -4" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -4" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
             <src offset="-4 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
             <src offset="0 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
             <src offset="-5 0" color="FillColor_Control_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(8,8,Elevation_TextControl_Border_1,Elevation_TextControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 0" color="Gradient.Vertical(Elevation_TextControl_Border_1,Elevation_TextControl_Border_2,8,8)">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>
     <folder name="active">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(7,7,StrokeColor_ControlStroke_Default,AccentColor)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-4 -5" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 -5" color="Gradient.Vertical(StrokeColor_ControlStroke_Default,AccentColor,7,7)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(7,7,StrokeColor_ControlStroke_Default,AccentColor)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="0 -5" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -5" color="Gradient.Vertical(StrokeColor_ControlStroke_Default,AccentColor,7,7)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(7,7,StrokeColor_ControlStroke_Default,AccentColor)">~/oxygen/rounded_stroke_4.png</src>
+            <src offset="-5 -5" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -5" color="Gradient.Vertical(StrokeColor_ControlStroke_Default,AccentColor,7,7)">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 -4" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
             <src offset="0 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 -4" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
             <src offset="-5 -4" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-4 0" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
             <src offset="-4 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="0 0" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
             <src offset="0 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="vertical-gradient(7,7,FillColor_Control_InputActive,AccentColor)">~/oxygen/rounded_fill_4_3.png</src>
+            <src offset="-5 0" color="Gradient.Vertical(FillColor_Control_InputActive,AccentColor,7,7)">~/oxygen/rounded_fill_4_3.png</src>
             <src offset="-5 0" color="StrokeColor_ControlStroke_Default">~/oxygen/rounded_stroke_4.png</src>
         </image>
     </folder>

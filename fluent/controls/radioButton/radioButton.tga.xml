@@ -19,13 +19,13 @@
     <image width="20" height="20" name="selected.tga">
         <src color="AccentColor">base.png</src>
         <src color="AccentColor">stroke.png</src>
-        <src offset="5 5" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_10.png</src>
+        <src offset="5 5" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_10.png</src>
         <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
     </image>
     <image width="20" height="20" name="selectedActive.tga">
         <src color="AccentColor_Tertiary">base.png</src>
         <src color="AccentColor_Tertiary">stroke.png</src>
-        <src offset="5 5" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_10.png</src>
+        <src offset="5 5" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_10.png</src>
         <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
     </image>
     <image width="20" height="20" name="selectedDisabled.tga">
@@ -36,7 +36,7 @@
     <image width="20" height="20" name="selectedHover.tga">
         <src color="AccentColor_Secondary">base.png</src>
         <src color="AccentColor_Secondary">stroke.png</src>
-        <src offset="4 4" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">dot_12.png</src>
+        <src offset="4 4" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_12.png</src>
         <src offset="5 5" color="FillColor_TextOnAccent_Primary">dot_10.png</src>
     </image>
 </images>
