@@ -1,42 +1,35 @@
 <images>
     <image width="20" height="20" name="unselected.tga">
-        <src color="FillColor_ControlAlt_Secondary">base.png</src>
-        <src color="StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <ellipse x="1" y="1" width="18" height="18" fill="FillColor_ControlAlt_Secondary" stroke="StrokeColor_ControlStrongStroke_Default" stroke-width="1" stroke-align="outside"/>
     </image>
     <image width="20" height="20" name="unselectedActive.tga">
-        <src color="FillColor_ControlAlt_Quarternary">base.png</src>
-        <src color="StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
-        <src offset="5 5" color="FillColor_Text_Primary">dot_10.png</src>
+        <ellipse x="1" y="1" width="18" height="18" fill="FillColor_ControlAlt_Quarternary" stroke="StrokeColor_ControlStrongStroke_Disabled" stroke-width="1" stroke-align="outside"/>
+        <ellipse x="5" y="5" width="10" height="10" fill="FillColor_Text_Primary"/>
     </image>
     <image width="20" height="20" name="unselectedDisabled.tga">
-        <src color="StrokeColor_ControlStrongStroke_Disabled">stroke.png</src>
+        <ellipse x="1" y="1" width="18" height="18" stroke="StrokeColor_ControlStrongStroke_Disabled" stroke-width="1" stroke-align="outside"/>
     </image>
     <image width="20" height="20" name="unselectedHover.tga">
-        <src color="FillColor_ControlAlt_Tertiary">base.png</src>
-        <src color="StrokeColor_ControlStrongStroke_Default">stroke.png</src>
+        <ellipse x="1" y="1" width="18" height="18" fill="FillColor_ControlAlt_Tertiary" stroke="StrokeColor_ControlStrongStroke_Default" stroke-width="1" stroke-align="outside"/>
     </image>
 
     <image width="20" height="20" name="selected.tga">
-        <src color="AccentColor">base.png</src>
-        <src color="AccentColor">stroke.png</src>
-        <src offset="5 5" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_10.png</src>
-        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <ellipse x="0" y="0" width="20" height="20" fill="AccentColor"/>
+        <ellipse x="5" y="5" width="10" height="10" fill="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)"/>
+        <ellipse x="6" y="6" width="8" height="8" fill="FillColor_TextOnAccent_Primary"/>
     </image>
     <image width="20" height="20" name="selectedActive.tga">
-        <src color="AccentColor_Tertiary">base.png</src>
-        <src color="AccentColor_Tertiary">stroke.png</src>
-        <src offset="5 5" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_10.png</src>
-        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <ellipse x="0" y="0" width="20" height="20" fill="AccentColor_Tertiary"/>
+        <ellipse x="5" y="5" width="10" height="10" fill="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)"/>
+        <ellipse x="6" y="6" width="8" height="8" fill="FillColor_TextOnAccent_Primary"/>
     </image>
     <image width="20" height="20" name="selectedDisabled.tga">
-        <src color="FillColor_Accent_Disabled">base.png</src>
-        <src color="FillColor_Accent_Disabled">stroke.png</src>
-        <src offset="6 6" color="FillColor_TextOnAccent_Primary">dot_8.png</src>
+        <ellipse x="0" y="0" width="20" height="20" fill="FillColor_Accent_Disabled"/>
+        <ellipse x="6" y="6" width="8" height="8" fill="FillColor_TextOnAccent_Primary"/>
     </image>
     <image width="20" height="20" name="selectedHover.tga">
-        <src color="AccentColor_Secondary">base.png</src>
-        <src color="AccentColor_Secondary">stroke.png</src>
-        <src offset="4 4" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">dot_12.png</src>
-        <src offset="5 5" color="FillColor_TextOnAccent_Primary">dot_10.png</src>
+        <ellipse x="0" y="0" width="20" height="20" fill="AccentColor_Secondary"/>
+        <ellipse x="4" y="4" width="12" height="12" fill="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)"/>
+        <ellipse x="5" y="5" width="10" height="10" fill="FillColor_TextOnAccent_Primary"/>
     </image>
 </images>

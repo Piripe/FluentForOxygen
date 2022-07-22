@@ -2,11 +2,11 @@
     <folder name="accountButton">
         <image width="28" height="28" name="background.tga">
             <src color="Background_FillColor_SolidBackground_Base">background.png</src>
-            <src color="StrokeColor_ControlStrongStroke_Default">background_stroke.png</src>
+            <ellipse x="0" y="0" width="28" height="28" stroke="StrokeColor_ControlStrongStroke_Default" stroke-width="1" stroke-align="inside" />
         </image>
         <image width="28" height="28" name="backgroundHover.tga">
             <src color="Background_FillColor_SolidBackground_Base">background_hover.png</src>
-            <src color="StrokeColor_ControlStrongStroke_Default">background_hover_stroke.png</src>
+            <ellipse x="1" y="1" width="26" height="26" stroke="StrokeColor_ControlStrongStroke_Default" stroke-width="1" stroke-align="inside" />
         </image>
     </folder>
 </images>

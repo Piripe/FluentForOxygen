@@ -1,28 +1,28 @@
 <images>
     <folder name="background">
         <image width="1" height="8" name="b.tga">
-            <src offset="-8 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="-8 -9" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="8" name="bl.tga">
-            <src offset="0 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="0 -9" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="8" name="br.tga">
-            <src offset="-9 -9" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="-9 -9" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="1" name="l.tga">
-            <src offset="0 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="0 -9" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="1" name="r.tga">
-            <src offset="-9 -8" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="-9 -8" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="1" height="8" name="t.tga">
-            <src offset="-8 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="-8 0" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="8" name="tl.tga">
-            <src offset="0 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="0 0" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="8" name="tr.tga">
-            <src offset="-9 0" color="StrokeColor_SurfaceStroke_Flyout">~/oxygen/rounded_stroke_8.png</src>
+            <rect offset="-9 0" x="1" y="1" width="15" height="15" border-radius="7" stroke="StrokeColor_SurfaceStroke_Flyout" stroke-width="1" stroke-align="outside"/>
         </image>
     </folder>
     <folder name="item">
@@ -30,32 +30,32 @@
 
             <!--Item corners-->
             <image width="4" height="4" name="bl.tga">
-                <src offset="0 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <rect offset="0 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
             </image>
             <image width="4" height="4" name="br.tga">
-                <src offset="-5 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <rect offset="-5 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
             </image>
             <image width="4" height="4" name="tl.tga">
-                <src offset="0 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <rect offset="0 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
             </image>
             <image width="4" height="4" name="tr.tga">
-                <src offset="-5 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+                <rect offset="-5 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
             </image>
 
             <!--Vertical select accent dot-->
             <image width="3" height="2" name="b.tga">
-                <src offset="0 -1" color="AccentColor">dot.png</src>
+                <ellipse offset="0 -1" x="0" y="0" width="3" height="3" fill="AccentColor"/>
             </image>
             <image width="3" height="2" name="t.tga">
-                <src offset="0 0" color="AccentColor">dot.png</src>
+                <ellipse offset="0 0" x="0" y="0" width="3" height="3" fill="AccentColor"/>
             </image>
             
             <!--Horizontal select accent dot-->
             <image width="2" height="3" name="l.tga">
-                <src offset="0 0" color="AccentColor">dot.png</src>
+                <ellipse offset="0 0" x="0" y="0" width="3" height="3" fill="AccentColor"/>
             </image>
             <image width="2" height="3" name="r.tga">
-                <src offset="-1 0" color="AccentColor">dot.png</src>
+                <ellipse offset="-1 0" x="0" y="0" width="3" height="3" fill="AccentColor"/>
             </image>
         </folder>
     </folder>

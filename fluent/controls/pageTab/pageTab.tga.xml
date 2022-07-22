@@ -1,48 +1,43 @@
 <images>
     <folder name="hover">
         <image width="8" height="8" name="tl.tga">
-            <src offset="0 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="0 0" x="1" y="1" width="15" height="15" border-radius="7" fill="FillColor_Subtle_Secondary"/>
         </image>
         <image width="8" height="8" name="tr.tga">
-            <src offset="-9 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="-9 0" x="1" y="1" width="15" height="15" border-radius="7" fill="FillColor_Subtle_Secondary"/>
         </image>
     </folder>
     <folder name="active">
         <image width="8" height="8" name="tl.tga">
-            <src offset="0 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="0 0" x="1" y="1" width="15" height="15" border-radius="7" fill="FillColor_Subtle_Tertiary"/>
         </image>
         <image width="8" height="8" name="tr.tga">
-            <src offset="-9 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="-9 0" x="1" y="1" width="15" height="15" border-radius="7" fill="FillColor_Subtle_Tertiary"/>
         </image>
     </folder>
     <folder name="selected">
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 0" color="StrokeColor_CardStroke_Default">bottom_stroke.png</src>
-            <src offset="0 0" color="Background_FillColor_SolidBackground_Tertiary">bottom.png</src>
+            <rect x="0" y="0" width="7" height="7" border-radius="-3" fill="Gradient.Vertical(StrokeColor_CardStroke_Default,Color.Transparent,3,3)"/>
+            <rect x="0" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Tertiary"/>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-3 0" color="StrokeColor_CardStroke_Default">bottom_stroke.png</src>
-            <src offset="-4 0" color="Background_FillColor_SolidBackground_Tertiary">bottom.png</src>
+            <rect x="-3" y="0" width="7" height="7" border-radius="-3" fill="Gradient.Vertical(StrokeColor_CardStroke_Default,Color.Transparent,3,3)"/>
+            <rect x="-4" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Tertiary"/>
         </image>
         <image width="8" height="8" name="tl.tga">
-            <src offset="0 0" color="StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
-            <src offset="0 0" color="Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="0 0" x="1" y="1" width="15" height="15" border-radius="7" fill="Background_FillColor_SolidBackground_Tertiary" stroke="StrokeColor_CardStroke_Default" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="8" name="tr.tga">
-            <src offset="-9 0" color="StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
-            <src offset="-9 0" color="Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="-9 0" x="1" y="1" width="15" height="15" border-radius="7" fill="Background_FillColor_SolidBackground_Tertiary" stroke="StrokeColor_CardStroke_Default" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="1" name="l.tga">
-            <src offset="0 -8" color="StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
-            <src offset="0 -8" color="Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="0 -8" x="1" y="1" width="15" height="15" border-radius="7" fill="Background_FillColor_SolidBackground_Tertiary" stroke="StrokeColor_CardStroke_Default" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="1" height="8" name="t.tga">
-            <src offset="-8 0" color="StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
-            <src offset="-8 0" color="Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="-8 0" x="1" y="1" width="15" height="15" border-radius="7" fill="Background_FillColor_SolidBackground_Tertiary" stroke="StrokeColor_CardStroke_Default" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="8" height="1" name="r.tga">
-            <src offset="-9 -8" color="StrokeColor_CardStroke_Default">~/oxygen/rounded_stroke_8.png</src>
-            <src offset="-9 -8" color="Background_FillColor_SolidBackground_Tertiary">~/oxygen/rounded_fill_8_7.png</src>
+            <rect offset="-9 -8" x="1" y="1" width="15" height="15" border-radius="7" fill="Background_FillColor_SolidBackground_Tertiary" stroke="StrokeColor_CardStroke_Default" stroke-width="1" stroke-align="outside"/>
         </image>
     </folder>
 </images>

@@ -1,30 +1,30 @@
 <images>
     <folder name="hover">
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="0 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="-5 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="0 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="FillColor_Subtle_Secondary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="-5 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Secondary"/>
         </image>
     </folder>
     <folder name="active">
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="0 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Tertiary"/>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="-5 -5" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Tertiary"/>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="0 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Tertiary"/>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="FillColor_Subtle_Tertiary">~/oxygen/rounded_fill_4.png</src>
+            <rect offset="-5 0" x="0" y="0" width="9" height="9" border-radius="4" fill="FillColor_Subtle_Tertiary"/>
         </image>
     </folder>
     <image width="12" height="12" name="arrowBack.tga">
