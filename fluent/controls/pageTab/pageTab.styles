@@ -15,7 +15,7 @@
             textcolor=FillColorTextSecondary
             render_bg {
                 0="fill(x0+13,y0+1,x1-13,y0+8,FillColorSubtleSecondary)"
-                1="fill(x0+5,y0+8,x1-5,y1,FillColorSubtleSecondary)"
+                1="fill(x0+6,y0+8,x1-6,y1,FillColorSubtleSecondary)"
                 2="image(x0+5,y0,x0+13,y0+8,fluent/controls/pageTab/hover/tl.tga)"
                 3="image(x1-13,y0,x1-5,y0+8,fluent/controls/pageTab/hover/tr.tga)"
             }

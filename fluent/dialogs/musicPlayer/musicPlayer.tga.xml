@@ -2,20 +2,20 @@
     <folder name="albumImage">
         <folder name="background">
             <image width="4" height="4" name="bl.tga">
-                <src offset="0 -4" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
-                <src offset="0 -4" color="Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+                <rect x="-4" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Base"/>
+                <rect x="-4" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_CardBackground_Secondary"/>
             </image>
             <image width="4" height="4" name="br.tga">
-                <src offset="-4 -4" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
-                <src offset="-4 -4" color="Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+                <rect x="0" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Base"/>
+                <rect x="0" y="0" width="8" height="8" border-radius="-4" fill="Background_FillColor_CardBackground_Secondary"/>
             </image>
             <image width="4" height="4" name="tl.tga">
-                <src offset="0 0" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
-                <src offset="0 0" color="Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+                <rect x="-4" y="-4" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Base"/>
+                <rect x="-4" y="-4" width="8" height="8" border-radius="-4" fill="Background_FillColor_CardBackground_Secondary"/>
             </image>
             <image width="4" height="4" name="tr.tga">
-                <src offset="-4 0" color="Background_FillColor_SolidBackground_Base">~/oxygen/inverted_rounded_fill_4.png</src>
-                <src offset="-4 0" color="Background_FillColor_CardBackground_Secondary">~/oxygen/inverted_rounded_fill_4.png</src>
+                <rect x="0" y="-4" width="8" height="8" border-radius="-4" fill="Background_FillColor_SolidBackground_Base"/>
+                <rect x="0" y="-4" width="8" height="8" border-radius="-4" fill="Background_FillColor_CardBackground_Secondary"/>
             </image>
         </folder>
     </folder>
@@ -44,11 +44,11 @@
             </image>
             <image width="50" height="50" name="hover.tga">
                 <src color="AccentColor_Secondary">pause.png</src>
-                <src color="AccentColor_Secondary">circle.png</src>
+                <ellipse x="0" y="0" width="50" height="50" stroke="AccentColor_Secondary" stroke-width="3" stroke-align="inside" />
             </image>
             <image width="50" height="50" name="hover.tga">
                 <src color="FillColor_Text_Primary">pause.png</src>
-                <src color="AccentColor_Secondary">circle.png</src>
+                <ellipse x="0" y="0" width="50" height="50" stroke="AccentColor_Secondary" stroke-width="3" stroke-align="inside" />
             </image>
         </folder>
         <folder name="play">
@@ -57,11 +57,11 @@
             </image>
             <image width="50" height="50" name="hover.tga">
                 <src color="AccentColor_Secondary">play.png</src>
-                <src color="AccentColor_Secondary">circle.png</src>
+                <ellipse x="0" y="0" width="50" height="50" stroke="AccentColor_Secondary" stroke-width="3" stroke-align="inside" />
             </image>
             <image width="50" height="50" name="hover.tga">
                 <src color="FillColor_Text_Primary">play.png</src>
-                <src color="AccentColor_Secondary">circle.png</src>
+                <ellipse x="0" y="0" width="50" height="50" stroke="AccentColor_Secondary" stroke-width="3" stroke-align="inside" />
             </image>
         </folder>
         <folder name="previous">

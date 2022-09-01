@@ -1,70 +1,54 @@
 <images>
     <folder name="selected">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-4 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 -4" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 -4" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-4 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="AccentColor">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
     </folder>
     <folder name="selectedHover">
         <image width="1" height="4" name="b.tga">
-            <src offset="-4 -5" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-4 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="bl.tga">
-            <src offset="0 -5" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="br.tga">
-            <src offset="-5 -5" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -5" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 -5" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="1" name="l.tga">
-            <src offset="0 -4" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 -4" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 -4" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="1" name="r.tga">
-            <src offset="-5 -4" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 -4" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 -4" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="1" height="4" name="t.tga">
-            <src offset="-4 0" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-4 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-4 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="tl.tga">
-            <src offset="0 0" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="0 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="0 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
         <image width="4" height="4" name="tr.tga">
-            <src offset="-5 0" color="AccentColor_Secondary">~/oxygen/rounded_fill_4_3.png</src>
-            <src offset="-5 0" color="vertical-gradient(6,9,Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2)">~/oxygen/rounded_stroke_4.png</src>
+            <rect offset="-5 0" x="1" y="1" width="7" height="7" border-radius="3" fill="AccentColor_Secondary" stroke="Gradient.Vertical(Elevation_AccentControl_Border_1,Elevation_AccentControl_Border_2,6,9)" stroke-width="1" stroke-align="outside"/>
         </image>
     </folder>
 </images>

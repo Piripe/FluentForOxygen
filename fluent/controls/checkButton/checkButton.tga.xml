@@ -23,13 +23,13 @@
         <src color="AccentColor">base.png</src>
         <src color="AccentColor">stroke.png</src>
         <src offset="23 3" color="FillColor_TextOnAccent_Primary">thumb.png</src>
-        <src offset="22 2" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">thumbStroke.png</src>
+        <src offset="22 2" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">thumbStroke.png</src>
     </image>
     <image width="40" height="20" name="selectedActive.tga">
         <src color="AccentColor_Tertiary">base.png</src>
         <src color="AccentColor_Tertiary">stroke.png</src>
         <src offset="20 3" color="FillColor_TextOnAccent_Primary">thumbActive.png</src>
-        <src offset="19 2" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">thumbActiveStroke.png</src>
+        <src offset="19 2" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">thumbActiveStroke.png</src>
     </image>
     <image width="40" height="20" name="selectedDisabled.tga">
         <src color="FillColor_Accent_Disabled">base.png</src>
@@ -40,6 +40,6 @@
         <src color="AccentColor_Secondary">base.png</src>
         <src color="AccentColor_Secondary">stroke.png</src>
         <src offset="23 3" color="FillColor_TextOnAccent_Primary">thumbHover.png</src>
-        <src offset="22 2" color="vertical-gradient(0,8,Elevation_Circle_Border_1,Elevation_Circle_Border_2)">thumbHoverStroke.png</src>
+        <src offset="22 2" color="Gradient.Vertical(Elevation_Circle_Border_1,Elevation_Circle_Border_2,0,8)">thumbHoverStroke.png</src>
     </image>
 </images>
