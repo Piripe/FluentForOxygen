@@ -511,15 +511,15 @@
 				0="image_tiled(x0,y0+27,x0+8,y1-52,fluent/frame/borders/1/l.tga)"
 
                 //Card 1 (* TheRandomDev left the game)
-                1="fill(x0+28,y0+47,x0+691,y0+499,BackgroundFillColorCardBackgroundDefault)"
+                1="fill(x0+28,y0+47,x0+691,y0+529,BackgroundFillColorCardBackgroundDefault)"
                 1="image(x0+24,y0+43,x0+28,y0+47,fluent/frame/borders/2/tl.tga)"
                 1="image_tiled(x0+28,y0+43,x0+691,y0+47,fluent/frame/borders/2/t.tga)"
                 1="image(x0+691,y0+43,x0+695,y0+47,fluent/frame/borders/2/tr.tga)"
-                1="image_tiled(x0+691,y0+47,x0+695,y0+499,fluent/frame/borders/2/r.tga)"
-                1="image(x0+691,y0+499,x0+695,y0+503,fluent/frame/borders/2/br.tga)"
-                1="image_tiled(x0+28,y0+499,x0+691,y0+503,fluent/frame/borders/2/b.tga)"
-                1="image(x0+24,y0+499,x0+28,y0+503,fluent/frame/borders/2/bl.tga)"
-                1="image_tiled(x0+24,y0+47,x0+28,y0+499,fluent/frame/borders/2/l.tga)"
+                1="image_tiled(x0+691,y0+47,x0+695,y0+529,fluent/frame/borders/2/r.tga)"
+                1="image(x0+691,y0+529,x0+695,y0+533,fluent/frame/borders/2/br.tga)"
+                1="image_tiled(x0+28,y0+529,x0+691,y0+533,fluent/frame/borders/2/b.tga)"
+                1="image(x0+24,y0+529,x0+28,y0+533,fluent/frame/borders/2/bl.tga)"
+                1="image_tiled(x0+24,y0+47,x0+28,y0+529,fluent/frame/borders/2/l.tga)"
 
 				
 				// Info Icons

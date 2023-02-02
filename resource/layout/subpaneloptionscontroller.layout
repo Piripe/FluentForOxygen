@@ -23,7 +23,7 @@
 		place { region=box controls=GuideConfigButton start=DesktopConfigButton margin-top=12 height=32 width=240 dir=down }
 		place { region=box controls=DescriptionBindingLabel start=GuideConfigButton margin-left=36 margin-top=12 width=max height=40 dir=down }		
 
-		place { region=box controls=DisableNotificationsCheckbox start=DescriptionBindingLabel margin-left=-36 margin-top=48 height=24 width=max dir=down }
+		place { region=box controls=DisableNotificationsCheckbox,DisableDualSenseUpdatesCheckbox start=DescriptionBindingLabel margin-left=-36 margin-top=48 height=24 width=max spacing=6 dir=down }
 		
 
 		//Hidden
